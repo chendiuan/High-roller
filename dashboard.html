@@ -157,8 +157,18 @@ function render(){
     const dp=+(pb-pa).toFixed(2);
     const du=(t.u[li]-t.u[ai])/1000;
     const dc=t.c[li]-t.c[ai];
-    const xa=(st.px||[])[ai],xb=(st.px||[])[li];
-    rows.push({code,st,pa,pb,dp,du,dc,xa,xb});
+    // 區間高低價：只對大戶加碼中的股票彙總（減碼不顯示）
+    let lo=null,hi=null;
+    if(dp>0){
+      const hl=st.hl||[];
+      for(let i=ai;i<=li;i++){
+        const v=hl[i];
+        if(!v)continue;
+        lo=lo==null?v[0]:Math.min(lo,v[0]);
+        hi=hi==null?v[1]:Math.max(hi,v[1]);
+      }
+    }
+    rows.push({code,st,pa,pb,dp,du,dc,lo,hi});
   }
   rows.sort((a,b)=>state.dir*((state.sort==='pp'?b.dp-a.dp:b.du-a.du)));
   const list=$('list');list.innerHTML='';
@@ -176,9 +186,8 @@ function render(){
       +'<div class="sub"><span>持股比 <b>'+r.pa.toFixed(2)+'% → '+r.pb.toFixed(2)+'%</b></span>'
       +'<span>張數 <b>'+(r.du>0?'+':'')+Math.round(r.du).toLocaleString()+' 張</b></span>'
       +'<span>人數 <b>'+(r.dc>0?'+':'')+r.dc.toLocaleString()+'</b></span>'
-      +(r.xa&&r.xb?'<span>股價 <b>'+r.xa+' → '+r.xb+'</b> <b class="'
-        +(r.xb>=r.xa?'pxup':'pxdn')+'">('+(r.xb>=r.xa?'+':'')
-        +((r.xb-r.xa)/r.xa*100).toFixed(1)+'%)</b></span>':'')
+      +(r.lo!=null&&r.hi!=null?'<span>區間 <b class="pxup">'
+        +r.lo+' ~ '+r.hi+'</b></span>':'')
       +'<a href="'+yurl+'" target="_blank" onclick="event.stopPropagation()">行情 ↗</a></div>'
       +'<div class="detail"></div>';
     div.onclick=()=>{div.classList.toggle('open');
@@ -201,21 +210,19 @@ function detail(el,r){
       +xy.map(p=>'<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="3" fill="#f5a623"/>').join('')
       +'</svg>';
   }
-  const px=r.st.px||[];
-  let tbl='<table><tr><th>週別</th><th>持股比%</th><th>股數(張)</th><th>人數</th><th>當週股價</th></tr>';
+  const hl=r.st.hl||[];
+  let tbl='<table><tr><th>週別</th><th>持股比%</th><th>股數(張)</th><th>人數</th><th>當週區間(低~高)</th></tr>';
   t.p.forEach((v,i)=>{
     if(v==null)return;
     tbl+='<tr><td>'+fmtD(dates[i])+'</td><td>'+v.toFixed(2)+'</td>'
       +'<td>'+Math.round(t.u[i]/1000).toLocaleString()+'</td>'
       +'<td>'+t.c[i].toLocaleString()+'</td>'
-      +'<td>'+(px[i]!=null?px[i]:'—')+'</td></tr>';
+      +'<td>'+(hl[i]?hl[i][0]+' ~ '+hl[i][1]:'—')+'</td></tr>';
   });
   tbl+='</table>';
-  // 大戶持股區間：各週收盤價高低（近似大戶進出成本區）
-  const vals=px.filter((v,i)=>v!=null&&t.p[i]!=null);
-  const range=vals.length>=2?'<div style="font-size:12px;color:var(--sub);margin-top:6px">'
-    +'期間股價區間 <b style="color:var(--ink)">'+Math.min(...vals)+' ~ '
-    +Math.max(...vals)+'</b> 元</div>':'';
+  // 期間股價區間（盤中最高/最低）：只在大戶加碼時顯示
+  const range=(r.lo!=null&&r.hi!=null)?'<div style="font-size:12px;color:var(--sub);margin-top:6px">'
+    +'期間股價區間（盤中低~高） <b style="color:var(--ink)">'+r.lo+' ~ '+r.hi+'</b> 元</div>':'';
   el.innerHTML='<div style="font-size:12px;color:var(--sub)">'+state.thr
     +'張以上大戶持股比走勢</div>'+svg+tbl+range;
 }

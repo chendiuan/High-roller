@@ -15,6 +15,7 @@ import sys
 import time
 import ssl
 import urllib.request
+from datetime import date as _date, timedelta
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SNAP_DIR = os.path.join(BASE, "snapshots")
@@ -233,6 +234,71 @@ def fetch_hist_prices(dates):
     return result
 
 
+def _week_days(d):
+    """快照日（通常週五）所屬週的所有交易日 YYYYMMDD（週一~快照日）"""
+    dt = _date(int(d[:4]), int(d[4:6]), int(d[6:]))
+    mon = dt - timedelta(days=dt.weekday())
+    return [(mon + timedelta(days=i)).strftime("%Y%m%d")
+            for i in range((dt - mon).days + 1)]
+
+
+def _daily_hl(day):
+    """某交易日全市場盤中最高/最低 → {code: [low, high]}（休市日回傳空）"""
+    out = {}
+    try:  # 上市：最高=欄6、最低=欄7
+        j = json.loads(http_get(TWSE_HIST_URL.format(d=day), timeout=120))
+        for tb in j.get("tables") or []:
+            if "每日收盤行情" in (tb.get("title") or ""):
+                for row in tb.get("data") or []:
+                    if len(row) > 8:
+                        hi, lo = _to_price(row[6]), _to_price(row[7])
+                        if hi and lo:
+                            out[str(row[0]).strip()] = [lo, hi]
+    except Exception as e:
+        print(f"  !! 上市 {day} 高低價失敗：{e}")
+    try:  # 上櫃
+        roc = f"{int(day[:4])-1911}/{day[4:6]}/{day[6:]}"
+        for r in json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120)):
+            code = (r.get("SecuritiesCompanyCode") or "").strip()
+            hi, lo = _to_price(r.get("High")), _to_price(r.get("Low"))
+            if code and hi and lo:
+                out[code] = [lo, hi]
+    except Exception as e:
+        print(f"  !! 上櫃 {day} 高低價失敗：{e}")
+    return out
+
+
+def fetch_week_hl(dates):
+    """各快照週的盤中高低價區間（逐週快取）→ {date: {code: [low, high]}}"""
+    os.makedirs(PRICE_DIR, exist_ok=True)
+    result = {}
+    for d in dates:
+        cache = os.path.join(PRICE_DIR, f"wk_{d}.json")
+        if os.path.exists(cache):
+            with open(cache, encoding="utf-8") as f:
+                result[d] = json.load(f)
+            continue
+        print(f"抓取 {d} 當週高低價...")
+        agg = {}
+        for day in _week_days(d):
+            hl = _daily_hl(day)
+            if not hl:
+                continue  # 休市日
+            for c, (lo, hi) in hl.items():
+                if c in agg:
+                    agg[c][0] = min(agg[c][0], lo)
+                    agg[c][1] = max(agg[c][1], hi)
+                else:
+                    agg[c] = [lo, hi]
+            time.sleep(3)  # 官網禮貌間隔
+        print(f"  {d}：{len(agg)} 檔")
+        if agg:
+            with open(cache, "w", encoding="utf-8") as f:
+                json.dump(agg, f)
+            result[d] = agg
+    return result
+
+
 def read_snapshot(path):
     """讀取一份快照 → {code: {level:int -> (people, units, pct)}}"""
     out = {}
@@ -253,7 +319,7 @@ def read_snapshot(path):
     return out
 
 
-def build_dataset(info, prices=None, hist_px=None):
+def build_dataset(info, prices=None, hist_px=None, week_hl=None):
     """彙整所有快照 → data.js"""
     files = sorted(
         f for f in os.listdir(SNAP_DIR)
@@ -280,6 +346,8 @@ def build_dataset(info, prices=None, hist_px=None):
                 "m": info.get(code, {}).get("m", ""),
                 "pr": (prices or {}).get(code),
                 "px": [(hist_px or {}).get(d, {}).get(code)
+                       for d in dates],
+                "hl": [(week_hl or {}).get(d, {}).get(code)
                        for d in dates],
                 "t": {k: {"p": [None] * len(dates),
                           "u": [None] * len(dates),
@@ -339,6 +407,7 @@ if __name__ == "__main__":
                         for f in os.listdir(SNAP_DIR)
                         if re.fullmatch(r"tdcc_\d{8}\.csv\.gz", f))
     hist_px = fetch_hist_prices(snap_dates)
-    data = build_dataset(stock_info, px, hist_px)
+    week_hl = fetch_week_hl(snap_dates)
+    data = build_dataset(stock_info, px, hist_px, week_hl)
     preview(data)
     print("\n完成！用瀏覽器開啟 dashboard.html 查看結果。")
