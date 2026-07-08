@@ -29,7 +29,9 @@ TPEX_PRICE_URL = ("https://www.tpex.org.tw/openapi/v1/"
                   "tpex_mainboard_daily_close_quotes")
 TWSE_HIST_URL = ("https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX"
                  "?date={d}&type=ALLBUT0999&response=json")
-TPEX_HIST_URL = TPEX_PRICE_URL + "?l=zh-tw&d={d}"
+# 注意：TPEX 的 openapi 會忽略歷史日期參數，必須用官網盤後 API（含日期戳可驗證）
+TPEX_HIST_URL = ("https://www.tpex.org.tw/www/zh-tw/afterTrading/otc"
+                 "?date={d}&type=AL&response=json&order=0&sort=asc")
 PRICE_DIR = os.path.join(BASE, "prices")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
@@ -183,31 +185,52 @@ def fetch_prices():
     return prices
 
 
+def _roc(date):
+    return f"{int(date[:4])-1911}/{date[4:6]}/{date[6:]}"
+
+
+def _twse_day_table(date):
+    """MI_INDEX 收盤行情表（驗證回應日期，防止官網回舊快取資料）"""
+    j = json.loads(http_get(TWSE_HIST_URL.format(d=date), timeout=120))
+    want = f"{int(date[:4])-1911}年{date[4:6]}月{date[6:]}日"
+    for tb in j.get("tables") or []:
+        title = tb.get("title") or ""
+        if "每日收盤行情" in title:
+            if want not in title:
+                print(f"  !! 上市 {date} 回應日期不符（{title[:14]}），捨棄")
+                return None
+            return tb.get("data") or []
+    return None
+
+
+def _tpex_day_rows(date):
+    """櫃買盤後行情（驗證回應日期）；欄位：0代號 2收盤 5最高 6最低"""
+    roc = _roc(date)
+    j = json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120))
+    if (j.get("date") or "").strip() != roc:
+        print(f"  !! 上櫃 {date} 回應日期不符（{j.get('date')}），捨棄")
+        return None
+    tabs = j.get("tables") or []
+    return (tabs[0].get("data") or []) if tabs else None
+
+
 def _hist_prices_one(date):
     """抓某一交易日全市場收盤價 → {code: price}"""
     out = {}
-    # 上市：MI_INDEX（收盤行情表：代號=欄0，收盤價=欄8）
     try:
-        j = json.loads(http_get(TWSE_HIST_URL.format(d=date), timeout=120))
-        tables = j.get("tables") or []
-        for tb in tables:
-            if "每日收盤行情" in (tb.get("title") or ""):
-                for row in tb.get("data") or []:
-                    if len(row) > 8:
-                        p = _to_price(row[8])
-                        if p:
-                            out[str(row[0]).strip()] = p
+        for row in _twse_day_table(date) or []:
+            if len(row) > 8:
+                p = _to_price(row[8])
+                if p:
+                    out[str(row[0]).strip()] = p
     except Exception as e:
         print(f"  !! 上市 {date} 收盤價失敗：{e}")
-    # 上櫃：OpenAPI（民國年日期）
     try:
-        roc = f"{int(date[:4])-1911}/{date[4:6]}/{date[6:]}"
-        rows = json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120))
-        for r in rows:
-            code = (r.get("SecuritiesCompanyCode") or "").strip()
-            p = _to_price(r.get("Close"))
-            if code and p:
-                out[code] = p
+        for row in _tpex_day_rows(date) or []:
+            if len(row) > 6:
+                p = _to_price(row[2])
+                if p:
+                    out[str(row[0]).strip()] = p
     except Exception as e:
         print(f"  !! 上櫃 {date} 收盤價失敗：{e}")
     return out
@@ -218,7 +241,7 @@ def fetch_hist_prices(dates):
     os.makedirs(PRICE_DIR, exist_ok=True)
     result = {}
     for d in dates:
-        cache = os.path.join(PRICE_DIR, f"px_{d}.json")
+        cache = os.path.join(PRICE_DIR, f"px2_{d}.json")  # v2：舊 px_ 快取有汙染，棄用
         if os.path.exists(cache):
             with open(cache, encoding="utf-8") as f:
                 result[d] = json.load(f)
@@ -246,23 +269,19 @@ def _daily_hl(day):
     """某交易日全市場盤中最高/最低 → {code: [low, high]}（休市日回傳空）"""
     out = {}
     try:  # 上市：最高=欄6、最低=欄7
-        j = json.loads(http_get(TWSE_HIST_URL.format(d=day), timeout=120))
-        for tb in j.get("tables") or []:
-            if "每日收盤行情" in (tb.get("title") or ""):
-                for row in tb.get("data") or []:
-                    if len(row) > 8:
-                        hi, lo = _to_price(row[6]), _to_price(row[7])
-                        if hi and lo:
-                            out[str(row[0]).strip()] = [lo, hi]
+        for row in _twse_day_table(day) or []:
+            if len(row) > 8:
+                hi, lo = _to_price(row[6]), _to_price(row[7])
+                if hi and lo:
+                    out[str(row[0]).strip()] = [lo, hi]
     except Exception as e:
         print(f"  !! 上市 {day} 高低價失敗：{e}")
-    try:  # 上櫃
-        roc = f"{int(day[:4])-1911}/{day[4:6]}/{day[6:]}"
-        for r in json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120)):
-            code = (r.get("SecuritiesCompanyCode") or "").strip()
-            hi, lo = _to_price(r.get("High")), _to_price(r.get("Low"))
-            if code and hi and lo:
-                out[code] = [lo, hi]
+    try:  # 上櫃：最高=欄5、最低=欄6
+        for row in _tpex_day_rows(day) or []:
+            if len(row) > 6:
+                hi, lo = _to_price(row[5]), _to_price(row[6])
+                if hi and lo:
+                    out[str(row[0]).strip()] = [lo, hi]
     except Exception as e:
         print(f"  !! 上櫃 {day} 高低價失敗：{e}")
     return out
@@ -273,7 +292,7 @@ def fetch_week_hl(dates):
     os.makedirs(PRICE_DIR, exist_ok=True)
     result = {}
     for d in dates:
-        cache = os.path.join(PRICE_DIR, f"wk_{d}.json")
+        cache = os.path.join(PRICE_DIR, f"wk2_{d}.json")  # v2：舊 wk_ 快取有汙染，棄用
         if os.path.exists(cache):
             with open(cache, encoding="utf-8") as f:
                 result[d] = json.load(f)
