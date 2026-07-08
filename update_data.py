@@ -206,8 +206,20 @@ def _twse_day_table(date):
 def _tpex_day_rows(date):
     """櫃買盤後行情（驗證回應日期）；欄位：0代號 2收盤 5最高 6最低"""
     roc = _roc(date)
-    j = json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120))
-    if (j.get("date") or "").strip() != roc:
+    j = None
+    for attempt in (1, 2, 3):
+        try:
+            j = json.loads(http_get(TPEX_HIST_URL.format(d=roc), timeout=120))
+            break
+        except Exception as e:
+            if attempt == 3:
+                raise
+            time.sleep(5)
+    # 回應日期可能是「20260618」或「115/06/18」兩種格式
+    resp = (j.get("date") or "").strip().replace("/", "")
+    if len(resp) == 7 and resp.isdigit():  # 民國年 → 西元
+        resp = str(int(resp[:3]) + 1911) + resp[3:]
+    if resp != date:
         print(f"  !! 上櫃 {date} 回應日期不符（{j.get('date')}），捨棄")
         return None
     tabs = j.get("tables") or []
@@ -241,7 +253,7 @@ def fetch_hist_prices(dates):
     os.makedirs(PRICE_DIR, exist_ok=True)
     result = {}
     for d in dates:
-        cache = os.path.join(PRICE_DIR, f"px2_{d}.json")  # v2：舊 px_ 快取有汙染，棄用
+        cache = os.path.join(PRICE_DIR, f"px3_{d}.json")  # v3：舊版快取有汙染/缺漏，棄用
         if os.path.exists(cache):
             with open(cache, encoding="utf-8") as f:
                 result[d] = json.load(f)
@@ -292,7 +304,7 @@ def fetch_week_hl(dates):
     os.makedirs(PRICE_DIR, exist_ok=True)
     result = {}
     for d in dates:
-        cache = os.path.join(PRICE_DIR, f"wk2_{d}.json")  # v2：舊 wk_ 快取有汙染，棄用
+        cache = os.path.join(PRICE_DIR, f"wk3_{d}.json")  # v3：舊版快取有汙染/缺漏，棄用
         if os.path.exists(cache):
             with open(cache, encoding="utf-8") as f:
                 result[d] = json.load(f)
