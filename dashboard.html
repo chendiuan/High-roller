@@ -91,6 +91,8 @@ border:1px solid var(--line);border-radius:12px;padding:14px}
 .yt-section b{display:block;font-size:12.5px;color:var(--sub);margin-bottom:5px}
 .yt-section ul{padding-left:18px;color:#cbd2df;font-size:13.5px;line-height:1.65}
 .yt-gist{font-size:14px;line-height:1.65;color:#dfe4ee}
+.yt-transcript{display:inline-block;color:#b9c2d3;background:#202840;border:1px solid var(--line);
+border-radius:14px;padding:3px 9px;font-size:12px;margin:4px 0 8px}
 .yt-basis{font-size:12.5px;color:var(--sub);margin-top:10px;line-height:1.55}
 .yt-watch{display:inline-block;margin-top:10px;background:var(--accent);color:var(--accent-ink);
 font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
@@ -355,13 +357,22 @@ function renderYt(){
   });
   $('ytList').innerHTML=rows.slice(0,state.shown).map(v=>{
     const a=v.analysis||{}, points=a.key_points||[], focus=a.watch_focus||[], verify=a.verify||[];
+    const timeline=Array.isArray(a.timeline)?a.timeline:[];
+    const topics=Array.isArray(a.mentioned_topics)?a.mentioned_topics:[];
+    const tr=v.transcript||{};
+    const trLabel=tr.status==='ok'
+      ?'已取得逐字稿'+(tr.char_count?' · '+Number(tr.char_count).toLocaleString()+' 字':'')
+      :'無逐字稿 · '+(tr.status||'unavailable');
     return '<article class="yt-card">'
       +'<a class="yt-thumb" href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+(v.thumbnail?'<img src="'+esc(v.thumbnail)+'" alt="">':'')+'</a>'
       +'<div><div class="yt-channel">'+esc(v.channel_name)+'</div>'
       +'<div class="yt-title"><a href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+esc(v.title)+'</a></div>'
       +'<div class="yt-meta">'+esc(localTime(v.published))+'</div>'
+      +'<div class="yt-transcript">'+esc(trLabel)+'</div>'
       +'<div class="yt-gist">'+esc(a.gist||'尚無摘要。')+'</div>'
       +(points.length?'<div class="yt-section"><b>重點整理</b><ul>'+points.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>':'')
+      +(timeline.length?'<div class="yt-section"><b>時間軸摘要</b><ul>'+timeline.map(p=>'<li>'+esc((p.time?p.time+' ':'')+(p.summary||p))+'</li>').join('')+'</ul></div>':'')
+      +(topics.length?'<div class="yt-section"><b>提到的主題</b><ul>'+topics.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>':'')
       +(focus.length?'<div class="yt-section"><b>分析與觀看焦點</b><ul>'+focus.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>':'')
       +(verify.length?'<div class="yt-section"><b>查證提醒</b><ul>'+verify.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>':'')
       +'<div class="yt-basis">'+esc(a.basis||Y.source_basis||'')+'</div>'

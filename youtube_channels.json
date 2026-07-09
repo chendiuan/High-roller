@@ -2,6 +2,8 @@
   "schedule_time": "06:00",
   "open_new_videos": false,
   "max_videos_per_channel": 15,
+  "openai_model": "gpt-4.1-mini",
+  "transcript_languages": ["zh-TW", "zh-Hant", "zh", "zh-Hans", "en"],
   "baseline_existing_on_first_run": false,
   "channels": [
     {

@@ -18,13 +18,19 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: 安裝字幕套件
+        run: pip install -r requirements.txt
+
       - name: 檢查 YouTube 新影片
         run: python youtube_watchlist.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
 
       - name: 提交待看清單
         run: |
           git config user.name "youtube-watchlist"
           git config user.email "actions@users.noreply.github.com"
-          git add youtube_seen.json youtube_data.js youtube_inbox.html youtube_reports/ || true
+          git add youtube_seen.json youtube_data.js youtube_inbox.html youtube_reports/ youtube_transcripts/ || true
           git commit -m "更新 YouTube 待看清單 $(date +%F)" || echo "沒有新影片或沒有變更"
           git push

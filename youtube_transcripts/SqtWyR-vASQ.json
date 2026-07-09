@@ -1,0 +1,5128 @@
+{
+  "status": "ok",
+  "language": "zh-TW",
+  "is_generated": false,
+  "items": [
+    {
+      "start": 22.4,
+      "duration": 0.5,
+      "text": "投資朋友"
+    },
+    {
+      "start": 22.9,
+      "duration": 1.7,
+      "text": "歡迎收聽早晨財經速解讀"
+    },
+    {
+      "start": 24.6,
+      "duration": 3.3,
+      "text": "現在是臺北時間2026年7月8號"
+    },
+    {
+      "start": 27.9,
+      "duration": 2.23,
+      "text": "禮拜三早上八點三十二分"
+    },
+    {
+      "start": 30.13,
+      "duration": 1.0,
+      "text": "大家早安 我是游庭皓"
+    },
+    {
+      "start": 31.13,
+      "duration": 1.1,
+      "text": "每天早上開盤前半小時"
+    },
+    {
+      "start": 32.23,
+      "duration": 1.37,
+      "text": "我們在這邊陪伴著各位"
+    },
+    {
+      "start": 33.6,
+      "duration": 1.8,
+      "text": "一起解讀國際財經新聞"
+    },
+    {
+      "start": 35.4,
+      "duration": 0.87,
+      "text": "時事變化"
+    },
+    {
+      "start": 36.27,
+      "duration": 1.33,
+      "text": "講到哽咽"
+    },
+    {
+      "start": 37.6,
+      "duration": 1.0,
+      "text": "各位公園董"
+    },
+    {
+      "start": 38.6,
+      "duration": 3.83,
+      "text": "早安 這一次回公園記得要帶雨具"
+    },
+    {
+      "start": 42.43,
+      "duration": 0.97,
+      "text": "颱風要來了"
+    },
+    {
+      "start": 43.4,
+      "duration": 2.47,
+      "text": "我們看這一次亞洲股市和美國股市"
+    },
+    {
+      "start": 45.87,
+      "duration": 2.03,
+      "text": "晶片股同步下跌"
+    },
+    {
+      "start": 47.9,
+      "duration": 1.03,
+      "text": "即便哦這一次"
+    },
+    {
+      "start": 48.93,
+      "duration": 3.37,
+      "text": "三星公佈了極度亮麗的財報表現呢"
+    },
+    {
+      "start": 52.3,
+      "duration": 1.7,
+      "text": "仍然無法受得市場上"
+    },
+    {
+      "start": 54.0,
+      "duration": 1.8,
+      "text": "更進一步的資金回補"
+    },
+    {
+      "start": 55.8,
+      "duration": 0.4,
+      "text": "我們看"
+    },
+    {
+      "start": 56.2,
+      "duration": 2.6,
+      "text": "美國股市集體昨天也殺得蠻重的"
+    },
+    {
+      "start": 58.83,
+      "duration": 2.2,
+      "text": "美光下跌了4.7%"
+    },
+    {
+      "start": 61.03,
+      "duration": 2.67,
+      "text": "Sandisk昨天下跌7.3%"
+    },
+    {
+      "start": 63.7,
+      "duration": 2.73,
+      "text": "整個費半總跌幅是4.6%"
+    },
+    {
+      "start": 66.43,
+      "duration": 2.8,
+      "text": "今年本來累計漲幅還接近100%"
+    },
+    {
+      "start": 69.23,
+      "duration": 3.07,
+      "text": "哎現在收斂到漲幅只剩下74%了"
+    },
+    {
+      "start": 72.3,
+      "duration": 3.5,
+      "text": "那等同於過程當中費半的波動率"
+    },
+    {
+      "start": 75.8,
+      "duration": 2.53,
+      "text": "跌個兩成3成都算是正常"
+    },
+    {
+      "start": 78.33,
+      "duration": 1.27,
+      "text": "均值回檔了"
+    },
+    {
+      "start": 79.63,
+      "duration": 2.57,
+      "text": "即便三星公佈了創記錄的獲利"
+    },
+    {
+      "start": 82.2,
+      "duration": 1.87,
+      "text": "也未能夠帶動AI晶片股"
+    },
+    {
+      "start": 84.07,
+      "duration": 1.17,
+      "text": "嘗試的走穩"
+    },
+    {
+      "start": 85.23,
+      "duration": 2.0,
+      "text": "反而形成系統性的承壓"
+    },
+    {
+      "start": 87.27,
+      "duration": 1.87,
+      "text": "當然了每一次股市下跌之後"
+    },
+    {
+      "start": 89.13,
+      "duration": 1.6,
+      "text": "鬼故事又重新歸來"
+    },
+    {
+      "start": 90.73,
+      "duration": 1.97,
+      "text": "現在大家又開始重新懷疑"
+    },
+    {
+      "start": 92.7,
+      "duration": 3.03,
+      "text": "數千億美元的資料中心AI基礎建設"
+    },
+    {
+      "start": 95.73,
+      "duration": 1.93,
+      "text": "是否能夠帶來足夠的回報"
+    },
+    {
+      "start": 97.67,
+      "duration": 2.23,
+      "text": "我們看到德意志銀行以及美銀呢"
+    },
+    {
+      "start": 99.9,
+      "duration": 1.43,
+      "text": "都陸續發佈報告"
+    },
+    {
+      "start": 101.33,
+      "duration": 0.6,
+      "text": "來擔憂"
+    },
+    {
+      "start": 101.93,
+      "duration": 3.0,
+      "text": "市場是否有進一步估值回檔的空間"
+    },
+    {
+      "start": 104.93,
+      "duration": 1.77,
+      "text": "好所以反而是股市下跌"
+    },
+    {
+      "start": 106.7,
+      "duration": 2.5,
+      "text": "空頭的報導就陸續出爐了"
+    },
+    {
+      "start": 109.2,
+      "duration": 0.8,
+      "text": "與此同時"
+    },
+    {
+      "start": 110.0,
+      "duration": 1.0,
+      "text": "在這個時間點"
+    },
+    {
+      "start": 111.0,
+      "duration": 2.93,
+      "text": "市場又會關注中東局勢是否再度升溫"
+    },
+    {
+      "start": 114.0,
+      "duration": 3.0,
+      "text": "因為昨天西德州原油價格是上漲了2.5"
+    },
+    {
+      "start": 117.0,
+      "duration": 2.6,
+      "text": "%每桶來到70.23塊"
+    },
+    {
+      "start": 119.63,
+      "duration": 0.63,
+      "text": "這油價還是"
+    },
+    {
+      "start": 120.27,
+      "duration": 2.33,
+      "text": "不高了但是10年期公債殖利率"
+    },
+    {
+      "start": 122.6,
+      "duration": 3.23,
+      "text": "又重新攀升到4.51%以上"
+    },
+    {
+      "start": 125.93,
+      "duration": 2.1,
+      "text": "代表能源價格僵固性哦"
+    },
+    {
+      "start": 128.03,
+      "duration": 1.37,
+      "text": "還是有可能會延後"
+    },
+    {
+      "start": 129.4,
+      "duration": 2.1,
+      "text": "聯準會壓低通膨的進程"
+    },
+    {
+      "start": 131.5,
+      "duration": 1.73,
+      "text": "雖然不至於到升息了好"
+    },
+    {
+      "start": 133.23,
+      "duration": 2.3,
+      "text": "但是要讓他今年年底之前"
+    },
+    {
+      "start": 135.53,
+      "duration": 2.17,
+      "text": "趕著回落到降息格局"
+    },
+    {
+      "start": 137.7,
+      "duration": 1.37,
+      "text": "似乎也有點壓力"
+    },
+    {
+      "start": 139.07,
+      "duration": 0.77,
+      "text": "畢竟"
+    },
+    {
+      "start": 139.83,
+      "duration": 2.43,
+      "text": "荷姆茲海峽這一次又爆發衝突了"
+    },
+    {
+      "start": 142.27,
+      "duration": 3.47,
+      "text": "6月17號 當時美伊達成停火協定之後"
+    },
+    {
+      "start": 145.73,
+      "duration": 0.7,
+      "text": "本來"
+    },
+    {
+      "start": 146.43,
+      "duration": 3.83,
+      "text": "說好不會蓄意的攻擊對方商船"
+    },
+    {
+      "start": 150.27,
+      "duration": 0.73,
+      "text": "結果呢哦"
+    },
+    {
+      "start": 151.0,
+      "duration": 1.4,
+      "text": "在前幾天"
+    },
+    {
+      "start": 152.4,
+      "duration": 0.67,
+      "text": "我們看到"
+    },
+    {
+      "start": 153.07,
+      "duration": 2.77,
+      "text": "三艘商船在赫姆澤海峽遭到攻擊"
+    },
+    {
+      "start": 155.83,
+      "duration": 1.67,
+      "text": "一艘是卡達的LNG"
+    },
+    {
+      "start": 157.5,
+      "duration": 1.53,
+      "text": "液化天然氣的運輸船"
+    },
+    {
+      "start": 159.07,
+      "duration": 2.57,
+      "text": "另外一艘是沙烏地阿拉伯的原油油輪呢"
+    },
+    {
+      "start": 161.63,
+      "duration": 0.9,
+      "text": "還有另外一艘"
+    },
+    {
+      "start": 162.53,
+      "duration": 1.8,
+      "text": "是創下停火協議生效以來"
+    },
+    {
+      "start": 164.33,
+      "duration": 2.5,
+      "text": "最最多的攻擊事件"
+    },
+    {
+      "start": 166.83,
+      "duration": 2.03,
+      "text": "應該是一天攻擊3艘吧"
+    },
+    {
+      "start": 168.87,
+      "duration": 0.83,
+      "text": "好所以"
+    },
+    {
+      "start": 169.7,
+      "duration": 0.9,
+      "text": "昨天川普"
+    },
+    {
+      "start": 170.6,
+      "duration": 2.87,
+      "text": "宣佈採取伊朗新一輪的空襲"
+    },
+    {
+      "start": 173.67,
+      "duration": 1.47,
+      "text": "取消過去"
+    },
+    {
+      "start": 175.13,
+      "duration": 2.87,
+      "text": "允許伊朗石油出口60天的豁免措施"
+    },
+    {
+      "start": 178.0,
+      "duration": 1.3,
+      "text": "那才幾天"
+    },
+    {
+      "start": 179.33,
+      "duration": 1.5,
+      "text": "他好像解封"
+    },
+    {
+      "start": 180.83,
+      "duration": 1.43,
+      "text": "也才十幾天而已"
+    },
+    {
+      "start": 182.27,
+      "duration": 1.33,
+      "text": "現在是全部取消"
+    },
+    {
+      "start": 183.6,
+      "duration": 1.07,
+      "text": "重新封鎖"
+    },
+    {
+      "start": 184.67,
+      "duration": 1.47,
+      "text": "從7月7號起"
+    },
+    {
+      "start": 186.13,
+      "duration": 2.13,
+      "text": "禁止新的伊朗原油的銷售"
+    },
+    {
+      "start": 188.27,
+      "duration": 1.97,
+      "text": "伊朗的船再也出不去了"
+    },
+    {
+      "start": 190.23,
+      "duration": 2.0,
+      "text": "同時採取了進一步的空襲"
+    },
+    {
+      "start": 192.23,
+      "duration": 0.83,
+      "text": "所以再加上"
+    },
+    {
+      "start": 193.33,
+      "duration": 1.33,
+      "text": "在這樣的一個效果底下"
+    },
+    {
+      "start": 194.67,
+      "duration": 3.13,
+      "text": "我們看原油價格的反彈到70美元"
+    },
+    {
+      "start": 197.8,
+      "duration": 1.23,
+      "text": "好像也還好"
+    },
+    {
+      "start": 199.03,
+      "duration": 2.2,
+      "text": "看起來局勢又再度緊張"
+    },
+    {
+      "start": 201.23,
+      "duration": 1.27,
+      "text": "故事一直重演"
+    },
+    {
+      "start": 202.5,
+      "duration": 1.73,
+      "text": "可是市場上對於鬼故事"
+    },
+    {
+      "start": 204.23,
+      "duration": 1.2,
+      "text": "也沒那麼害怕了"
+    },
+    {
+      "start": 205.43,
+      "duration": 2.03,
+      "text": "也許對於資本市場而言呢"
+    },
+    {
+      "start": 207.5,
+      "duration": 2.33,
+      "text": "每一次財報公佈的利多出盡呢"
+    },
+    {
+      "start": 209.83,
+      "duration": 1.17,
+      "text": "股市的下跌"
+    },
+    {
+      "start": 211.27,
+      "duration": 1.33,
+      "text": "有人說大家也不害怕了"
+    },
+    {
+      "start": 212.6,
+      "duration": 2.5,
+      "text": "反而形成一種買盤的刺激"
+    },
+    {
+      "start": 215.1,
+      "duration": 0.8,
+      "text": "這也不一定"
+    },
+    {
+      "start": 215.9,
+      "duration": 1.13,
+      "text": "我們先點出"
+    },
+    {
+      "start": 217.03,
+      "duration": 2.4,
+      "text": "德銀現在提出了6大矛盾"
+    },
+    {
+      "start": 219.43,
+      "duration": 1.27,
+      "text": "他其實背後"
+    },
+    {
+      "start": 220.7,
+      "duration": 2.2,
+      "text": "即便中東地緣政治這麼混亂哦"
+    },
+    {
+      "start": 222.9,
+      "duration": 2.03,
+      "text": "還是能夠對於股票市場"
+    },
+    {
+      "start": 224.93,
+      "duration": 0.93,
+      "text": "沒有那麼大影響的"
+    },
+    {
+      "start": 225.87,
+      "duration": 0.93,
+      "text": "根本原因呢"
+    },
+    {
+      "start": 226.8,
+      "duration": 2.07,
+      "text": "來自於互相的錯位矛盾"
+    },
+    {
+      "start": 228.97,
+      "duration": 0.67,
+      "text": "第一個矛盾呢"
+    },
+    {
+      "start": 229.63,
+      "duration": 2.27,
+      "text": "其實來自於油價和公債殖利率"
+    },
+    {
+      "start": 231.9,
+      "duration": 0.43,
+      "text": "我們知道"
+    },
+    {
+      "start": 232.33,
+      "duration": 1.67,
+      "text": "在美伊衝突期間"
+    },
+    {
+      "start": 234.0,
+      "duration": 1.13,
+      "text": "布蘭特原油價格"
+    },
+    {
+      "start": 235.13,
+      "duration": 1.93,
+      "text": "和美國10年期公債值利率"
+    },
+    {
+      "start": 237.07,
+      "duration": 1.93,
+      "text": "它基本上是同步聯動的"
+    },
+    {
+      "start": 239.53,
+      "duration": 2.7,
+      "text": "因為油價上漲通常代表著通膨升溫"
+    },
+    {
+      "start": 242.23,
+      "duration": 1.43,
+      "text": "聯準會就有可能升息嘛"
+    },
+    {
+      "start": 243.67,
+      "duration": 1.23,
+      "text": "那布蘭特原油價格"
+    },
+    {
+      "start": 244.9,
+      "duration": 2.37,
+      "text": "從100到現在70美元左右"
+    },
+    {
+      "start": 247.4,
+      "duration": 2.5,
+      "text": "油價其實已經差不多回到戰前水準了"
+    },
+    {
+      "start": 249.9,
+      "duration": 1.03,
+      "text": "就算現在反彈"
+    },
+    {
+      "start": 250.93,
+      "duration": 1.57,
+      "text": "也差不多是戰前水準了"
+    },
+    {
+      "start": 252.5,
+      "duration": 2.53,
+      "text": "但是美國 10年期公債值利率哦"
+    },
+    {
+      "start": 255.03,
+      "duration": 1.97,
+      "text": "卻仍然維持在高檔哦"
+    },
+    {
+      "start": 257.0,
+      "duration": 1.2,
+      "text": "這說明利率市場"
+    },
+    {
+      "start": 258.2,
+      "duration": 1.03,
+      "text": "好像並沒有反映"
+    },
+    {
+      "start": 259.23,
+      "duration": 2.17,
+      "text": "油價降溫帶來的影響哦"
+    },
+    {
+      "start": 261.4,
+      "duration": 1.43,
+      "text": "那我們可以合理的判斷"
+    },
+    {
+      "start": 262.83,
+      "duration": 1.57,
+      "text": "有可能是外溢出去了"
+    },
+    {
+      "start": 264.4,
+      "duration": 2.63,
+      "text": "或者科技通膨所造成的利率預期"
+    },
+    {
+      "start": 267.23,
+      "duration": 0.8,
+      "text": "第二個矛盾呢"
+    },
+    {
+      "start": 268.03,
+      "duration": 2.77,
+      "text": "就是通膨預期其實也在下滑"
+    },
+    {
+      "start": 270.8,
+      "duration": 2.33,
+      "text": "所以\n大家並沒有認為通膨會一路的失控"
+    },
+    {
+      "start": 273.13,
+      "duration": 3.27,
+      "text": "可是升息預期居然還緩步的走高"
+    },
+    {
+      "start": 276.43,
+      "duration": 2.9,
+      "text": "美國一年前的通膨交換利率來到2.11"
+    },
+    {
+      "start": 279.33,
+      "duration": 2.3,
+      "text": "%兩年前來到2.32"
+    },
+    {
+      "start": 281.63,
+      "duration": 2.8,
+      "text": "哎這都是兩個年度以來的低點"
+    },
+    {
+      "start": 284.43,
+      "duration": 2.4,
+      "text": "代表市場其實並不不太相信"
+    },
+    {
+      "start": 286.83,
+      "duration": 1.23,
+      "text": "通膨就會這樣子失控"
+    },
+    {
+      "start": 288.07,
+      "duration": 1.87,
+      "text": "反而認為通膨會緩步的回檔"
+    },
+    {
+      "start": 290.0,
+      "duration": 0.9,
+      "text": "但同一時間"
+    },
+    {
+      "start": 290.9,
+      "duration": 2.73,
+      "text": "利率期貨卻預估聯準會在年底之前"
+    },
+    {
+      "start": 293.63,
+      "duration": 2.3,
+      "text": "還是有升息一碼的可能性"
+    },
+    {
+      "start": 295.93,
+      "duration": 1.1,
+      "text": "哦那就很弔詭了"
+    },
+    {
+      "start": 297.03,
+      "duration": 1.3,
+      "text": "通膨在降溫"
+    },
+    {
+      "start": 298.33,
+      "duration": 1.97,
+      "text": "升息預期卻增加"
+    },
+    {
+      "start": 300.3,
+      "duration": 1.63,
+      "text": "那是不是大家已經相信"
+    },
+    {
+      "start": 301.93,
+      "duration": 1.37,
+      "text": "華許就是一個鷹派人物"
+    },
+    {
+      "start": 303.3,
+      "duration": 1.33,
+      "text": "不管通膨高不高"
+    },
+    {
+      "start": 304.63,
+      "duration": 1.23,
+      "text": "他都要升息了呢"
+    },
+    {
+      "start": 306.03,
+      "duration": 0.8,
+      "text": "第三個矛盾呢"
+    },
+    {
+      "start": 306.83,
+      "duration": 1.77,
+      "text": "是市場一方面壓住聯儲會"
+    },
+    {
+      "start": 308.6,
+      "duration": 1.7,
+      "text": "年底之前有可能會升級"
+    },
+    {
+      "start": 310.3,
+      "duration": 1.03,
+      "text": "但是另外一方面呢"
+    },
+    {
+      "start": 311.33,
+      "duration": 1.57,
+      "text": "還保持著蠻樂觀的"
+    },
+    {
+      "start": 312.9,
+      "duration": 2.8,
+      "text": "至少雖然估值現在短期內在回檔"
+    },
+    {
+      "start": 315.7,
+      "duration": 0.9,
+      "text": "可是我們也知道"
+    },
+    {
+      "start": 316.6,
+      "duration": 0.87,
+      "text": "本輪的估值回檔"
+    },
+    {
+      "start": 317.47,
+      "duration": 1.73,
+      "text": "跟利率預期沒有太大關係哦"
+    },
+    {
+      "start": 319.2,
+      "duration": 2.27,
+      "text": "更多來自於獲利了結的慢壓"
+    },
+    {
+      "start": 321.47,
+      "duration": 0.77,
+      "text": "那歷史經驗"
+    },
+    {
+      "start": 322.23,
+      "duration": 2.47,
+      "text": "通常利率預期開始有所升高"
+    },
+    {
+      "start": 324.7,
+      "duration": 1.03,
+      "text": "信用利差擴大"
+    },
+    {
+      "start": 325.73,
+      "duration": 1.53,
+      "text": "金融環境收緊"
+    },
+    {
+      "start": 327.27,
+      "duration": 1.83,
+      "text": "應該會對於股市有所承壓"
+    },
+    {
+      "start": 329.1,
+      "duration": 2.0,
+      "text": "不過市場也並不是特別害怕"
+    },
+    {
+      "start": 331.1,
+      "duration": 1.0,
+      "text": "那第四個矛盾呢"
+    },
+    {
+      "start": 332.1,
+      "duration": 0.93,
+      "text": "就是不同資產"
+    },
+    {
+      "start": 333.03,
+      "duration": 2.43,
+      "text": "對於每一資產的不同的解讀"
+    },
+    {
+      "start": 336.03,
+      "duration": 0.9,
+      "text": "股票市場"
+    },
+    {
+      "start": 336.93,
+      "duration": 0.87,
+      "text": "信用市場"
+    },
+    {
+      "start": 337.8,
+      "duration": 2.8,
+      "text": "油價從週期來看"
+    },
+    {
+      "start": 340.63,
+      "duration": 1.97,
+      "text": "它基本上好像就反映著中東局勢"
+    },
+    {
+      "start": 342.6,
+      "duration": 1.1,
+      "text": "不是很嚴重嘛"
+    },
+    {
+      "start": 343.7,
+      "duration": 1.17,
+      "text": "要不然怎麼打那麼久"
+    },
+    {
+      "start": 344.87,
+      "duration": 0.97,
+      "text": "股市還在創高"
+    },
+    {
+      "start": 345.83,
+      "duration": 1.1,
+      "text": "油價還在回落"
+    },
+    {
+      "start": 346.93,
+      "duration": 3.0,
+      "text": "但利率市場去反映較高的市值利率"
+    },
+    {
+      "start": 349.93,
+      "duration": 1.87,
+      "text": "好這個就是第四個吊詭"
+    },
+    {
+      "start": 351.87,
+      "duration": 1.63,
+      "text": "第五個吊詭是黃金市場"
+    },
+    {
+      "start": 353.57,
+      "duration": 1.77,
+      "text": "黃金你不要看今年年初到現在"
+    },
+    {
+      "start": 355.33,
+      "duration": 0.97,
+      "text": "只跌4趴"
+    },
+    {
+      "start": 356.3,
+      "duration": 2.13,
+      "text": "他從高點跌下已經跌兩層了"
+    },
+    {
+      "start": 358.43,
+      "duration": 0.63,
+      "text": "那照來講"
+    },
+    {
+      "start": 359.07,
+      "duration": 2.0,
+      "text": "地緣政治風險升高"
+    },
+    {
+      "start": 361.07,
+      "duration": 2.37,
+      "text": "或者財政赤字持續擴大"
+    },
+    {
+      "start": 363.43,
+      "duration": 3.03,
+      "text": "那應該會對於黃金有所買盤的刺激"
+    },
+    {
+      "start": 366.47,
+      "duration": 1.67,
+      "text": "不過呢我們卻觀察到"
+    },
+    {
+      "start": 368.13,
+      "duration": 2.47,
+      "text": "黃金的市場賣壓還是相當沉重"
+    },
+    {
+      "start": 370.6,
+      "duration": 1.2,
+      "text": "最後就是油價"
+    },
+    {
+      "start": 371.83,
+      "duration": 1.27,
+      "text": "油價已經恢復正常了"
+    },
+    {
+      "start": 373.1,
+      "duration": 1.13,
+      "text": "但是供應鏈"
+    },
+    {
+      "start": 374.27,
+      "duration": 2.67,
+      "text": "我們看現在通過荷姆斯海峽的郵輪數"
+    },
+    {
+      "start": 376.93,
+      "duration": 2.17,
+      "text": "看全球的供應鏈情況"
+    },
+    {
+      "start": 379.1,
+      "duration": 2.17,
+      "text": "居然還沒有回到戰前水準"
+    },
+    {
+      "start": 381.27,
+      "duration": 0.67,
+      "text": "好所以"
+    },
+    {
+      "start": 381.93,
+      "duration": 1.3,
+      "text": "總結論就是認為"
+    },
+    {
+      "start": 383.23,
+      "duration": 2.47,
+      "text": "現在有一個根本的原因"
+    },
+    {
+      "start": 385.7,
+      "duration": 3.63,
+      "text": "拖動了目前中東局勢所造成的混亂"
+    },
+    {
+      "start": 389.33,
+      "duration": 2.37,
+      "text": "造成中東局勢其實是利空"
+    },
+    {
+      "start": 391.7,
+      "duration": 1.5,
+      "text": "可是有一個更大的力度"
+    },
+    {
+      "start": 393.2,
+      "duration": 1.33,
+      "text": "把利空給蓋過去了"
+    },
+    {
+      "start": 394.53,
+      "duration": 0.9,
+      "text": "是什麼呢"
+    },
+    {
+      "start": 395.43,
+      "duration": 0.9,
+      "text": "就是經濟成長"
+    },
+    {
+      "start": 396.33,
+      "duration": 2.73,
+      "text": "而且\n經濟成長的確比市場預期來的更強"
+    },
+    {
+      "start": 399.07,
+      "duration": 1.53,
+      "text": "企業獲利的持續改善"
+    },
+    {
+      "start": 400.6,
+      "duration": 1.0,
+      "text": "那麼高的市"
+    },
+    {
+      "start": 401.6,
+      "duration": 3.03,
+      "text": "殖利率而股市創高和風險資產強勢"
+    },
+    {
+      "start": 404.63,
+      "duration": 1.4,
+      "text": "居然可以同步成立"
+    },
+    {
+      "start": 406.03,
+      "duration": 1.43,
+      "text": "所以剛才提到的很多矛盾"
+    },
+    {
+      "start": 407.47,
+      "duration": 0.97,
+      "text": "6個矛盾呢"
+    },
+    {
+      "start": 408.47,
+      "duration": 1.37,
+      "text": "慢慢就被消化了"
+    },
+    {
+      "start": 409.83,
+      "duration": 1.27,
+      "text": "只要經濟動能呢"
+    },
+    {
+      "start": 411.1,
+      "duration": 0.93,
+      "text": "還在增長"
+    },
+    {
+      "start": 412.03,
+      "duration": 1.43,
+      "text": "它可以蓋過一切"
+    },
+    {
+      "start": 413.47,
+      "duration": 1.0,
+      "text": "換句話說"
+    },
+    {
+      "start": 414.57,
+      "duration": 2.47,
+      "text": "只要AI的資本支出還在成長"
+    },
+    {
+      "start": 417.03,
+      "duration": 1.17,
+      "text": "中間的利空"
+    },
+    {
+      "start": 418.2,
+      "duration": 1.1,
+      "text": "都不算是利空"
+    },
+    {
+      "start": 419.3,
+      "duration": 1.77,
+      "text": "它就是一個估值回檔的理由"
+    },
+    {
+      "start": 421.07,
+      "duration": 1.63,
+      "text": "好那我們在這回過頭來看"
+    },
+    {
+      "start": 422.7,
+      "duration": 2.83,
+      "text": "那三星這次所引爆的市場賣壓"
+    },
+    {
+      "start": 425.53,
+      "duration": 1.37,
+      "text": "它是利空嗎"
+    },
+    {
+      "start": 426.9,
+      "duration": 2.6,
+      "text": "它是資本支出緩下來的可能性嗎"
+    },
+    {
+      "start": 429.5,
+      "duration": 0.9,
+      "text": "當然不是嘛"
+    },
+    {
+      "start": 430.4,
+      "duration": 2.03,
+      "text": "我們知道這次財報是好的不得了"
+    },
+    {
+      "start": 432.43,
+      "duration": 1.27,
+      "text": "二季度財報"
+    },
+    {
+      "start": 433.7,
+      "duration": 2.97,
+      "text": "合併營收是十一百七十一兆韓元"
+    },
+    {
+      "start": 436.67,
+      "duration": 2.67,
+      "text": "合計美元大概是1,118億"
+    },
+    {
+      "start": 439.33,
+      "duration": 1.9,
+      "text": "年增幅是129%"
+    },
+    {
+      "start": 441.23,
+      "duration": 1.57,
+      "text": "這個季度"
+    },
+    {
+      "start": 442.8,
+      "duration": 2.13,
+      "text": "賺的錢大概是什麼概念呢"
+    },
+    {
+      "start": 444.93,
+      "duration": 3.07,
+      "text": "就是大概是賺過去三年的概念"
+    },
+    {
+      "start": 448.0,
+      "duration": 1.0,
+      "text": "這一個季度"
+    },
+    {
+      "start": 449.0,
+      "duration": 0.67,
+      "text": "比如說台積電"
+    },
+    {
+      "start": 449.67,
+      "duration": 2.4,
+      "text": "一個季度可能EPS25塊"
+    },
+    {
+      "start": 452.1,
+      "duration": 2.37,
+      "text": "然後台積電可能過去一年EPS只有4塊"
+    },
+    {
+      "start": 454.47,
+      "duration": 2.33,
+      "text": "這種感覺就是它賺的速度"
+    },
+    {
+      "start": 456.8,
+      "duration": 1.7,
+      "text": "是非常非常驚人的"
+    },
+    {
+      "start": 459.0,
+      "duration": 0.7,
+      "text": "結果呢"
+    },
+    {
+      "start": 459.7,
+      "duration": 2.63,
+      "text": "引發了市場上集體獲利的賣壓"
+    },
+    {
+      "start": 462.33,
+      "duration": 1.33,
+      "text": "所以在這樣效果底下"
+    },
+    {
+      "start": 463.67,
+      "duration": 1.8,
+      "text": "我們基本上不會把它斷定成"
+    },
+    {
+      "start": 465.47,
+      "duration": 2.0,
+      "text": "任何資本支出放緩的跡象"
+    },
+    {
+      "start": 467.47,
+      "duration": 2.33,
+      "text": "也沒有任何基本面利空的傳出"
+    },
+    {
+      "start": 469.8,
+      "duration": 1.73,
+      "text": "基本上就是獲利了結"
+    },
+    {
+      "start": 471.53,
+      "duration": 0.77,
+      "text": "那的確"
+    },
+    {
+      "start": 472.3,
+      "duration": 1.83,
+      "text": "那個GET股廢半本輪怪力"
+    },
+    {
+      "start": 474.13,
+      "duration": 1.3,
+      "text": "本來就拉的很高"
+    },
+    {
+      "start": 475.43,
+      "duration": 3.23,
+      "text": "試圖從4月5月6月 哎"
+    },
+    {
+      "start": 478.67,
+      "duration": 2.0,
+      "text": "那7月開始回檔"
+    },
+    {
+      "start": 480.67,
+      "duration": 1.43,
+      "text": "漲三個月回檔一個月"
+    },
+    {
+      "start": 482.1,
+      "duration": 0.83,
+      "text": "也不過分吧"
+    },
+    {
+      "start": 482.93,
+      "duration": 1.53,
+      "text": "所以我的根本看法是哦"
+    },
+    {
+      "start": 484.67,
+      "duration": 2.67,
+      "text": "這一次我們雖然難免要回公園哦"
+    },
+    {
+      "start": 487.4,
+      "duration": 0.93,
+      "text": "但是放心"
+    },
+    {
+      "start": 488.63,
+      "duration": 3.23,
+      "text": "有機會再下一次颱風之前"
+    },
+    {
+      "start": 491.87,
+      "duration": 1.13,
+      "text": "能夠回到飯店"
+    },
+    {
+      "start": 493.0,
+      "duration": 0.83,
+      "text": "這是我的信心"
+    },
+    {
+      "start": 493.83,
+      "duration": 1.0,
+      "text": "我希望如此好不好"
+    },
+    {
+      "start": 494.83,
+      "duration": 0.83,
+      "text": "希望如此好"
+    },
+    {
+      "start": 495.67,
+      "duration": 0.8,
+      "text": "當然了那"
+    },
+    {
+      "start": 496.47,
+      "duration": 1.6,
+      "text": "有網路上有人看到說"
+    },
+    {
+      "start": 498.07,
+      "duration": 2.13,
+      "text": "那韓國股市熔斷的頻率"
+    },
+    {
+      "start": 500.2,
+      "duration": 1.53,
+      "text": "好像比我拉肚子還高"
+    },
+    {
+      "start": 501.73,
+      "duration": 0.8,
+      "text": "哎的確"
+    },
+    {
+      "start": 502.53,
+      "duration": 0.77,
+      "text": "這個其實"
+    },
+    {
+      "start": 503.3,
+      "duration": 2.43,
+      "text": "就是來自於過去兩個月的杠杆加成"
+    },
+    {
+      "start": 505.73,
+      "duration": 1.4,
+      "text": "所形成的效果"
+    },
+    {
+      "start": 507.13,
+      "duration": 2.93,
+      "text": "其實\n亞洲科技股目前也在全面回檔當中"
+    },
+    {
+      "start": 510.07,
+      "duration": 2.0,
+      "text": "但是會不會因此大幅拖累台積電"
+    },
+    {
+      "start": 512.07,
+      "duration": 1.03,
+      "text": "我就認為不一定"
+    },
+    {
+      "start": 513.13,
+      "duration": 2.17,
+      "text": "因為哦看起來是波動高的"
+    },
+    {
+      "start": 515.3,
+      "duration": 1.03,
+      "text": "殺比較重"
+    },
+    {
+      "start": 516.33,
+      "duration": 1.8,
+      "text": "但是台積電過去幾個月"
+    },
+    {
+      "start": 518.13,
+      "duration": 1.57,
+      "text": "其表現還算是很平穩"
+    },
+    {
+      "start": 519.7,
+      "duration": 1.03,
+      "text": "說實在的"
+    },
+    {
+      "start": 520.73,
+      "duration": 1.3,
+      "text": "有一點讓人打哈欠"
+    },
+    {
+      "start": 522.03,
+      "duration": 2.8,
+      "text": "就這股票比較牛皮一點"
+    },
+    {
+      "start": 524.83,
+      "duration": 1.6,
+      "text": "穩穩的在緩步的上漲"
+    },
+    {
+      "start": 526.43,
+      "duration": 1.87,
+      "text": "不像三星或者SK海力士"
+    },
+    {
+      "start": 528.3,
+      "duration": 2.23,
+      "text": "有如此價格上的一個波動"
+    },
+    {
+      "start": 530.53,
+      "duration": 1.2,
+      "text": "之所以我們看到"
+    },
+    {
+      "start": 531.73,
+      "duration": 2.7,
+      "text": "三星現在獲利已經暴增了19倍"
+    },
+    {
+      "start": 534.43,
+      "duration": 1.0,
+      "text": "還是下跌"
+    },
+    {
+      "start": 535.43,
+      "duration": 0.7,
+      "text": "並不是真的"
+    },
+    {
+      "start": 536.13,
+      "duration": 2.2,
+      "text": "因為集體行情已經反應過的"
+    },
+    {
+      "start": 538.33,
+      "duration": 1.93,
+      "text": "應該講說最多就是反應過頭"
+    },
+    {
+      "start": 540.27,
+      "duration": 3.13,
+      "text": "但是並沒有任何基本面鬆綁的可能性"
+    },
+    {
+      "start": 543.4,
+      "duration": 0.67,
+      "text": "那現在就要看"
+    },
+    {
+      "start": 544.07,
+      "duration": 0.77,
+      "text": "那回檔幅度"
+    },
+    {
+      "start": 544.83,
+      "duration": 1.8,
+      "text": "到什麼樣的位置是合理的呢"
+    },
+    {
+      "start": 546.63,
+      "duration": 3.6,
+      "text": "現在也不過從7月份跌到6月初"
+    },
+    {
+      "start": 550.37,
+      "duration": 1.5,
+      "text": "那你說跌回5月份"
+    },
+    {
+      "start": 551.87,
+      "duration": 1.17,
+      "text": "跌回4月份哦"
+    },
+    {
+      "start": 553.03,
+      "duration": 2.03,
+      "text": "他仍然會有100%的爆炒哦"
+    },
+    {
+      "start": 555.07,
+      "duration": 2.53,
+      "text": "所以這取決於你在6月份是否有重倉"
+    },
+    {
+      "start": 557.6,
+      "duration": 1.7,
+      "text": "那看起來很多人是很痛苦"
+    },
+    {
+      "start": 559.3,
+      "duration": 2.53,
+      "text": "因為6月份全球股市爆大量嘛"
+    },
+    {
+      "start": 561.83,
+      "duration": 2.67,
+      "text": "所以雖然我們知道今年以來"
+    },
+    {
+      "start": 564.5,
+      "duration": 1.83,
+      "text": "你只要願意持有都是賺的"
+    },
+    {
+      "start": 566.33,
+      "duration": 1.87,
+      "text": "可是大多數人都買在6月"
+    },
+    {
+      "start": 568.2,
+      "duration": 2.0,
+      "text": "好這就是我們給予市場的歧見"
+    },
+    {
+      "start": 570.2,
+      "duration": 1.67,
+      "text": "給予市場的看法"
+    },
+    {
+      "start": 571.87,
+      "duration": 1.43,
+      "text": "為什麼不要在市場上"
+    },
+    {
+      "start": 573.3,
+      "duration": 1.13,
+      "text": "情緒比較樂觀的時候"
+    },
+    {
+      "start": 574.43,
+      "duration": 1.4,
+      "text": "全面的放大杠杆呢"
+    },
+    {
+      "start": 575.97,
+      "duration": 2.27,
+      "text": "至少要確保自己能夠活得下去嘛"
+    },
+    {
+      "start": 578.23,
+      "duration": 0.37,
+      "text": "我們看"
+    },
+    {
+      "start": 578.6,
+      "duration": 2.7,
+      "text": "不管是三星s k海力士還是美光"
+    },
+    {
+      "start": 581.3,
+      "duration": 1.37,
+      "text": "目前從高點跌幅"
+    },
+    {
+      "start": 582.67,
+      "duration": 1.57,
+      "text": "陸續進入到熊市"
+    },
+    {
+      "start": 584.23,
+      "duration": 0.83,
+      "text": "那我們看一下其他"
+    },
+    {
+      "start": 585.07,
+      "duration": 2.57,
+      "text": "股票像sandisk從高點這樣跌下來"
+    },
+    {
+      "start": 587.63,
+      "duration": 2.43,
+      "text": "跌幅也高達34%"
+    },
+    {
+      "start": 590.07,
+      "duration": 1.27,
+      "text": "好所以我們做個總結"
+    },
+    {
+      "start": 591.33,
+      "duration": 2.3,
+      "text": "市場對於三星財報的反應"
+    },
+    {
+      "start": 593.63,
+      "duration": 0.97,
+      "text": "它當然了"
+    },
+    {
+      "start": 594.6,
+      "duration": 0.93,
+      "text": "是反映出"
+    },
+    {
+      "start": 595.53,
+      "duration": 1.1,
+      "text": "市場針對記憶體"
+    },
+    {
+      "start": 596.63,
+      "duration": 1.67,
+      "text": "是否未來有快速擴產"
+    },
+    {
+      "start": 598.3,
+      "duration": 1.23,
+      "text": "所造成的市場慢壓"
+    },
+    {
+      "start": 599.53,
+      "duration": 1.27,
+      "text": "但目前看起來"
+    },
+    {
+      "start": 600.8,
+      "duration": 2.6,
+      "text": "更多反映的就是獲利了結的慢壓而已"
+    },
+    {
+      "start": 603.4,
+      "duration": 1.03,
+      "text": "哦那現在呢"
+    },
+    {
+      "start": 604.43,
+      "duration": 1.87,
+      "text": "第二季財報表現這麼強勁"
+    },
+    {
+      "start": 606.3,
+      "duration": 3.23,
+      "text": "市場好像把過去輝達的那種想像空間"
+    },
+    {
+      "start": 609.53,
+      "duration": 1.37,
+      "text": "套用在三星"
+    },
+    {
+      "start": 610.9,
+      "duration": 1.77,
+      "text": "認為你現在不只要考100分"
+    },
+    {
+      "start": 612.67,
+      "duration": 2.2,
+      "text": "你要考超出滿分"
+    },
+    {
+      "start": 614.87,
+      "duration": 2.67,
+      "text": "我才能夠給予你相當穩定的評價"
+    },
+    {
+      "start": 617.53,
+      "duration": 2.2,
+      "text": "那三星的例子也再次提醒我們"
+    },
+    {
+      "start": 619.73,
+      "duration": 1.77,
+      "text": "那有時候看對方向"
+    },
+    {
+      "start": 621.5,
+      "duration": 2.1,
+      "text": "也不代表一定就會賺到錢呢"
+    },
+    {
+      "start": 623.83,
+      "duration": 1.7,
+      "text": "AI長期趨勢也沒有改變"
+    },
+    {
+      "start": 625.53,
+      "duration": 0.87,
+      "text": "三星s k"
+    },
+    {
+      "start": 626.4,
+      "duration": 2.07,
+      "text": "海力士的獲利都創下歷史新高了"
+    },
+    {
+      "start": 628.47,
+      "duration": 2.6,
+      "text": "但是市場期待已經提前反應"
+    },
+    {
+      "start": 631.07,
+      "duration": 1.8,
+      "text": "那股價開始劇烈震盪的時候"
+    },
+    {
+      "start": 632.87,
+      "duration": 1.17,
+      "text": "你最後考驗的"
+    },
+    {
+      "start": 634.03,
+      "duration": 1.57,
+      "text": "那也不是基本面的問題"
+    },
+    {
+      "start": 635.6,
+      "duration": 1.73,
+      "text": "是你的持股能力"
+    },
+    {
+      "start": 637.33,
+      "duration": 1.57,
+      "text": "是爆持的能力"
+    },
+    {
+      "start": 638.97,
+      "duration": 1.7,
+      "text": "如果為了放大AI行情"
+    },
+    {
+      "start": 640.67,
+      "duration": 4.0,
+      "text": "而過度的使用杠杆或者單一個股重壓"
+    },
+    {
+      "start": 644.67,
+      "duration": 1.53,
+      "text": "那很有可能在短期修正當中"
+    },
+    {
+      "start": 646.2,
+      "duration": 1.13,
+      "text": "你就要被迫停損了"
+    },
+    {
+      "start": 647.33,
+      "duration": 2.87,
+      "text": "那明明你是想要參與AI數年的成長"
+    },
+    {
+      "start": 650.2,
+      "duration": 1.7,
+      "text": "結果看對了趨勢"
+    },
+    {
+      "start": 651.9,
+      "duration": 1.0,
+      "text": "死在波動"
+    },
+    {
+      "start": 652.9,
+      "duration": 1.1,
+      "text": "撐不過幾天"
+    },
+    {
+      "start": 654.0,
+      "duration": 0.67,
+      "text": "哎才幾周"
+    },
+    {
+      "start": 654.67,
+      "duration": 0.93,
+      "text": "你又被洗掉了"
+    },
+    {
+      "start": 655.6,
+      "duration": 3.33,
+      "text": "這典型的我們講的目的和手段"
+    },
+    {
+      "start": 658.93,
+      "duration": 1.27,
+      "text": "互相否定"
+    },
+    {
+      "start": 660.3,
+      "duration": 2.3,
+      "text": "那真正能夠賺到長期趨勢的人呢"
+    },
+    {
+      "start": 662.6,
+      "duration": 1.1,
+      "text": "他不是壓得最重的"
+    },
+    {
+      "start": 663.7,
+      "duration": 1.5,
+      "text": "他是撐最久的"
+    },
+    {
+      "start": 665.2,
+      "duration": 1.27,
+      "text": "所以你要瞭解你的目的"
+    },
+    {
+      "start": 666.47,
+      "duration": 1.27,
+      "text": "那你要瞭解你的手段"
+    },
+    {
+      "start": 667.73,
+      "duration": 1.7,
+      "text": "能不能配得上你的目的"
+    },
+    {
+      "start": 669.5,
+      "duration": 2.33,
+      "text": "那警察把一個男的攔下來"
+    },
+    {
+      "start": 671.83,
+      "duration": 1.67,
+      "text": "你為什麼闖紅燈"
+    },
+    {
+      "start": 673.5,
+      "duration": 1.3,
+      "text": "我趕時間"
+    },
+    {
+      "start": 675.0,
+      "duration": 1.1,
+      "text": "你趕去哪裡"
+    },
+    {
+      "start": 676.1,
+      "duration": 1.73,
+      "text": "我趕去交通安全講習"
+    },
+    {
+      "start": 677.83,
+      "duration": 2.8,
+      "text": "投資也是一樣嘛"
+    },
+    {
+      "start": 680.63,
+      "duration": 2.5,
+      "text": "很多人嘴上講說要長期投資"
+    },
+    {
+      "start": 683.13,
+      "duration": 0.93,
+      "text": "那每天盯盤"
+    },
+    {
+      "start": 684.07,
+      "duration": 0.67,
+      "text": "追高殺低"
+    },
+    {
+      "start": 684.73,
+      "duration": 1.5,
+      "text": "希望累積財富"
+    },
+    {
+      "start": 686.23,
+      "duration": 2.27,
+      "text": "但是你又不斷地使用過高的杠杆"
+    },
+    {
+      "start": 688.5,
+      "duration": 1.57,
+      "text": "那不是就是嘗試著"
+    },
+    {
+      "start": 690.07,
+      "duration": 1.37,
+      "text": "想要把自己給洗出去嗎"
+    },
+    {
+      "start": 691.43,
+      "duration": 1.27,
+      "text": "你想要降低風險"
+    },
+    {
+      "start": 692.7,
+      "duration": 2.37,
+      "text": "結果你把資金集中在單一熱門標地"
+    },
+    {
+      "start": 695.07,
+      "duration": 1.67,
+      "text": "明明目標是穩定的獲利"
+    },
+    {
+      "start": 696.73,
+      "duration": 0.93,
+      "text": "採取的手段"
+    },
+    {
+      "start": 697.67,
+      "duration": 2.4,
+      "text": "卻會讓自己承受更大的波動"
+    },
+    {
+      "start": 700.07,
+      "duration": 2.57,
+      "text": "那最後往往就離自己的目標越來越遠"
+    },
+    {
+      "start": 702.63,
+      "duration": 1.4,
+      "text": "所以一定要瞭解"
+    },
+    {
+      "start": 704.03,
+      "duration": 1.17,
+      "text": "你的目的和手段呢"
+    },
+    {
+      "start": 705.2,
+      "duration": 1.27,
+      "text": "要互相匹配"
+    },
+    {
+      "start": 706.53,
+      "duration": 1.93,
+      "text": "你的目的當然想要參與AI成長"
+    },
+    {
+      "start": 708.5,
+      "duration": 1.63,
+      "text": "你的手段不能夠太極端"
+    },
+    {
+      "start": 710.13,
+      "duration": 1.17,
+      "text": "以防把自己給洗掉"
+    },
+    {
+      "start": 711.3,
+      "duration": 1.0,
+      "text": "當然了其實還好了"
+    },
+    {
+      "start": 712.3,
+      "duration": 1.73,
+      "text": "你不要被洗掉就沒問題了"
+    },
+    {
+      "start": 714.03,
+      "duration": 2.0,
+      "text": "三星股價總有一天還會創高的哦"
+    },
+    {
+      "start": 716.03,
+      "duration": 0.8,
+      "text": "這種勢頭"
+    },
+    {
+      "start": 716.83,
+      "duration": 3.4,
+      "text": "而且三星本一比現在也才10倍左右哦"
+    },
+    {
+      "start": 720.3,
+      "duration": 1.93,
+      "text": "你說它有什麼史詩級泡沫"
+    },
+    {
+      "start": 722.23,
+      "duration": 1.6,
+      "text": "我倒是覺得也還好啦"
+    },
+    {
+      "start": 723.83,
+      "duration": 1.57,
+      "text": "當然啦這也說明著哦"
+    },
+    {
+      "start": 725.4,
+      "duration": 1.63,
+      "text": "這個環境不好"
+    },
+    {
+      "start": 727.03,
+      "duration": 1.3,
+      "text": "本來是SK海力士"
+    },
+    {
+      "start": 728.33,
+      "duration": 3.7,
+      "text": "想要趁著這波space x的上市行情"
+    },
+    {
+      "start": 732.03,
+      "duration": 1.57,
+      "text": "ADR掛牌行情"
+    },
+    {
+      "start": 733.6,
+      "duration": 2.13,
+      "text": "能夠乘風破浪"
+    },
+    {
+      "start": 736.2,
+      "duration": 1.07,
+      "text": "不過呢我們知道"
+    },
+    {
+      "start": 737.27,
+      "duration": 0.83,
+      "text": "禮拜五"
+    },
+    {
+      "start": 738.1,
+      "duration": 2.5,
+      "text": "海利士就要赴美發行美國存托憑證"
+    },
+    {
+      "start": 740.6,
+      "duration": 3.43,
+      "text": "ADR了預估的募資規模是280億哦"
+    },
+    {
+      "start": 744.03,
+      "duration": 1.07,
+      "text": "那就不確定"
+    },
+    {
+      "start": 745.1,
+      "duration": 1.33,
+      "text": "這樣的一個募資效果"
+    },
+    {
+      "start": 746.43,
+      "duration": 1.07,
+      "text": "表現為何"
+    },
+    {
+      "start": 747.5,
+      "duration": 1.7,
+      "text": "當然啦回過頭看"
+    },
+    {
+      "start": 749.2,
+      "duration": 0.5,
+      "text": "整體而言"
+    },
+    {
+      "start": 749.7,
+      "duration": 2.0,
+      "text": "像是SK海利士還美光"
+    },
+    {
+      "start": 751.7,
+      "duration": 1.53,
+      "text": "其實長期本益比"
+    },
+    {
+      "start": 753.23,
+      "duration": 0.9,
+      "text": "都屬於偏低"
+    },
+    {
+      "start": 754.13,
+      "duration": 1.73,
+      "text": "那海力士又相對於美光"
+    },
+    {
+      "start": 755.87,
+      "duration": 1.4,
+      "text": "又更偏低了一點"
+    },
+    {
+      "start": 757.27,
+      "duration": 2.93,
+      "text": "那你說海力士的市占又比美光來的高"
+    },
+    {
+      "start": 760.2,
+      "duration": 2.5,
+      "text": "那麼光是從本益比的推送效果"
+    },
+    {
+      "start": 762.7,
+      "duration": 1.93,
+      "text": "也許能夠搶到不少的"
+    },
+    {
+      "start": 764.63,
+      "duration": 1.63,
+      "text": "記憶體的買盤刺激"
+    },
+    {
+      "start": 766.27,
+      "duration": 1.87,
+      "text": "但他不是單純的存量關係"
+    },
+    {
+      "start": 768.13,
+      "duration": 1.07,
+      "text": "但是還是對於"
+    },
+    {
+      "start": 769.2,
+      "duration": 0.87,
+      "text": "部分投資人"
+    },
+    {
+      "start": 770.07,
+      "duration": 1.8,
+      "text": "對於美股投資人是有吸引力的"
+    },
+    {
+      "start": 771.87,
+      "duration": 1.03,
+      "text": "而且你要看"
+    },
+    {
+      "start": 773.03,
+      "duration": 1.07,
+      "text": "哎他們漲那麼多"
+    },
+    {
+      "start": 774.1,
+      "duration": 1.13,
+      "text": "海利斯還美光"
+    },
+    {
+      "start": 775.23,
+      "duration": 1.4,
+      "text": "他本益比居然6倍"
+    },
+    {
+      "start": 776.63,
+      "duration": 1.23,
+      "text": "好這真的很離譜"
+    },
+    {
+      "start": 777.87,
+      "duration": 2.67,
+      "text": "好這漲了3倍4倍的股票"
+    },
+    {
+      "start": 780.53,
+      "duration": 1.8,
+      "text": "然後本益比只有6倍到8倍"
+    },
+    {
+      "start": 782.33,
+      "duration": 0.47,
+      "text": "你就知道"
+    },
+    {
+      "start": 782.8,
+      "duration": 2.3,
+      "text": "這些廠商到底現在有多賺錢了"
+    },
+    {
+      "start": 785.1,
+      "duration": 1.03,
+      "text": "好那這是第一點呢"
+    },
+    {
+      "start": 786.13,
+      "duration": 1.33,
+      "text": "就獲利了結的賣壓"
+    },
+    {
+      "start": 787.47,
+      "duration": 0.33,
+      "text": "你說"
+    },
+    {
+      "start": 787.8,
+      "duration": 2.1,
+      "text": "那市場上是不是正在找利空來解釋呢"
+    },
+    {
+      "start": 789.9,
+      "duration": 1.7,
+      "text": "當然那我們來一一破除"
+    },
+    {
+      "start": 791.63,
+      "duration": 2.03,
+      "text": "第一個就晶片通膨的反噬效果"
+    },
+    {
+      "start": 793.67,
+      "duration": 1.13,
+      "text": "大家會擔心"
+    },
+    {
+      "start": 794.8,
+      "duration": 2.47,
+      "text": "三星賺翻了AI記憶體的紅利"
+    },
+    {
+      "start": 797.27,
+      "duration": 3.4,
+      "text": "可是晶片通膨持續向下游來做反應"
+    },
+    {
+      "start": 800.67,
+      "duration": 3.0,
+      "text": "比如說現在PC端手機端平板價格"
+    },
+    {
+      "start": 803.8,
+      "duration": 3.23,
+      "text": "蘋果6月份才調漲Mac和iPad的售價"
+    },
+    {
+      "start": 807.03,
+      "duration": 1.8,
+      "text": "而且把記憶體的價格高漲"
+    },
+    {
+      "start": 808.83,
+      "duration": 1.1,
+      "text": "列為原因之一"
+    },
+    {
+      "start": 809.93,
+      "duration": 1.8,
+      "text": "那美國現在很多消費者"
+    },
+    {
+      "start": 811.73,
+      "duration": 2.5,
+      "text": "對於海力士和對於美光"
+    },
+    {
+      "start": 814.23,
+      "duration": 0.67,
+      "text": "對於三星"
+    },
+    {
+      "start": 814.9,
+      "duration": 3.4,
+      "text": "而現在有人對他們三家企業提告嘛"
+    },
+    {
+      "start": 818.3,
+      "duration": 3.1,
+      "text": "涉嫌掌握90%低潤市場來"
+    },
+    {
+      "start": 821.4,
+      "duration": 1.83,
+      "text": "才是進行壟斷了"
+    },
+    {
+      "start": 823.23,
+      "duration": 0.77,
+      "text": "好你要這樣講"
+    },
+    {
+      "start": 824.0,
+      "duration": 1.93,
+      "text": "那台積電也很危險對不對"
+    },
+    {
+      "start": 825.93,
+      "duration": 1.6,
+      "text": "但是因為他們漲價漲很多嘛"
+    },
+    {
+      "start": 827.53,
+      "duration": 1.13,
+      "text": "但這些問題"
+    },
+    {
+      "start": 828.67,
+      "duration": 1.33,
+      "text": "本身都不是一個極大利空"
+    },
+    {
+      "start": 830.0,
+      "duration": 2.0,
+      "text": "為什麼因為集體通膨"
+    },
+    {
+      "start": 832.0,
+      "duration": 1.1,
+      "text": "他本身的確"
+    },
+    {
+      "start": 833.1,
+      "duration": 1.33,
+      "text": "他是塑造出"
+    },
+    {
+      "start": 834.43,
+      "duration": 2.63,
+      "text": "本輪向下游通膨所造成衝擊"
+    },
+    {
+      "start": 837.07,
+      "duration": 1.2,
+      "text": "可是你要想想看哦"
+    },
+    {
+      "start": 838.27,
+      "duration": 1.83,
+      "text": "消費市場本來就已經不是很好了"
+    },
+    {
+      "start": 840.1,
+      "duration": 1.33,
+      "text": "你說由於記憶體通膨"
+    },
+    {
+      "start": 841.43,
+      "duration": 2.83,
+      "text": "所引發PC或者手機市場的衰退"
+    },
+    {
+      "start": 844.27,
+      "duration": 3.23,
+      "text": "它會不會進一步影響到股票市場"
+    },
+    {
+      "start": 847.5,
+      "duration": 1.33,
+      "text": "或者整個資本市場"
+    },
+    {
+      "start": 849.2,
+      "duration": 0.63,
+      "text": "這很難說"
+    },
+    {
+      "start": 849.83,
+      "duration": 1.3,
+      "text": "因為我們也知道吧"
+    },
+    {
+      "start": 851.13,
+      "duration": 0.7,
+      "text": "昨天我們提到說"
+    },
+    {
+      "start": 851.83,
+      "duration": 2.67,
+      "text": "鴻海現在50%以上的營收不來自於手機"
+    },
+    {
+      "start": 854.5,
+      "duration": 1.43,
+      "text": "哦如果手機不好"
+    },
+    {
+      "start": 855.93,
+      "duration": 0.87,
+      "text": "那該怎麼辦"
+    },
+    {
+      "start": 856.8,
+      "duration": 0.6,
+      "text": "那真的會大"
+    },
+    {
+      "start": 857.4,
+      "duration": 2.27,
+      "text": "幅影響到臺灣企業的財報嗎"
+    },
+    {
+      "start": 859.7,
+      "duration": 1.7,
+      "text": "好所以這是兩極化的哦"
+    },
+    {
+      "start": 861.4,
+      "duration": 1.23,
+      "text": "我們知道科技通膨"
+    },
+    {
+      "start": 862.63,
+      "duration": 1.87,
+      "text": "他市場的擔憂來自於"
+    },
+    {
+      "start": 864.53,
+      "duration": 1.6,
+      "text": "就沒有人買手機了"
+    },
+    {
+      "start": 866.13,
+      "duration": 0.93,
+      "text": "沒有人買手機"
+    },
+    {
+      "start": 867.07,
+      "duration": 1.0,
+      "text": "消費就衰退了"
+    },
+    {
+      "start": 868.07,
+      "duration": 1.83,
+      "text": "消費衰退廠商就活不下去了"
+    },
+    {
+      "start": 869.9,
+      "duration": 1.5,
+      "text": "但這利潤還是來自於"
+    },
+    {
+      "start": 871.4,
+      "duration": 1.5,
+      "text": "好像我們的企業已經說"
+    },
+    {
+      "start": 872.9,
+      "duration": 0.93,
+      "text": "還是來自於手機"
+    },
+    {
+      "start": 873.83,
+      "duration": 1.23,
+      "text": "但就不是來自於手機"
+    },
+    {
+      "start": 875.07,
+      "duration": 2.73,
+      "text": "就是由於都把貨貢獻給了AI嘛"
+    },
+    {
+      "start": 877.8,
+      "duration": 1.6,
+      "text": "好那第二個角度是"
+    },
+    {
+      "start": 879.4,
+      "duration": 2.43,
+      "text": "那如果是這樣的觀察的話"
+    },
+    {
+      "start": 881.83,
+      "duration": 2.47,
+      "text": "那是不是其實反而更類似於估值輪動"
+    },
+    {
+      "start": 884.3,
+      "duration": 1.53,
+      "text": "他就不像是泡沫破滅哎"
+    },
+    {
+      "start": 885.83,
+      "duration": 1.03,
+      "text": "沒錯其實我們看"
+    },
+    {
+      "start": 886.87,
+      "duration": 2.57,
+      "text": "昨天7巨頭還是有一定的買盤刺激哦"
+    },
+    {
+      "start": 889.43,
+      "duration": 2.2,
+      "text": "代表現在只殺漲高的哦"
+    },
+    {
+      "start": 891.63,
+      "duration": 1.1,
+      "text": "他已經沒漲的"
+    },
+    {
+      "start": 892.73,
+      "duration": 1.57,
+      "text": "基本上也不太殺的動哦"
+    },
+    {
+      "start": 894.4,
+      "duration": 2.07,
+      "text": "像微軟今年已經下跌22%"
+    },
+    {
+      "start": 896.47,
+      "duration": 2.83,
+      "text": "創下2,000年以來的最差單月表現"
+    },
+    {
+      "start": 899.33,
+      "duration": 1.97,
+      "text": "meta 6個月也回落14%"
+    },
+    {
+      "start": 901.47,
+      "duration": 2.47,
+      "text": "阿爾法貝雖然今年還是上漲12%"
+    },
+    {
+      "start": 903.93,
+      "duration": 2.97,
+      "text": "但是基本上也算是跑輸給大盤了"
+    },
+    {
+      "start": 906.9,
+      "duration": 2.37,
+      "text": "相對於費城半導體指數"
+    },
+    {
+      "start": 909.27,
+      "duration": 1.67,
+      "text": "整體漲了88%"
+    },
+    {
+      "start": 910.93,
+      "duration": 1.1,
+      "text": "比較起來"
+    },
+    {
+      "start": 912.1,
+      "duration": 1.03,
+      "text": "你要知道"
+    },
+    {
+      "start": 913.13,
+      "duration": 2.73,
+      "text": "其實今年大多數美股股市期巨頭"
+    },
+    {
+      "start": 915.87,
+      "duration": 1.37,
+      "text": "都已經輸給了大盤"
+    },
+    {
+      "start": 917.23,
+      "duration": 2.03,
+      "text": "更何況拿來跟費半做比較"
+    },
+    {
+      "start": 919.27,
+      "duration": 0.6,
+      "text": "所以"
+    },
+    {
+      "start": 919.87,
+      "duration": 2.2,
+      "text": "這些期巨頭在最近的股價承壓"
+    },
+    {
+      "start": 922.07,
+      "duration": 0.97,
+      "text": "就沒有這麼沉重"
+    },
+    {
+      "start": 923.03,
+      "duration": 2.2,
+      "text": "我們的輝達的確股價還在回檔了"
+    },
+    {
+      "start": 925.23,
+      "duration": 0.6,
+      "text": "但是你也知道"
+    },
+    {
+      "start": 925.83,
+      "duration": 2.0,
+      "text": "他已經畢竟到年線了"
+    },
+    {
+      "start": 927.83,
+      "duration": 1.87,
+      "text": "再跌其實壓力也有限了"
+    },
+    {
+      "start": 929.7,
+      "duration": 2.1,
+      "text": "那除非是大空頭泡沫破滅"
+    },
+    {
+      "start": 931.8,
+      "duration": 1.67,
+      "text": "我們真實要觀察的事情是"
+    },
+    {
+      "start": 933.47,
+      "duration": 2.0,
+      "text": "借由這一次的記憶體股的賣壓"
+    },
+    {
+      "start": 935.47,
+      "duration": 2.43,
+      "text": "引發出市場的新一輪擔憂"
+    },
+    {
+      "start": 937.93,
+      "duration": 2.37,
+      "text": "就重新對於資本支出造成懷疑"
+    },
+    {
+      "start": 940.3,
+      "duration": 0.77,
+      "text": "那你要知道哦"
+    },
+    {
+      "start": 941.07,
+      "duration": 1.53,
+      "text": "我們已經搞了好幾次了"
+    },
+    {
+      "start": 942.6,
+      "duration": 1.33,
+      "text": "每一次他懷疑資本支出"
+    },
+    {
+      "start": 943.93,
+      "duration": 0.73,
+      "text": "收不回來"
+    },
+    {
+      "start": 944.67,
+      "duration": 1.2,
+      "text": "每一次都是買點了"
+    },
+    {
+      "start": 945.87,
+      "duration": 0.6,
+      "text": "幾乎了"
+    },
+    {
+      "start": 946.47,
+      "duration": 1.57,
+      "text": "過去2年來看是如此"
+    },
+    {
+      "start": 948.03,
+      "duration": 2.3,
+      "text": "好所以你十分把握"
+    },
+    {
+      "start": 950.33,
+      "duration": 1.57,
+      "text": "這一次就是泡沫破滅"
+    },
+    {
+      "start": 951.9,
+      "duration": 0.8,
+      "text": "要不然呢"
+    },
+    {
+      "start": 952.87,
+      "duration": 1.53,
+      "text": "從週期角度而言呢"
+    },
+    {
+      "start": 954.4,
+      "duration": 1.0,
+      "text": "它就塑造出了機會"
+    },
+    {
+      "start": 955.4,
+      "duration": 0.73,
+      "text": "廢半不一定嘛"
+    },
+    {
+      "start": 956.13,
+      "duration": 1.1,
+      "text": "你要看它本益比"
+    },
+    {
+      "start": 957.23,
+      "duration": 2.17,
+      "text": "或者它的乖離回檔幅度有多大"
+    },
+    {
+      "start": 959.4,
+      "duration": 1.43,
+      "text": "它回檔空間蠻大的"
+    },
+    {
+      "start": 960.83,
+      "duration": 1.27,
+      "text": "好但是對於納指"
+    },
+    {
+      "start": 962.1,
+      "duration": 1.23,
+      "text": "對於巨頭而言呢"
+    },
+    {
+      "start": 963.4,
+      "duration": 1.23,
+      "text": "哦那就幾乎沒什麼空間"
+    },
+    {
+      "start": 964.63,
+      "duration": 1.97,
+      "text": "那已經跌到低於17層了"
+    },
+    {
+      "start": 966.6,
+      "duration": 1.4,
+      "text": "那很難跌到第18層了"
+    },
+    {
+      "start": 968.0,
+      "duration": 1.87,
+      "text": "這些企業又有穩定的現金流"
+    },
+    {
+      "start": 969.87,
+      "duration": 0.97,
+      "text": "還有護城河"
+    },
+    {
+      "start": 970.87,
+      "duration": 1.47,
+      "text": "那主要觀察的效果是"
+    },
+    {
+      "start": 972.33,
+      "duration": 1.9,
+      "text": "因為這些企業還在借錢"
+    },
+    {
+      "start": 974.23,
+      "duration": 1.77,
+      "text": "所以造成市場的心理擔憂"
+    },
+    {
+      "start": 976.03,
+      "duration": 1.5,
+      "text": "亞馬遜在本周宣佈"
+    },
+    {
+      "start": 977.53,
+      "duration": 3.0,
+      "text": "至少在發行250億美元的公司債"
+    },
+    {
+      "start": 980.53,
+      "duration": 3.37,
+      "text": "為今年龐大的AI基礎建設來籌措資金"
+    },
+    {
+      "start": 983.9,
+      "duration": 1.23,
+      "text": "那如果是這樣看的話"
+    },
+    {
+      "start": 985.13,
+      "duration": 0.9,
+      "text": "等同於"
+    },
+    {
+      "start": 986.23,
+      "duration": 3.0,
+      "text": "今年全球AI相關企業的發債規模"
+    },
+    {
+      "start": 989.23,
+      "duration": 2.57,
+      "text": "已經上升到3,350億了"
+    },
+    {
+      "start": 991.87,
+      "duration": 2.6,
+      "text": "好今年資本支出是8,000-9,000億了"
+    },
+    {
+      "start": 994.53,
+      "duration": 2.2,
+      "text": "哎今年借了3,000億的公司債"
+    },
+    {
+      "start": 996.73,
+      "duration": 1.3,
+      "text": "這件事情就意味著"
+    },
+    {
+      "start": 998.1,
+      "duration": 2.4,
+      "text": "亞馬遜今年的資本支出的走高"
+    },
+    {
+      "start": 1000.5,
+      "duration": 1.93,
+      "text": "已經接近2,000億了"
+    },
+    {
+      "start": 1002.47,
+      "duration": 2.17,
+      "text": "那大家都在透過美元"
+    },
+    {
+      "start": 1004.67,
+      "duration": 1.47,
+      "text": "瑞士法郎"
+    },
+    {
+      "start": 1006.13,
+      "duration": 1.73,
+      "text": "或者我們看到針對日元"
+    },
+    {
+      "start": 1007.87,
+      "duration": 1.07,
+      "text": "來籌集債務"
+    },
+    {
+      "start": 1008.93,
+      "duration": 1.27,
+      "text": "那大家當然會擔心呢"
+    },
+    {
+      "start": 1010.2,
+      "duration": 0.6,
+      "text": "一直舉債"
+    },
+    {
+      "start": 1010.8,
+      "duration": 0.67,
+      "text": "一直舉債"
+    },
+    {
+      "start": 1011.47,
+      "duration": 0.63,
+      "text": "所以我們看到"
+    },
+    {
+      "start": 1012.1,
+      "duration": 0.97,
+      "text": "CDS價格"
+    },
+    {
+      "start": 1013.07,
+      "duration": 2.33,
+      "text": "最近其實也在慢慢的走高當中"
+    },
+    {
+      "start": 1015.6,
+      "duration": 1.5,
+      "text": "如果是借最多的了"
+    },
+    {
+      "start": 1017.13,
+      "duration": 2.9,
+      "text": "亞馬遜是借了800億美元"
+    },
+    {
+      "start": 1020.03,
+      "duration": 2.3,
+      "text": "這個是全球企業最大的融資者"
+    },
+    {
+      "start": 1022.47,
+      "duration": 1.13,
+      "text": "那Google的部分"
+    },
+    {
+      "start": 1023.6,
+      "duration": 2.1,
+      "text": "是借了接近有900億美元"
+    },
+    {
+      "start": 1025.7,
+      "duration": 2.83,
+      "text": "那他主要是把多國貨幣進行分散"
+    },
+    {
+      "start": 1028.6,
+      "duration": 0.73,
+      "text": "相對之下"
+    },
+    {
+      "start": 1029.33,
+      "duration": 1.73,
+      "text": "Meitai甲骨文灰達"
+    },
+    {
+      "start": 1031.07,
+      "duration": 1.87,
+      "text": "主要還是以美元發債為主"
+    },
+    {
+      "start": 1032.93,
+      "duration": 2.7,
+      "text": "好但看得出來大家借錢都不少"
+    },
+    {
+      "start": 1035.63,
+      "duration": 2.43,
+      "text": "那CDS價格在過去一個月"
+    },
+    {
+      "start": 1038.07,
+      "duration": 1.13,
+      "text": "有部分"
+    },
+    {
+      "start": 1039.2,
+      "duration": 1.8,
+      "text": "其實也是開始陸續的走高"
+    },
+    {
+      "start": 1041.0,
+      "duration": 1.1,
+      "text": "那這些訊息"
+    },
+    {
+      "start": 1042.1,
+      "duration": 2.3,
+      "text": "都足以讓市場上有進一步的擔憂"
+    },
+    {
+      "start": 1044.4,
+      "duration": 1.93,
+      "text": "可是我們過去跟投資朋友提過"
+    },
+    {
+      "start": 1046.4,
+      "duration": 2.2,
+      "text": "即便這樣的一個訊息產生以後"
+    },
+    {
+      "start": 1048.6,
+      "duration": 1.23,
+      "text": "對於7巨頭的承壓"
+    },
+    {
+      "start": 1049.83,
+      "duration": 1.6,
+      "text": "其實已經相對沒這麼大了"
+    },
+    {
+      "start": 1051.43,
+      "duration": 2.07,
+      "text": "因為先前根本就沒有怎麼漲到"
+    },
+    {
+      "start": 1053.5,
+      "duration": 2.03,
+      "text": "我們看大摩所給予的報告"
+    },
+    {
+      "start": 1055.53,
+      "duration": 1.17,
+      "text": "給予新一輪的看法"
+    },
+    {
+      "start": 1056.7,
+      "duration": 2.77,
+      "text": "他的看法就是短線減碼半導體"
+    },
+    {
+      "start": 1059.47,
+      "duration": 1.83,
+      "text": "轉向雲端巨頭很落後"
+    },
+    {
+      "start": 1061.3,
+      "duration": 0.97,
+      "text": "補漲股"
+    },
+    {
+      "start": 1062.27,
+      "duration": 1.97,
+      "text": "好這個我們過去一直以來的論調了"
+    },
+    {
+      "start": 1064.23,
+      "duration": 1.0,
+      "text": "當然了報告認為"
+    },
+    {
+      "start": 1065.23,
+      "duration": 2.9,
+      "text": "2025年經濟已經走出了滾動式的衰退"
+    },
+    {
+      "start": 1068.2,
+      "duration": 2.27,
+      "text": "美國企業已經進入新一輪的擴張"
+    },
+    {
+      "start": 1070.47,
+      "duration": 1.47,
+      "text": "所以即便像德銀和"
+    },
+    {
+      "start": 1071.93,
+      "duration": 1.57,
+      "text": "大摩在短線上"
+    },
+    {
+      "start": 1073.5,
+      "duration": 1.7,
+      "text": "似乎都有一點比較保守"
+    },
+    {
+      "start": 1075.2,
+      "duration": 1.07,
+      "text": "或者看空的態度"
+    },
+    {
+      "start": 1076.4,
+      "duration": 0.7,
+      "text": "但都認為"
+    },
+    {
+      "start": 1077.1,
+      "duration": 1.13,
+      "text": "這是週期輪動"
+    },
+    {
+      "start": 1078.23,
+      "duration": 2.03,
+      "text": "資金應該要重新挪回到本"
+    },
+    {
+      "start": 1080.27,
+      "duration": 1.73,
+      "text": "一筆相對低的七巨頭"
+    },
+    {
+      "start": 1082.0,
+      "duration": 1.23,
+      "text": "所以在這樣效果底下"
+    },
+    {
+      "start": 1083.23,
+      "duration": 0.97,
+      "text": "包括Meata宣佈"
+    },
+    {
+      "start": 1084.2,
+      "duration": 2.1,
+      "text": "部分閒置算力對外出租"
+    },
+    {
+      "start": 1086.3,
+      "duration": 1.7,
+      "text": "都被視為大型雲端業者"
+    },
+    {
+      "start": 1088.0,
+      "duration": 1.6,
+      "text": "調整資本支出節奏的訊號"
+    },
+    {
+      "start": 1089.6,
+      "duration": 2.0,
+      "text": "說也許明年就不會投那麼多啦"
+    },
+    {
+      "start": 1091.6,
+      "duration": 1.53,
+      "text": "一方面是技術在進步"
+    },
+    {
+      "start": 1093.13,
+      "duration": 1.17,
+      "text": "另外一方面呢"
+    },
+    {
+      "start": 1094.33,
+      "duration": 2.93,
+      "text": "也許接下來在生產力突破的過程當中"
+    },
+    {
+      "start": 1097.27,
+      "duration": 2.2,
+      "text": "就可以緩步的把錢給收回來"
+    },
+    {
+      "start": 1099.47,
+      "duration": 1.13,
+      "text": "事實上我們知道"
+    },
+    {
+      "start": 1100.6,
+      "duration": 3.33,
+      "text": "把費半拿來跟白銀ETF來做對照"
+    },
+    {
+      "start": 1103.93,
+      "duration": 1.4,
+      "text": "市場上的過去的預估"
+    },
+    {
+      "start": 1105.33,
+      "duration": 2.07,
+      "text": "大概都是約落後4個月"
+    },
+    {
+      "start": 1107.4,
+      "duration": 3.4,
+      "text": "那我們知道銀價或者銅價"
+    },
+    {
+      "start": 1110.8,
+      "duration": 2.53,
+      "text": "作為市場的工業金屬原物料"
+    },
+    {
+      "start": 1113.33,
+      "duration": 3.13,
+      "text": "它通常會對於市場有一定的領先效果"
+    },
+    {
+      "start": 1116.47,
+      "duration": 1.6,
+      "text": "那如果按照這樣效果的話"
+    },
+    {
+      "start": 1118.07,
+      "duration": 2.6,
+      "text": "那的確費半有緩步調整的空間"
+    },
+    {
+      "start": 1120.67,
+      "duration": 1.87,
+      "text": "不過這只是一個淺顯對照了"
+    },
+    {
+      "start": 1122.53,
+      "duration": 0.8,
+      "text": "重點的對照"
+    },
+    {
+      "start": 1123.33,
+      "duration": 1.5,
+      "text": "還是來自於週期輪動"
+    },
+    {
+      "start": 1124.83,
+      "duration": 3.43,
+      "text": "你把半導體股再拿來跟雲端巨頭"
+    },
+    {
+      "start": 1128.27,
+      "duration": 0.57,
+      "text": "概念股"
+    },
+    {
+      "start": 1128.83,
+      "duration": 1.43,
+      "text": "兩者的報酬來做比較"
+    },
+    {
+      "start": 1130.27,
+      "duration": 1.53,
+      "text": "而就是很清楚知道了"
+    },
+    {
+      "start": 1131.8,
+      "duration": 1.73,
+      "text": "雙方輪動的空間"
+    },
+    {
+      "start": 1133.53,
+      "duration": 1.13,
+      "text": "如果開始出現的話"
+    },
+    {
+      "start": 1134.67,
+      "duration": 1.43,
+      "text": "那就說明市場還是穩健的"
+    },
+    {
+      "start": 1136.1,
+      "duration": 0.73,
+      "text": "而現在看起來"
+    },
+    {
+      "start": 1136.83,
+      "duration": 2.3,
+      "text": "就有那麼一丁點輪動的感覺"
+    },
+    {
+      "start": 1139.13,
+      "duration": 0.67,
+      "text": "那當然了"
+    },
+    {
+      "start": 1139.8,
+      "duration": 2.27,
+      "text": "也不代表說現在費半的企業都不好"
+    },
+    {
+      "start": 1142.07,
+      "duration": 1.93,
+      "text": "人家有些本益比還是很低"
+    },
+    {
+      "start": 1144.0,
+      "duration": 1.87,
+      "text": "但是我們講的事情是投資"
+    },
+    {
+      "start": 1145.87,
+      "duration": 1.0,
+      "text": "就是如此"
+    },
+    {
+      "start": 1146.87,
+      "duration": 3.63,
+      "text": "市場上每天都用現在right now的評價"
+    },
+    {
+      "start": 1151.03,
+      "duration": 1.23,
+      "text": "現在的新聞"
+    },
+    {
+      "start": 1152.27,
+      "duration": 2.2,
+      "text": "現在的財報來評價一家公司"
+    },
+    {
+      "start": 1154.47,
+      "duration": 2.17,
+      "text": "但是股價反映的往往不是今天"
+    },
+    {
+      "start": 1156.63,
+      "duration": 2.4,
+      "text": "它是半年一年甚至更久以後"
+    },
+    {
+      "start": 1159.03,
+      "duration": 2.0,
+      "text": "很多人只看到眼前的財報"
+    },
+    {
+      "start": 1161.1,
+      "duration": 1.4,
+      "text": "獲利或者消息"
+    },
+    {
+      "start": 1162.5,
+      "duration": 2.43,
+      "text": "然後就急著要判斷股價的高低"
+    },
+    {
+      "start": 1164.93,
+      "duration": 1.13,
+      "text": "但卻忽略了"
+    },
+    {
+      "start": 1166.07,
+      "duration": 3.67,
+      "text": "市場其實是在提前交易對未來的預期"
+    },
+    {
+      "start": 1169.73,
+      "duration": 2.27,
+      "text": "所以如果你只用當下的數據來看"
+    },
+    {
+      "start": 1172.0,
+      "duration": 1.6,
+      "text": "未來就有可能失真"
+    },
+    {
+      "start": 1173.6,
+      "duration": 1.1,
+      "text": "所以最後我覺得"
+    },
+    {
+      "start": 1174.7,
+      "duration": 1.83,
+      "text": "你對於這些股票有沒有信心呢"
+    },
+    {
+      "start": 1176.87,
+      "duration": 1.23,
+      "text": "已經跌的"
+    },
+    {
+      "start": 1178.1,
+      "duration": 0.9,
+      "text": "比如怪力很高的"
+    },
+    {
+      "start": 1179.0,
+      "duration": 1.3,
+      "text": "那你要勇敢的抱得住"
+    },
+    {
+      "start": 1180.3,
+      "duration": 1.5,
+      "text": "如果你對於AI有信心"
+    },
+    {
+      "start": 1181.87,
+      "duration": 1.07,
+      "text": "那如果你有現金"
+    },
+    {
+      "start": 1182.93,
+      "duration": 1.1,
+      "text": "你等著要加碼的"
+    },
+    {
+      "start": 1184.03,
+      "duration": 1.0,
+      "text": "那也許"
+    },
+    {
+      "start": 1185.03,
+      "duration": 1.03,
+      "text": "尋找一些低基期"
+    },
+    {
+      "start": 1186.07,
+      "duration": 0.77,
+      "text": "有護城河"
+    },
+    {
+      "start": 1186.83,
+      "duration": 2.9,
+      "text": "對賭這些巨頭有一天能夠把錢收回來"
+    },
+    {
+      "start": 1189.73,
+      "duration": 2.0,
+      "text": "往下做下一步的生產力突破"
+    },
+    {
+      "start": 1191.73,
+      "duration": 1.07,
+      "text": "也是一種方式"
+    },
+    {
+      "start": 1192.8,
+      "duration": 1.0,
+      "text": "但最終"
+    },
+    {
+      "start": 1193.8,
+      "duration": 0.67,
+      "text": "要了解說"
+    },
+    {
+      "start": 1194.47,
+      "duration": 2.2,
+      "text": "你不能用現在當下的趨勢"
+    },
+    {
+      "start": 1196.67,
+      "duration": 1.23,
+      "text": "你還沒有看到AI的產出"
+    },
+    {
+      "start": 1197.9,
+      "duration": 1.73,
+      "text": "就斷定AI不能夠成"
+    },
+    {
+      "start": 1200.1,
+      "duration": 1.17,
+      "text": "這是市場上哦"
+    },
+    {
+      "start": 1201.27,
+      "duration": 1.83,
+      "text": "不要去忽略提前交易"
+    },
+    {
+      "start": 1203.1,
+      "duration": 2.43,
+      "text": "對於未來的預期這件事情是很重要的"
+    },
+    {
+      "start": 1206.13,
+      "duration": 1.13,
+      "text": "講兩個男的"
+    },
+    {
+      "start": 1207.73,
+      "duration": 3.73,
+      "text": "兩個兄弟一起在討論男女之事"
+    },
+    {
+      "start": 1211.47,
+      "duration": 1.87,
+      "text": "互相揶揄對方嘛"
+    },
+    {
+      "start": 1213.6,
+      "duration": 1.0,
+      "text": "一個男的就說"
+    },
+    {
+      "start": 1214.6,
+      "duration": 1.4,
+      "text": "哎呀你這副樣子"
+    },
+    {
+      "start": 1216.13,
+      "duration": 1.37,
+      "text": "這麼多年沒見了"
+    },
+    {
+      "start": 1217.53,
+      "duration": 3.37,
+      "text": "一看就知道還是沒經驗的處男"
+    },
+    {
+      "start": 1220.9,
+      "duration": 1.1,
+      "text": "另外一個男的說"
+    },
+    {
+      "start": 1222.23,
+      "duration": 3.2,
+      "text": "哪有我上禮拜之後就不是了"
+    },
+    {
+      "start": 1225.6,
+      "duration": 1.4,
+      "text": "不信你去問你妹妹"
+    },
+    {
+      "start": 1227.27,
+      "duration": 1.23,
+      "text": "哎你別吹牛了"
+    },
+    {
+      "start": 1228.5,
+      "duration": 1.8,
+      "text": "我沒有妹妹"
+    },
+    {
+      "start": 1230.3,
+      "duration": 2.1,
+      "text": "那你十個月之後再去問她"
+    },
+    {
+      "start": 1234.23,
+      "duration": 2.8,
+      "text": "如果你只用當下的數據來看未來"
+    },
+    {
+      "start": 1237.03,
+      "duration": 1.87,
+      "text": "你就很有可能忽略了"
+    },
+    {
+      "start": 1238.9,
+      "duration": 2.1,
+      "text": "真實獲利爆發的成長"
+    },
+    {
+      "start": 1241.0,
+      "duration": 1.8,
+      "text": "你以為抓到了對方的漏洞"
+    },
+    {
+      "start": 1242.8,
+      "duration": 1.2,
+      "text": "卻忽略了"
+    },
+    {
+      "start": 1244.0,
+      "duration": 2.5,
+      "text": "對方談的是另外一個時間的維度哦"
+    },
+    {
+      "start": 1246.5,
+      "duration": 1.17,
+      "text": "成熟的投資哦"
+    },
+    {
+      "start": 1247.67,
+      "duration": 2.67,
+      "text": "不是跟你說分析眼前當下發生了什麼"
+    },
+    {
+      "start": 1250.33,
+      "duration": 3.4,
+      "text": "我們看的都是思考未來可能發生什麼"
+    },
+    {
+      "start": 1253.73,
+      "duration": 1.87,
+      "text": "因為這才是真正影響股價的"
+    },
+    {
+      "start": 1255.67,
+      "duration": 1.07,
+      "text": "並不是現在"
+    },
+    {
+      "start": 1256.73,
+      "duration": 0.9,
+      "text": "是未來好不好"
+    },
+    {
+      "start": 1257.63,
+      "duration": 1.37,
+      "text": "給投資朋友做一些思考"
+    },
+    {
+      "start": 1259.0,
+      "duration": 1.1,
+      "text": "當我們回過頭看"
+    },
+    {
+      "start": 1260.1,
+      "duration": 1.63,
+      "text": "美國股市其實回檔到現在哦"
+    },
+    {
+      "start": 1261.73,
+      "duration": 3.17,
+      "text": "哎乖離就有到那種修正的幅度了好"
+    },
+    {
+      "start": 1264.9,
+      "duration": 2.43,
+      "text": "所以情緒會稍微緩步下來"
+    },
+    {
+      "start": 1267.33,
+      "duration": 1.8,
+      "text": "那量呢也會開始收縮"
+    },
+    {
+      "start": 1269.33,
+      "duration": 2.5,
+      "text": "其實週期投資者最喜歡這種盤了"
+    },
+    {
+      "start": 1271.83,
+      "duration": 0.9,
+      "text": "我們最喜歡的盤"
+    },
+    {
+      "start": 1272.73,
+      "duration": 1.37,
+      "text": "不是暴漲暴跌"
+    },
+    {
+      "start": 1274.1,
+      "duration": 2.9,
+      "text": "盤整盤整大家就會失去耐心"
+    },
+    {
+      "start": 1277.0,
+      "duration": 2.2,
+      "text": "那本益比乖離也會慢慢的修正"
+    },
+    {
+      "start": 1279.2,
+      "duration": 1.7,
+      "text": "道瓊指數下跌130點"
+    },
+    {
+      "start": 1280.9,
+      "duration": 3.17,
+      "text": "0.25%在52,925點"
+    },
+    {
+      "start": 1284.47,
+      "duration": 1.63,
+      "text": "標普五百指數下跌33點"
+    },
+    {
+      "start": 1286.1,
+      "duration": 2.1,
+      "text": "0.45%  收在7,503點"
+    },
+    {
+      "start": 1288.2,
+      "duration": 1.23,
+      "text": "其實也跌得還好"
+    },
+    {
+      "start": 1289.43,
+      "duration": 1.47,
+      "text": "納指下跌三百零二點"
+    },
+    {
+      "start": 1290.9,
+      "duration": 2.73,
+      "text": "1.16% 收在25,818點"
+    },
+    {
+      "start": 1293.67,
+      "duration": 1.6,
+      "text": "納指其實從今年5月份以來"
+    },
+    {
+      "start": 1295.27,
+      "duration": 1.6,
+      "text": "就一直在修正區間了"
+    },
+    {
+      "start": 1297.43,
+      "duration": 1.4,
+      "text": "所以機會一直很多"
+    },
+    {
+      "start": 1298.83,
+      "duration": 1.03,
+      "text": "那現在機會"
+    },
+    {
+      "start": 1299.87,
+      "duration": 0.53,
+      "text": "哦哦"
+    },
+    {
+      "start": 1300.4,
+      "duration": 1.5,
+      "text": "費半好像慢慢出現了"
+    },
+    {
+      "start": 1301.9,
+      "duration": 1.33,
+      "text": "打回到季線了"
+    },
+    {
+      "start": 1303.3,
+      "duration": 1.53,
+      "text": "費半下跌5百九十九點"
+    },
+    {
+      "start": 1304.83,
+      "duration": 3.77,
+      "text": "4.65%收在12,300點"
+    },
+    {
+      "start": 1308.6,
+      "duration": 2.4,
+      "text": "那台積電ADR昨天是下跌4.25%"
+    },
+    {
+      "start": 1311.0,
+      "duration": 2.03,
+      "text": "不過前一天也已經做一些反應了"
+    },
+    {
+      "start": 1313.07,
+      "duration": 1.4,
+      "text": "看一下今天的效果"
+    },
+    {
+      "start": 1315.27,
+      "duration": 0.57,
+      "text": "Spacex哦"
+    },
+    {
+      "start": 1315.83,
+      "duration": 0.63,
+      "text": "因為禮拜二"
+    },
+    {
+      "start": 1316.47,
+      "duration": 3.33,
+      "text": "已經正式被納入到納指100指數當中哦"
+    },
+    {
+      "start": 1319.83,
+      "duration": 2.87,
+      "text": "那距離這家公司在6月12號IPO"
+    },
+    {
+      "start": 1322.73,
+      "duration": 1.87,
+      "text": "也才過15天吧"
+    },
+    {
+      "start": 1324.6,
+      "duration": 3.07,
+      "text": "哦所以\n它是史上最快被納入到指數的公司"
+    },
+    {
+      "start": 1327.67,
+      "duration": 0.73,
+      "text": "哦那當然"
+    },
+    {
+      "start": 1328.4,
+      "duration": 2.7,
+      "text": "接下來\n就要引發數十億美元的被動買盤"
+    },
+    {
+      "start": 1331.1,
+      "duration": 1.2,
+      "text": "陸續的刺激哦"
+    },
+    {
+      "start": 1332.3,
+      "duration": 0.83,
+      "text": "但是我們講說"
+    },
+    {
+      "start": 1333.13,
+      "duration": 2.77,
+      "text": "今天市場的敘事或者概況"
+    },
+    {
+      "start": 1335.93,
+      "duration": 1.5,
+      "text": "其實就是過去幾周"
+    },
+    {
+      "start": 1337.43,
+      "duration": 1.8,
+      "text": "一直重新上演的情況"
+    },
+    {
+      "start": 1339.23,
+      "duration": 2.57,
+      "text": "好就是AI基礎建設"
+    },
+    {
+      "start": 1342.1,
+      "duration": 3.17,
+      "text": "半導體股記憶體股經歷大漲之後"
+    },
+    {
+      "start": 1345.27,
+      "duration": 1.0,
+      "text": "資金開始輪動"
+    },
+    {
+      "start": 1346.27,
+      "duration": 2.27,
+      "text": "那市場對於這些公司的期待"
+    },
+    {
+      "start": 1348.53,
+      "duration": 2.0,
+      "text": "短期內已經難以超越"
+    },
+    {
+      "start": 1350.67,
+      "duration": 1.4,
+      "text": "你太好的樂觀了"
+    },
+    {
+      "start": 1352.07,
+      "duration": 1.87,
+      "text": "那你看現在告訴我你考100分"
+    },
+    {
+      "start": 1353.93,
+      "duration": 0.9,
+      "text": "100分算什麼"
+    },
+    {
+      "start": 1354.83,
+      "duration": 1.17,
+      "text": "我要的是120"
+    },
+    {
+      "start": 1356.0,
+      "duration": 1.5,
+      "text": "好所以就變成這樣的一個效果"
+    },
+    {
+      "start": 1357.5,
+      "duration": 1.33,
+      "text": "好那第三件事情呢"
+    },
+    {
+      "start": 1358.83,
+      "duration": 1.63,
+      "text": "是市場上已經認知到"
+    },
+    {
+      "start": 1360.47,
+      "duration": 0.77,
+      "text": "現在錢"
+    },
+    {
+      "start": 1361.23,
+      "duration": 1.27,
+      "text": "要花在刀口上"
+    },
+    {
+      "start": 1362.5,
+      "duration": 1.97,
+      "text": "花在刀口是很重要的"
+    },
+    {
+      "start": 1364.47,
+      "duration": 1.2,
+      "text": "因為整個中方"
+    },
+    {
+      "start": 1365.67,
+      "duration": 2.57,
+      "text": "陸方陸續推出的AI模型呢"
+    },
+    {
+      "start": 1368.23,
+      "duration": 1.37,
+      "text": "其實已經足以證明著"
+    },
+    {
+      "start": 1369.6,
+      "duration": 0.73,
+      "text": "AI差不多"
+    },
+    {
+      "start": 1370.33,
+      "duration": 3.17,
+      "text": "要準備進行大規模的企業採用"
+    },
+    {
+      "start": 1373.5,
+      "duration": 2.3,
+      "text": "來推升內部生產力的效果"
+    },
+    {
+      "start": 1375.8,
+      "duration": 2.73,
+      "text": "事實上\n我們看到中國企業在最近一段時間呢"
+    },
+    {
+      "start": 1378.53,
+      "duration": 2.8,
+      "text": "持續加速採用國產晶片"
+    },
+    {
+      "start": 1381.33,
+      "duration": 1.07,
+      "text": "所以輝達的試戰呢"
+    },
+    {
+      "start": 1382.4,
+      "duration": 2.07,
+      "text": "在中國市場是節節敗退哦"
+    },
+    {
+      "start": 1384.57,
+      "duration": 0.37,
+      "text": "當然了"
+    },
+    {
+      "start": 1384.93,
+      "duration": 2.77,
+      "text": "他這敗退也不是因為競爭上的敗退"
+    },
+    {
+      "start": 1387.7,
+      "duration": 3.3,
+      "text": "主要就是在國產化政策的影響底下"
+    },
+    {
+      "start": 1391.0,
+      "duration": 1.6,
+      "text": "對於輝達的需求產品呢"
+    },
+    {
+      "start": 1392.6,
+      "duration": 0.8,
+      "text": "持續的收縮"
+    },
+    {
+      "start": 1393.4,
+      "duration": 2.5,
+      "text": "那反而對於超微的需求開始拉升了"
+    },
+    {
+      "start": 1396.03,
+      "duration": 2.9,
+      "text": "我們看受訪來自於60位軟體"
+    },
+    {
+      "start": 1398.93,
+      "duration": 2.6,
+      "text": "金融和製造和零售的高階主管表示"
+    },
+    {
+      "start": 1401.53,
+      "duration": 1.13,
+      "text": "未來12個月"
+    },
+    {
+      "start": 1402.67,
+      "duration": 3.93,
+      "text": "會有46%的AI加速器採購預算投入中國"
+    },
+    {
+      "start": 1406.6,
+      "duration": 1.0,
+      "text": "國產產品呢"
+    },
+    {
+      "start": 1407.6,
+      "duration": 2.07,
+      "text": "已經明顯高於現在的3十%"
+    },
+    {
+      "start": 1409.7,
+      "duration": 0.63,
+      "text": "好這也說明的"
+    },
+    {
+      "start": 1410.33,
+      "duration": 2.33,
+      "text": "中國企業正在以非常驚人的速度"
+    },
+    {
+      "start": 1412.67,
+      "duration": 2.07,
+      "text": "降低對於美國晶片的依賴"
+    },
+    {
+      "start": 1414.73,
+      "duration": 2.07,
+      "text": "社會廠商有華為"
+    },
+    {
+      "start": 1416.8,
+      "duration": 2.23,
+      "text": "有海光寒武紀騰訊"
+    },
+    {
+      "start": 1419.03,
+      "duration": 2.7,
+      "text": "哎其實部分超維的AI制服器"
+    },
+    {
+      "start": 1421.73,
+      "duration": 1.2,
+      "text": "其實也被採用了"
+    },
+    {
+      "start": 1422.93,
+      "duration": 2.93,
+      "text": "那中國也在大舉的擴張AI基礎建設"
+    },
+    {
+      "start": 1425.9,
+      "duration": 2.73,
+      "text": "官方預估未來會投入兩兆人民幣"
+    },
+    {
+      "start": 1428.7,
+      "duration": 1.9,
+      "text": "國際美元是3,000億左右"
+    },
+    {
+      "start": 1430.6,
+      "duration": 1.43,
+      "text": "新建全國資料中心"
+    },
+    {
+      "start": 1432.03,
+      "duration": 2.37,
+      "text": "而且要求80%的核心技術"
+    },
+    {
+      "start": 1434.4,
+      "duration": 1.47,
+      "text": "採用本土供應鏈"
+    },
+    {
+      "start": 1435.87,
+      "duration": 2.2,
+      "text": "那在持續性的堆疊效果底下"
+    },
+    {
+      "start": 1438.07,
+      "duration": 1.97,
+      "text": "美中之間的資料中心競賽"
+    },
+    {
+      "start": 1440.03,
+      "duration": 1.1,
+      "text": "它有兩個好處"
+    },
+    {
+      "start": 1441.13,
+      "duration": 0.87,
+      "text": "第一個好處就是哎"
+    },
+    {
+      "start": 1442.0,
+      "duration": 0.87,
+      "text": "應該講說一個好處"
+    },
+    {
+      "start": 1442.87,
+      "duration": 1.0,
+      "text": "一個壞處"
+    },
+    {
+      "start": 1443.87,
+      "duration": 1.0,
+      "text": "第一個好處就是"
+    },
+    {
+      "start": 1445.5,
+      "duration": 0.97,
+      "text": "這次的AI"
+    },
+    {
+      "start": 1446.47,
+      "duration": 2.27,
+      "text": "它不是民間自行的研發"
+    },
+    {
+      "start": 1448.73,
+      "duration": 1.57,
+      "text": "或者資料中心的建制"
+    },
+    {
+      "start": 1450.3,
+      "duration": 2.4,
+      "text": "然後最後迎來泡沫破滅的考驗哦"
+    },
+    {
+      "start": 1452.87,
+      "duration": 1.27,
+      "text": "這一次的AI"
+    },
+    {
+      "start": 1454.13,
+      "duration": 3.07,
+      "text": "它有非常深度國家隊的參與影子哦"
+    },
+    {
+      "start": 1457.3,
+      "duration": 1.8,
+      "text": "除非中國政府不撒錢了"
+    },
+    {
+      "start": 1459.13,
+      "duration": 2.9,
+      "text": "除非美國政府對於AI的需求拉抬"
+    },
+    {
+      "start": 1462.03,
+      "duration": 0.87,
+      "text": "不存在了"
+    },
+    {
+      "start": 1463.0,
+      "duration": 0.43,
+      "text": "要不然呢"
+    },
+    {
+      "start": 1463.43,
+      "duration": 1.83,
+      "text": "他背後有一隻有形的手"
+    },
+    {
+      "start": 1465.27,
+      "duration": 1.17,
+      "text": "以前是無形的手嘛"
+    },
+    {
+      "start": 1466.43,
+      "duration": 1.03,
+      "text": "市場交易嘛"
+    },
+    {
+      "start": 1467.53,
+      "duration": 1.8,
+      "text": "現在是一隻有形的手"
+    },
+    {
+      "start": 1469.33,
+      "duration": 2.07,
+      "text": "正在推動著AI的進程"
+    },
+    {
+      "start": 1471.43,
+      "duration": 0.87,
+      "text": "那第二件事情呢"
+    },
+    {
+      "start": 1472.3,
+      "duration": 0.8,
+      "text": "那就是"
+    },
+    {
+      "start": 1473.1,
+      "duration": 2.23,
+      "text": "那就說明著AI的成本"
+    },
+    {
+      "start": 1475.53,
+      "duration": 1.4,
+      "text": "以及他創造的效用"
+    },
+    {
+      "start": 1476.93,
+      "duration": 1.0,
+      "text": "接下來就很重要了"
+    },
+    {
+      "start": 1477.93,
+      "duration": 1.77,
+      "text": "不能夠無條件的撒錢呢"
+    },
+    {
+      "start": 1479.7,
+      "duration": 1.77,
+      "text": "而且我們也過去提到嗎"
+    },
+    {
+      "start": 1481.47,
+      "duration": 2.6,
+      "text": "投500億在中國市場做資料中心"
+    },
+    {
+      "start": 1484.07,
+      "duration": 2.6,
+      "text": "跟投500億在美國市場做資料中心"
+    },
+    {
+      "start": 1486.7,
+      "duration": 1.37,
+      "text": "概出來是一樣的嗎"
+    },
+    {
+      "start": 1488.07,
+      "duration": 2.47,
+      "text": "假設沒有什麼技術的壁壘"
+    },
+    {
+      "start": 1490.53,
+      "duration": 1.47,
+      "text": "基本上我們很清楚知道"
+    },
+    {
+      "start": 1492.0,
+      "duration": 2.9,
+      "text": "500塊在中國能夠吃到的晚餐"
+    },
+    {
+      "start": 1494.9,
+      "duration": 1.43,
+      "text": "跟在美國能夠吃到的晚餐"
+    },
+    {
+      "start": 1496.33,
+      "duration": 1.5,
+      "text": "那完全是不同階級嘛"
+    },
+    {
+      "start": 1497.83,
+      "duration": 2.47,
+      "text": "好所以這件事情也說明著這個錢"
+    },
+    {
+      "start": 1500.3,
+      "duration": 2.2,
+      "text": "的體量和它的效率都很重要"
+    },
+    {
+      "start": 1502.5,
+      "duration": 1.13,
+      "text": "我們仔細觀察"
+    },
+    {
+      "start": 1503.63,
+      "duration": 1.5,
+      "text": "像最近我們觀察到"
+    },
+    {
+      "start": 1505.13,
+      "duration": 3.97,
+      "text": "美國在燃煤燃氣的發電投資哦"
+    },
+    {
+      "start": 1509.1,
+      "duration": 2.6,
+      "text": "在今年居然已經正式超過中國"
+    },
+    {
+      "start": 1511.7,
+      "duration": 0.73,
+      "text": "這很難想像"
+    },
+    {
+      "start": 1512.43,
+      "duration": 1.17,
+      "text": "因為中國人口這麼多"
+    },
+    {
+      "start": 1513.6,
+      "duration": 1.5,
+      "text": "能源需求是很龐大的"
+    },
+    {
+      "start": 1515.13,
+      "duration": 2.73,
+      "text": "但是美國企業在今年的投資總額"
+    },
+    {
+      "start": 1517.87,
+      "duration": 2.37,
+      "text": "比中國大概高出了30億美元"
+    },
+    {
+      "start": 1520.23,
+      "duration": 2.1,
+      "text": "來到500億美元的規模"
+    },
+    {
+      "start": 1522.33,
+      "duration": 0.33,
+      "text": "那當然"
+    },
+    {
+      "start": 1522.67,
+      "duration": 3.07,
+      "text": "剛才提到500億美元規模的建設量"
+    },
+    {
+      "start": 1525.73,
+      "duration": 2.27,
+      "text": "是不代表未來的發電量會超越中國"
+    },
+    {
+      "start": 1528.0,
+      "duration": 2.07,
+      "text": "至少在本輪投資看起來也不會"
+    },
+    {
+      "start": 1530.07,
+      "duration": 1.73,
+      "text": "500億美元在美國能夠做的事情"
+    },
+    {
+      "start": 1531.8,
+      "duration": 1.5,
+      "text": "跟在中國做的事情差很多"
+    },
+    {
+      "start": 1533.3,
+      "duration": 3.2,
+      "text": "可是你至少可以觀察到整個24年到25年"
+    },
+    {
+      "start": 1536.5,
+      "duration": 2.8,
+      "text": "美國的電網和電力升級幅度有多大"
+    },
+    {
+      "start": 1539.33,
+      "duration": 1.27,
+      "text": "那第二件事情"
+    },
+    {
+      "start": 1540.6,
+      "duration": 1.8,
+      "text": "中方的另外一層優勢"
+    },
+    {
+      "start": 1542.4,
+      "duration": 1.73,
+      "text": "在於我們清楚知道"
+    },
+    {
+      "start": 1544.13,
+      "duration": 2.13,
+      "text": "政策連貫性的效率性"
+    },
+    {
+      "start": 1546.27,
+      "duration": 1.73,
+      "text": "他會犧牲民眾的權益"
+    },
+    {
+      "start": 1548.0,
+      "duration": 1.93,
+      "text": "來換來國家政策的推進"
+    },
+    {
+      "start": 1549.93,
+      "duration": 1.67,
+      "text": "而現在我們看"
+    },
+    {
+      "start": 1551.6,
+      "duration": 0.53,
+      "text": "黑石"
+    },
+    {
+      "start": 1552.13,
+      "duration": 2.93,
+      "text": "才剛剛退出維吉尼亞州的最大型"
+    },
+    {
+      "start": 1555.07,
+      "duration": 1.83,
+      "text": "超大的資料中心開發案呢"
+    },
+    {
+      "start": 1556.9,
+      "duration": 3.0,
+      "text": "這個開發案本來是接近2,100英畝"
+    },
+    {
+      "start": 1559.9,
+      "duration": 1.8,
+      "text": "大概是5850公頃"
+    },
+    {
+      "start": 1561.7,
+      "duration": 2.4,
+      "text": "預估要新建37座資料中心"
+    },
+    {
+      "start": 1564.1,
+      "duration": 1.97,
+      "text": "結果黑石居然撤資了"
+    },
+    {
+      "start": 1566.1,
+      "duration": 2.13,
+      "text": "撤資的原因並不是不看好AI"
+    },
+    {
+      "start": 1568.4,
+      "duration": 1.4,
+      "text": "是因為維吉尼亞州"
+    },
+    {
+      "start": 1569.8,
+      "duration": 1.4,
+      "text": "現在在過去兩年"
+    },
+    {
+      "start": 1571.2,
+      "duration": 1.73,
+      "text": "屢遭居民的抗議"
+    },
+    {
+      "start": 1572.93,
+      "duration": 0.93,
+      "text": "法律訴訟"
+    },
+    {
+      "start": 1573.87,
+      "duration": 0.6,
+      "text": "土地爭議"
+    },
+    {
+      "start": 1574.47,
+      "duration": 0.87,
+      "text": "哦那我們要知道"
+    },
+    {
+      "start": 1575.33,
+      "duration": 1.07,
+      "text": "如果維吉尼亞州"
+    },
+    {
+      "start": 1576.4,
+      "duration": 1.47,
+      "text": "接下來潿洲"
+    },
+    {
+      "start": 1577.87,
+      "duration": 3.13,
+      "text": "可能採取更進一步的州監管政策"
+    },
+    {
+      "start": 1581.0,
+      "duration": 1.87,
+      "text": "導致資料中心新建速度放慢"
+    },
+    {
+      "start": 1582.87,
+      "duration": 0.93,
+      "text": "那你要知道"
+    },
+    {
+      "start": 1583.83,
+      "duration": 3.63,
+      "text": "全美國現在的商用能源設施"
+    },
+    {
+      "start": 1587.47,
+      "duration": 1.73,
+      "text": "剔除維吉尼亞州以後"
+    },
+    {
+      "start": 1589.2,
+      "duration": 1.87,
+      "text": "幾乎就跟疫情以前差不多了"
+    },
+    {
+      "start": 1591.07,
+      "duration": 1.67,
+      "text": "所以維琪尼亞州未來的表態"
+    },
+    {
+      "start": 1592.73,
+      "duration": 0.97,
+      "text": "就非常非常重要"
+    },
+    {
+      "start": 1593.7,
+      "duration": 0.93,
+      "text": "了好畢竟"
+    },
+    {
+      "start": 1594.63,
+      "duration": 2.97,
+      "text": "好像美中雙方還在國內上有所競爭哦"
+    },
+    {
+      "start": 1597.6,
+      "duration": 0.67,
+      "text": "那當然"
+    },
+    {
+      "start": 1598.27,
+      "duration": 2.93,
+      "text": "這也說明著未來的競爭要求哦"
+    },
+    {
+      "start": 1601.6,
+      "duration": 2.6,
+      "text": "大家可能不會只在本土上來做新建"
+    },
+    {
+      "start": 1604.2,
+      "duration": 0.93,
+      "text": "可能會往外"
+    },
+    {
+      "start": 1605.13,
+      "duration": 0.8,
+      "text": "像美國的部分"
+    },
+    {
+      "start": 1605.93,
+      "duration": 0.57,
+      "text": "到目前為止"
+    },
+    {
+      "start": 1606.5,
+      "duration": 1.57,
+      "text": "幾乎還鎖定在美國本土"
+    },
+    {
+      "start": 1608.07,
+      "duration": 1.37,
+      "text": "這是川普的要求"
+    },
+    {
+      "start": 1609.43,
+      "duration": 1.4,
+      "text": "但是在南美洲的部分"
+    },
+    {
+      "start": 1610.83,
+      "duration": 0.83,
+      "text": "我們看這一次"
+    },
+    {
+      "start": 1611.67,
+      "duration": 3.73,
+      "text": "抖音位元組跳動已經斥資390億美元"
+    },
+    {
+      "start": 1615.4,
+      "duration": 1.03,
+      "text": "直接在巴西"
+    },
+    {
+      "start": 1616.43,
+      "duration": 2.63,
+      "text": "打造中國最大的海外資料中心"
+    },
+    {
+      "start": 1619.07,
+      "duration": 1.67,
+      "text": "預估投資400億美元"
+    },
+    {
+      "start": 1620.73,
+      "duration": 2.27,
+      "text": "這做廠區會有20座的資料中心廠房"
+    },
+    {
+      "start": 1623.0,
+      "duration": 0.47,
+      "text": "為什麼呢"
+    },
+    {
+      "start": 1623.47,
+      "duration": 2.97,
+      "text": "因為巴西有90%的"
+    },
+    {
+      "start": 1626.67,
+      "duration": 0.4,
+      "text": "應該來說"
+    },
+    {
+      "start": 1627.07,
+      "duration": 1.63,
+      "text": "90%來自於再生能源"
+    },
+    {
+      "start": 1628.7,
+      "duration": 1.23,
+      "text": "有水力發電"
+    },
+    {
+      "start": 1629.93,
+      "duration": 0.87,
+      "text": "有風力發電"
+    },
+    {
+      "start": 1630.8,
+      "duration": 0.7,
+      "text": "太陽能發電"
+    },
+    {
+      "start": 1631.5,
+      "duration": 1.5,
+      "text": "然後能源又過剩了"
+    },
+    {
+      "start": 1633.0,
+      "duration": 0.83,
+      "text": "所以阿裡巴巴呢"
+    },
+    {
+      "start": 1633.83,
+      "duration": 2.9,
+      "text": "就租用巴西的大型AI資料中心呢"
+    },
+    {
+      "start": 1636.73,
+      "duration": 3.37,
+      "text": "來吸引中美科技巨頭來做進駐哦"
+    },
+    {
+      "start": 1640.1,
+      "duration": 1.2,
+      "text": "那這些效果"
+    },
+    {
+      "start": 1641.3,
+      "duration": 1.73,
+      "text": "基本都是彰顯著"
+    },
+    {
+      "start": 1643.13,
+      "duration": 1.7,
+      "text": "未來雙方的治療中心"
+    },
+    {
+      "start": 1644.83,
+      "duration": 1.67,
+      "text": "在國家隊的一個幫助"
+    },
+    {
+      "start": 1646.9,
+      "duration": 2.9,
+      "text": "可是往往另外一個方向走"
+    },
+    {
+      "start": 1649.8,
+      "duration": 1.8,
+      "text": "之所以大家會對於巨頭"
+    },
+    {
+      "start": 1651.6,
+      "duration": 1.83,
+      "text": "還是抱持著比較戒慎恐懼"
+    },
+    {
+      "start": 1653.43,
+      "duration": 1.87,
+      "text": "敢買但是又不敢買太多"
+    },
+    {
+      "start": 1655.3,
+      "duration": 1.37,
+      "text": "一個根本原因就來自於"
+    },
+    {
+      "start": 1656.67,
+      "duration": 2.23,
+      "text": "目前AI TOKEN的支出指數"
+    },
+    {
+      "start": 1658.9,
+      "duration": 1.53,
+      "text": "和雲端巨頭的股價"
+    },
+    {
+      "start": 1660.43,
+      "duration": 2.07,
+      "text": "在過去幾個月是高度的同步"
+    },
+    {
+      "start": 1662.5,
+      "duration": 2.73,
+      "text": "這也反映出市場對於AI算力的需求"
+    },
+    {
+      "start": 1665.23,
+      "duration": 3.2,
+      "text": "和科技估值之間存在的緊密關係"
+    },
+    {
+      "start": 1668.43,
+      "duration": 1.37,
+      "text": "那現在兩者同步回落"
+    },
+    {
+      "start": 1669.8,
+      "duration": 1.0,
+      "text": "就說明著"
+    },
+    {
+      "start": 1671.03,
+      "duration": 1.57,
+      "text": "企業在購買TOKEN"
+    },
+    {
+      "start": 1672.6,
+      "duration": 2.43,
+      "text": "訓練模型以及推理的需求增速"
+    },
+    {
+      "start": 1675.03,
+      "duration": 0.97,
+      "text": "似乎稍微有點放緩"
+    },
+    {
+      "start": 1676.0,
+      "duration": 1.1,
+      "text": "是增速放緩哦"
+    },
+    {
+      "start": 1677.1,
+      "duration": 0.93,
+      "text": "不代表衰退哦"
+    },
+    {
+      "start": 1678.03,
+      "duration": 2.0,
+      "text": "而是稍微緩了一點點呢"
+    },
+    {
+      "start": 1680.03,
+      "duration": 1.9,
+      "text": "因為大家已經開始去聚焦哎"
+    },
+    {
+      "start": 1681.93,
+      "duration": 1.67,
+      "text": "有沒有更便宜的TOKEN"
+    },
+    {
+      "start": 1683.6,
+      "duration": 1.23,
+      "text": "更便宜的AI模型"
+    },
+    {
+      "start": 1684.83,
+      "duration": 0.97,
+      "text": "可以來讓我做使"
+    },
+    {
+      "start": 1685.8,
+      "duration": 2.3,
+      "text": "用呢我們把瑞銀的報告拿出來看"
+    },
+    {
+      "start": 1688.1,
+      "duration": 2.93,
+      "text": "現在中國的AI模型在訓練看推論"
+    },
+    {
+      "start": 1691.33,
+      "duration": 1.9,
+      "text": "推論上的成本優勢"
+    },
+    {
+      "start": 1693.23,
+      "duration": 1.83,
+      "text": "在訓練端層面"
+    },
+    {
+      "start": 1695.13,
+      "duration": 2.37,
+      "text": "大概僅僅只有美國的1/10左右"
+    },
+    {
+      "start": 1697.53,
+      "duration": 2.7,
+      "text": "那同時透過較小模型的規模"
+    },
+    {
+      "start": 1700.23,
+      "duration": 2.97,
+      "text": "較低的GPU使用成本和開源生態"
+    },
+    {
+      "start": 1703.2,
+      "duration": 1.8,
+      "text": "它可以帶來共用成果"
+    },
+    {
+      "start": 1705.0,
+      "duration": 1.7,
+      "text": "所降低的訓練支出"
+    },
+    {
+      "start": 1706.7,
+      "duration": 1.17,
+      "text": "在這樣效果底下"
+    },
+    {
+      "start": 1707.87,
+      "duration": 1.17,
+      "text": "等同於除非"
+    },
+    {
+      "start": 1709.03,
+      "duration": 3.57,
+      "text": "你是要做最先進的前沿模型的使用"
+    },
+    {
+      "start": 1712.6,
+      "duration": 2.27,
+      "text": "但是如果是基本傳統客服"
+    },
+    {
+      "start": 1714.87,
+      "duration": 2.97,
+      "text": "真的不一定要完全考慮用切的GBT"
+    },
+    {
+      "start": 1717.83,
+      "duration": 2.5,
+      "text": "或者GMN相關的導入鍵"
+    },
+    {
+      "start": 1720.33,
+      "duration": 1.0,
+      "text": "你像彭博"
+    },
+    {
+      "start": 1721.33,
+      "duration": 2.37,
+      "text": "我記得是跟open AI做合作嘛"
+    },
+    {
+      "start": 1723.7,
+      "duration": 2.0,
+      "text": "很多美系企業都是選美國本土的哦"
+    },
+    {
+      "start": 1725.7,
+      "duration": 4.23,
+      "text": "可是你像Airnb或者部分的一些電商"
+    },
+    {
+      "start": 1730.0,
+      "duration": 1.4,
+      "text": "或者一些旅遊平臺"
+    },
+    {
+      "start": 1731.4,
+      "duration": 1.9,
+      "text": "基本上可能都是採用DeepSeek"
+    },
+    {
+      "start": 1733.43,
+      "duration": 2.47,
+      "text": "或者採用阿里千問模型"
+    },
+    {
+      "start": 1735.9,
+      "duration": 2.6,
+      "text": "事實上\n我們看中美雙方的AI模型能力哦"
+    },
+    {
+      "start": 1738.53,
+      "duration": 1.17,
+      "text": "還是有一定的落差"
+    },
+    {
+      "start": 1739.7,
+      "duration": 1.37,
+      "text": "在城市編碼當中"
+    },
+    {
+      "start": 1741.07,
+      "duration": 2.73,
+      "text": "Anthropic和open AI基本上還是前半端哦"
+    },
+    {
+      "start": 1743.8,
+      "duration": 3.07,
+      "text": "但中國模型也算是擠進了第一梯隊了"
+    },
+    {
+      "start": 1746.87,
+      "duration": 1.53,
+      "text": "好像阿裡的千問"
+    },
+    {
+      "start": 1748.4,
+      "duration": 1.27,
+      "text": "DeepSeek v four"
+    },
+    {
+      "start": 1749.67,
+      "duration": 3.93,
+      "text": "Kimi的2.6 還有智普V2.5 Pro"
+    },
+    {
+      "start": 1753.6,
+      "duration": 2.5,
+      "text": "GLN的5.1 所以看得出來"
+    },
+    {
+      "start": 1756.1,
+      "duration": 0.8,
+      "text": "雙方"
+    },
+    {
+      "start": 1756.9,
+      "duration": 2.0,
+      "text": "雖然還是有比較明顯的差距哦"
+    },
+    {
+      "start": 1758.9,
+      "duration": 2.17,
+      "text": "可是接下來就是性價比的選擇"
+    },
+    {
+      "start": 1761.07,
+      "duration": 2.13,
+      "text": "那這些CP值的選擇"
+    },
+    {
+      "start": 1763.2,
+      "duration": 2.63,
+      "text": "未來可能就會形成市場上"
+    },
+    {
+      "start": 1765.83,
+      "duration": 2.87,
+      "text": "下一輪在估值層面的投射"
+    },
+    {
+      "start": 1768.7,
+      "duration": 1.9,
+      "text": "就是市場來的更加精明了"
+    },
+    {
+      "start": 1770.6,
+      "duration": 0.9,
+      "text": "我們對於廢飯"
+    },
+    {
+      "start": 1771.5,
+      "duration": 1.73,
+      "text": "我們不能夠無條件看好了"
+    },
+    {
+      "start": 1773.23,
+      "duration": 1.23,
+      "text": "我們要用合理的本意"
+    },
+    {
+      "start": 1774.47,
+      "duration": 1.57,
+      "text": "比合理的增長預期"
+    },
+    {
+      "start": 1776.03,
+      "duration": 2.83,
+      "text": "來判斷三星海力士的評價該有多少"
+    },
+    {
+      "start": 1778.87,
+      "duration": 1.07,
+      "text": "這第一件事情"
+    },
+    {
+      "start": 1779.93,
+      "duration": 1.0,
+      "text": "那第二件事情呢"
+    },
+    {
+      "start": 1780.93,
+      "duration": 1.67,
+      "text": "我們對於科技股的評價"
+    },
+    {
+      "start": 1782.6,
+      "duration": 1.3,
+      "text": "尤其是巨頭的評價"
+    },
+    {
+      "start": 1783.9,
+      "duration": 2.3,
+      "text": "也來的更為損失"
+    },
+    {
+      "start": 1786.2,
+      "duration": 1.0,
+      "text": "更為謹慎了"
+    },
+    {
+      "start": 1787.2,
+      "duration": 2.7,
+      "text": "一方面我要知道你投的這麼多錢"
+    },
+    {
+      "start": 1789.9,
+      "duration": 1.4,
+      "text": "你投一樣的錢"
+    },
+    {
+      "start": 1791.4,
+      "duration": 2.0,
+      "text": "跟投在中國市場一樣的錢"
+    },
+    {
+      "start": 1793.4,
+      "duration": 3.13,
+      "text": "誰能夠更進一步生產效率的回饋呢"
+    },
+    {
+      "start": 1796.53,
+      "duration": 3.1,
+      "text": "除非你能夠給我更多的生產力的提升"
+    },
+    {
+      "start": 1799.63,
+      "duration": 0.97,
+      "text": "可能是自駕車"
+    },
+    {
+      "start": 1800.6,
+      "duration": 1.53,
+      "text": "可能是機器人的運用"
+    },
+    {
+      "start": 1802.13,
+      "duration": 0.47,
+      "text": "可能是"
+    },
+    {
+      "start": 1802.6,
+      "duration": 3.1,
+      "text": "我們需要某種更爆發性的算力需求"
+    },
+    {
+      "start": 1805.9,
+      "duration": 1.0,
+      "text": "第三件事情"
+    },
+    {
+      "start": 1806.9,
+      "duration": 0.93,
+      "text": "這也說明著"
+    },
+    {
+      "start": 1807.83,
+      "duration": 2.8,
+      "text": "市場上不管針對硬體股還是軟體股"
+    },
+    {
+      "start": 1810.63,
+      "duration": 1.83,
+      "text": "都有一個更公允的評價"
+    },
+    {
+      "start": 1812.47,
+      "duration": 2.37,
+      "text": "那我們只要確保資本支出還在增長"
+    },
+    {
+      "start": 1814.83,
+      "duration": 2.27,
+      "text": "但是呢上升幅度沒這麼快了"
+    },
+    {
+      "start": 1817.1,
+      "duration": 1.8,
+      "text": "他始終是一個估值回檔"
+    },
+    {
+      "start": 1818.9,
+      "duration": 1.9,
+      "text": "而並不是泡沫破滅的開始"
+    },
+    {
+      "start": 1820.8,
+      "duration": 2.0,
+      "text": "所以行情走到這個地步"
+    },
+    {
+      "start": 1822.8,
+      "duration": 1.5,
+      "text": "難免還是要睡公園的"
+    },
+    {
+      "start": 1824.3,
+      "duration": 2.13,
+      "text": "可是公園睡了一陣子以後"
+    },
+    {
+      "start": 1826.43,
+      "duration": 1.43,
+      "text": "終究還是要回飯店的"
+    },
+    {
+      "start": 1827.87,
+      "duration": 1.73,
+      "text": "我們已經撐了這麼多年了"
+    },
+    {
+      "start": 1829.6,
+      "duration": 0.9,
+      "text": "好記住"
+    },
+    {
+      "start": 1830.5,
+      "duration": 1.8,
+      "text": "要看對趨勢"
+    },
+    {
+      "start": 1832.3,
+      "duration": 1.8,
+      "text": "但是不要死在波動"
+    },
+    {
+      "start": 1834.1,
+      "duration": 1.93,
+      "text": "不要死在波動的方式很簡單"
+    },
+    {
+      "start": 1836.03,
+      "duration": 2.97,
+      "text": "我就是每一次睡公園都有防蚊液"
+    },
+    {
+      "start": 1839.07,
+      "duration": 1.97,
+      "text": "都有帶語句不要受傷"
+    },
+    {
+      "start": 1841.1,
+      "duration": 2.3,
+      "text": "不要睡了一次公園就永遠待在公園"
+    },
+    {
+      "start": 1843.4,
+      "duration": 1.8,
+      "text": "要好好保養自己的身體"
+    },
+    {
+      "start": 1845.2,
+      "duration": 2.0,
+      "text": "有一天我們要重返飯店好不好"
+    },
+    {
+      "start": 1847.2,
+      "duration": 1.3,
+      "text": "給投資朋友做一些思考"
+    },
+    {
+      "start": 1848.5,
+      "duration": 1.5,
+      "text": "台股上漲290點"
+    },
+    {
+      "start": 1850.0,
+      "duration": 2.23,
+      "text": "收在45,769點"
+    },
+    {
+      "start": 1852.23,
+      "duration": 0.63,
+      "text": "如果喜歡我們節目"
+    },
+    {
+      "start": 1852.87,
+      "duration": 1.23,
+      "text": "就幫我們訂閱按讚加分享"
+    },
+    {
+      "start": 1854.1,
+      "duration": 1.57,
+      "text": "我們就明天早上8點半早晨"
+    },
+    {
+      "start": 1855.67,
+      "duration": 1.43,
+      "text": "財經速解讀再相見"
+    },
+    {
+      "start": 1857.1,
+      "duration": 1.33,
+      "text": "祝各位投資朋友看盤順利"
+    },
+    {
+      "start": 1858.43,
+      "duration": 0.8,
+      "text": "操盤愉快"
+    }
+  ],
+  "text": "投資朋友 歡迎收聽早晨財經速解讀 現在是臺北時間2026年7月8號 禮拜三早上八點三十二分 大家早安 我是游庭皓 每天早上開盤前半小時 我們在這邊陪伴著各位 一起解讀國際財經新聞 時事變化 講到哽咽 各位公園董 早安 這一次回公園記得要帶雨具 颱風要來了 我們看這一次亞洲股市和美國股市 晶片股同步下跌 即便哦這一次 三星公佈了極度亮麗的財報表現呢 仍然無法受得市場上 更進一步的資金回補 我們看 美國股市集體昨天也殺得蠻重的 美光下跌了4.7% Sandisk昨天下跌7.3% 整個費半總跌幅是4.6% 今年本來累計漲幅還接近100% 哎現在收斂到漲幅只剩下74%了 那等同於過程當中費半的波動率 跌個兩成3成都算是正常 均值回檔了 即便三星公佈了創記錄的獲利 也未能夠帶動AI晶片股 嘗試的走穩 反而形成系統性的承壓 當然了每一次股市下跌之後 鬼故事又重新歸來 現在大家又開始重新懷疑 數千億美元的資料中心AI基礎建設 是否能夠帶來足夠的回報 我們看到德意志銀行以及美銀呢 都陸續發佈報告 來擔憂 市場是否有進一步估值回檔的空間 好所以反而是股市下跌 空頭的報導就陸續出爐了 與此同時 在這個時間點 市場又會關注中東局勢是否再度升溫 因為昨天西德州原油價格是上漲了2.5 %每桶來到70.23塊 這油價還是 不高了但是10年期公債殖利率 又重新攀升到4.51%以上 代表能源價格僵固性哦 還是有可能會延後 聯準會壓低通膨的進程 雖然不至於到升息了好 但是要讓他今年年底之前 趕著回落到降息格局 似乎也有點壓力 畢竟 荷姆茲海峽這一次又爆發衝突了 6月17號 當時美伊達成停火協定之後 本來 說好不會蓄意的攻擊對方商船 結果呢哦 在前幾天 我們看到 三艘商船在赫姆澤海峽遭到攻擊 一艘是卡達的LNG 液化天然氣的運輸船 另外一艘是沙烏地阿拉伯的原油油輪呢 還有另外一艘 是創下停火協議生效以來 最最多的攻擊事件 應該是一天攻擊3艘吧 好所以 昨天川普 宣佈採取伊朗新一輪的空襲 取消過去 允許伊朗石油出口60天的豁免措施 那才幾天 他好像解封 也才十幾天而已 現在是全部取消 重新封鎖 從7月7號起 禁止新的伊朗原油的銷售 伊朗的船再也出不去了 同時採取了進一步的空襲 所以再加上 在這樣的一個效果底下 我們看原油價格的反彈到70美元 好像也還好 看起來局勢又再度緊張 故事一直重演 可是市場上對於鬼故事 也沒那麼害怕了 也許對於資本市場而言呢 每一次財報公佈的利多出盡呢 股市的下跌 有人說大家也不害怕了 反而形成一種買盤的刺激 這也不一定 我們先點出 德銀現在提出了6大矛盾 他其實背後 即便中東地緣政治這麼混亂哦 還是能夠對於股票市場 沒有那麼大影響的 根本原因呢 來自於互相的錯位矛盾 第一個矛盾呢 其實來自於油價和公債殖利率 我們知道 在美伊衝突期間 布蘭特原油價格 和美國10年期公債值利率 它基本上是同步聯動的 因為油價上漲通常代表著通膨升溫 聯準會就有可能升息嘛 那布蘭特原油價格 從100到現在70美元左右 油價其實已經差不多回到戰前水準了 就算現在反彈 也差不多是戰前水準了 但是美國 10年期公債值利率哦 卻仍然維持在高檔哦 這說明利率市場 好像並沒有反映 油價降溫帶來的影響哦 那我們可以合理的判斷 有可能是外溢出去了 或者科技通膨所造成的利率預期 第二個矛盾呢 就是通膨預期其實也在下滑 所以 大家並沒有認為通膨會一路的失控 可是升息預期居然還緩步的走高 美國一年前的通膨交換利率來到2.11 %兩年前來到2.32 哎這都是兩個年度以來的低點 代表市場其實並不不太相信 通膨就會這樣子失控 反而認為通膨會緩步的回檔 但同一時間 利率期貨卻預估聯準會在年底之前 還是有升息一碼的可能性 哦那就很弔詭了 通膨在降溫 升息預期卻增加 那是不是大家已經相信 華許就是一個鷹派人物 不管通膨高不高 他都要升息了呢 第三個矛盾呢 是市場一方面壓住聯儲會 年底之前有可能會升級 但是另外一方面呢 還保持著蠻樂觀的 至少雖然估值現在短期內在回檔 可是我們也知道 本輪的估值回檔 跟利率預期沒有太大關係哦 更多來自於獲利了結的慢壓 那歷史經驗 通常利率預期開始有所升高 信用利差擴大 金融環境收緊 應該會對於股市有所承壓 不過市場也並不是特別害怕 那第四個矛盾呢 就是不同資產 對於每一資產的不同的解讀 股票市場 信用市場 油價從週期來看 它基本上好像就反映著中東局勢 不是很嚴重嘛 要不然怎麼打那麼久 股市還在創高 油價還在回落 但利率市場去反映較高的市值利率 好這個就是第四個吊詭 第五個吊詭是黃金市場 黃金你不要看今年年初到現在 只跌4趴 他從高點跌下已經跌兩層了 那照來講 地緣政治風險升高 或者財政赤字持續擴大 那應該會對於黃金有所買盤的刺激 不過呢我們卻觀察到 黃金的市場賣壓還是相當沉重 最後就是油價 油價已經恢復正常了 但是供應鏈 我們看現在通過荷姆斯海峽的郵輪數 看全球的供應鏈情況 居然還沒有回到戰前水準 好所以 總結論就是認為 現在有一個根本的原因 拖動了目前中東局勢所造成的混亂 造成中東局勢其實是利空 可是有一個更大的力度 把利空給蓋過去了 是什麼呢 就是經濟成長 而且 經濟成長的確比市場預期來的更強 企業獲利的持續改善 那麼高的市 殖利率而股市創高和風險資產強勢 居然可以同步成立 所以剛才提到的很多矛盾 6個矛盾呢 慢慢就被消化了 只要經濟動能呢 還在增長 它可以蓋過一切 換句話說 只要AI的資本支出還在成長 中間的利空 都不算是利空 它就是一個估值回檔的理由 好那我們在這回過頭來看 那三星這次所引爆的市場賣壓 它是利空嗎 它是資本支出緩下來的可能性嗎 當然不是嘛 我們知道這次財報是好的不得了 二季度財報 合併營收是十一百七十一兆韓元 合計美元大概是1,118億 年增幅是129% 這個季度 賺的錢大概是什麼概念呢 就是大概是賺過去三年的概念 這一個季度 比如說台積電 一個季度可能EPS25塊 然後台積電可能過去一年EPS只有4塊 這種感覺就是它賺的速度 是非常非常驚人的 結果呢 引發了市場上集體獲利的賣壓 所以在這樣效果底下 我們基本上不會把它斷定成 任何資本支出放緩的跡象 也沒有任何基本面利空的傳出 基本上就是獲利了結 那的確 那個GET股廢半本輪怪力 本來就拉的很高 試圖從4月5月6月 哎 那7月開始回檔 漲三個月回檔一個月 也不過分吧 所以我的根本看法是哦 這一次我們雖然難免要回公園哦 但是放心 有機會再下一次颱風之前 能夠回到飯店 這是我的信心 我希望如此好不好 希望如此好 當然了那 有網路上有人看到說 那韓國股市熔斷的頻率 好像比我拉肚子還高 哎的確 這個其實 就是來自於過去兩個月的杠杆加成 所形成的效果 其實 亞洲科技股目前也在全面回檔當中 但是會不會因此大幅拖累台積電 我就認為不一定 因為哦看起來是波動高的 殺比較重 但是台積電過去幾個月 其表現還算是很平穩 說實在的 有一點讓人打哈欠 就這股票比較牛皮一點 穩穩的在緩步的上漲 不像三星或者SK海力士 有如此價格上的一個波動 之所以我們看到 三星現在獲利已經暴增了19倍 還是下跌 並不是真的 因為集體行情已經反應過的 應該講說最多就是反應過頭 但是並沒有任何基本面鬆綁的可能性 那現在就要看 那回檔幅度 到什麼樣的位置是合理的呢 現在也不過從7月份跌到6月初 那你說跌回5月份 跌回4月份哦 他仍然會有100%的爆炒哦 所以這取決於你在6月份是否有重倉 那看起來很多人是很痛苦 因為6月份全球股市爆大量嘛 所以雖然我們知道今年以來 你只要願意持有都是賺的 可是大多數人都買在6月 好這就是我們給予市場的歧見 給予市場的看法 為什麼不要在市場上 情緒比較樂觀的時候 全面的放大杠杆呢 至少要確保自己能夠活得下去嘛 我們看 不管是三星s k海力士還是美光 目前從高點跌幅 陸續進入到熊市 那我們看一下其他 股票像sandisk從高點這樣跌下來 跌幅也高達34% 好所以我們做個總結 市場對於三星財報的反應 它當然了 是反映出 市場針對記憶體 是否未來有快速擴產 所造成的市場慢壓 但目前看起來 更多反映的就是獲利了結的慢壓而已 哦那現在呢 第二季財報表現這麼強勁 市場好像把過去輝達的那種想像空間 套用在三星 認為你現在不只要考100分 你要考超出滿分 我才能夠給予你相當穩定的評價 那三星的例子也再次提醒我們 那有時候看對方向 也不代表一定就會賺到錢呢 AI長期趨勢也沒有改變 三星s k 海力士的獲利都創下歷史新高了 但是市場期待已經提前反應 那股價開始劇烈震盪的時候 你最後考驗的 那也不是基本面的問題 是你的持股能力 是爆持的能力 如果為了放大AI行情 而過度的使用杠杆或者單一個股重壓 那很有可能在短期修正當中 你就要被迫停損了 那明明你是想要參與AI數年的成長 結果看對了趨勢 死在波動 撐不過幾天 哎才幾周 你又被洗掉了 這典型的我們講的目的和手段 互相否定 那真正能夠賺到長期趨勢的人呢 他不是壓得最重的 他是撐最久的 所以你要瞭解你的目的 那你要瞭解你的手段 能不能配得上你的目的 那警察把一個男的攔下來 你為什麼闖紅燈 我趕時間 你趕去哪裡 我趕去交通安全講習 投資也是一樣嘛 很多人嘴上講說要長期投資 那每天盯盤 追高殺低 希望累積財富 但是你又不斷地使用過高的杠杆 那不是就是嘗試著 想要把自己給洗出去嗎 你想要降低風險 結果你把資金集中在單一熱門標地 明明目標是穩定的獲利 採取的手段 卻會讓自己承受更大的波動 那最後往往就離自己的目標越來越遠 所以一定要瞭解 你的目的和手段呢 要互相匹配 你的目的當然想要參與AI成長 你的手段不能夠太極端 以防把自己給洗掉 當然了其實還好了 你不要被洗掉就沒問題了 三星股價總有一天還會創高的哦 這種勢頭 而且三星本一比現在也才10倍左右哦 你說它有什麼史詩級泡沫 我倒是覺得也還好啦 當然啦這也說明著哦 這個環境不好 本來是SK海力士 想要趁著這波space x的上市行情 ADR掛牌行情 能夠乘風破浪 不過呢我們知道 禮拜五 海利士就要赴美發行美國存托憑證 ADR了預估的募資規模是280億哦 那就不確定 這樣的一個募資效果 表現為何 當然啦回過頭看 整體而言 像是SK海利士還美光 其實長期本益比 都屬於偏低 那海力士又相對於美光 又更偏低了一點 那你說海力士的市占又比美光來的高 那麼光是從本益比的推送效果 也許能夠搶到不少的 記憶體的買盤刺激 但他不是單純的存量關係 但是還是對於 部分投資人 對於美股投資人是有吸引力的 而且你要看 哎他們漲那麼多 海利斯還美光 他本益比居然6倍 好這真的很離譜 好這漲了3倍4倍的股票 然後本益比只有6倍到8倍 你就知道 這些廠商到底現在有多賺錢了 好那這是第一點呢 就獲利了結的賣壓 你說 那市場上是不是正在找利空來解釋呢 當然那我們來一一破除 第一個就晶片通膨的反噬效果 大家會擔心 三星賺翻了AI記憶體的紅利 可是晶片通膨持續向下游來做反應 比如說現在PC端手機端平板價格 蘋果6月份才調漲Mac和iPad的售價 而且把記憶體的價格高漲 列為原因之一 那美國現在很多消費者 對於海力士和對於美光 對於三星 而現在有人對他們三家企業提告嘛 涉嫌掌握90%低潤市場來 才是進行壟斷了 好你要這樣講 那台積電也很危險對不對 但是因為他們漲價漲很多嘛 但這些問題 本身都不是一個極大利空 為什麼因為集體通膨 他本身的確 他是塑造出 本輪向下游通膨所造成衝擊 可是你要想想看哦 消費市場本來就已經不是很好了 你說由於記憶體通膨 所引發PC或者手機市場的衰退 它會不會進一步影響到股票市場 或者整個資本市場 這很難說 因為我們也知道吧 昨天我們提到說 鴻海現在50%以上的營收不來自於手機 哦如果手機不好 那該怎麼辦 那真的會大 幅影響到臺灣企業的財報嗎 好所以這是兩極化的哦 我們知道科技通膨 他市場的擔憂來自於 就沒有人買手機了 沒有人買手機 消費就衰退了 消費衰退廠商就活不下去了 但這利潤還是來自於 好像我們的企業已經說 還是來自於手機 但就不是來自於手機 就是由於都把貨貢獻給了AI嘛 好那第二個角度是 那如果是這樣的觀察的話 那是不是其實反而更類似於估值輪動 他就不像是泡沫破滅哎 沒錯其實我們看 昨天7巨頭還是有一定的買盤刺激哦 代表現在只殺漲高的哦 他已經沒漲的 基本上也不太殺的動哦 像微軟今年已經下跌22% 創下2,000年以來的最差單月表現 meta 6個月也回落14% 阿爾法貝雖然今年還是上漲12% 但是基本上也算是跑輸給大盤了 相對於費城半導體指數 整體漲了88% 比較起來 你要知道 其實今年大多數美股股市期巨頭 都已經輸給了大盤 更何況拿來跟費半做比較 所以 這些期巨頭在最近的股價承壓 就沒有這麼沉重 我們的輝達的確股價還在回檔了 但是你也知道 他已經畢竟到年線了 再跌其實壓力也有限了 那除非是大空頭泡沫破滅 我們真實要觀察的事情是 借由這一次的記憶體股的賣壓 引發出市場的新一輪擔憂 就重新對於資本支出造成懷疑 那你要知道哦 我們已經搞了好幾次了 每一次他懷疑資本支出 收不回來 每一次都是買點了 幾乎了 過去2年來看是如此 好所以你十分把握 這一次就是泡沫破滅 要不然呢 從週期角度而言呢 它就塑造出了機會 廢半不一定嘛 你要看它本益比 或者它的乖離回檔幅度有多大 它回檔空間蠻大的 好但是對於納指 對於巨頭而言呢 哦那就幾乎沒什麼空間 那已經跌到低於17層了 那很難跌到第18層了 這些企業又有穩定的現金流 還有護城河 那主要觀察的效果是 因為這些企業還在借錢 所以造成市場的心理擔憂 亞馬遜在本周宣佈 至少在發行250億美元的公司債 為今年龐大的AI基礎建設來籌措資金 那如果是這樣看的話 等同於 今年全球AI相關企業的發債規模 已經上升到3,350億了 好今年資本支出是8,000-9,000億了 哎今年借了3,000億的公司債 這件事情就意味著 亞馬遜今年的資本支出的走高 已經接近2,000億了 那大家都在透過美元 瑞士法郎 或者我們看到針對日元 來籌集債務 那大家當然會擔心呢 一直舉債 一直舉債 所以我們看到 CDS價格 最近其實也在慢慢的走高當中 如果是借最多的了 亞馬遜是借了800億美元 這個是全球企業最大的融資者 那Google的部分 是借了接近有900億美元 那他主要是把多國貨幣進行分散 相對之下 Meitai甲骨文灰達 主要還是以美元發債為主 好但看得出來大家借錢都不少 那CDS價格在過去一個月 有部分 其實也是開始陸續的走高 那這些訊息 都足以讓市場上有進一步的擔憂 可是我們過去跟投資朋友提過 即便這樣的一個訊息產生以後 對於7巨頭的承壓 其實已經相對沒這麼大了 因為先前根本就沒有怎麼漲到 我們看大摩所給予的報告 給予新一輪的看法 他的看法就是短線減碼半導體 轉向雲端巨頭很落後 補漲股 好這個我們過去一直以來的論調了 當然了報告認為 2025年經濟已經走出了滾動式的衰退 美國企業已經進入新一輪的擴張 所以即便像德銀和 大摩在短線上 似乎都有一點比較保守 或者看空的態度 但都認為 這是週期輪動 資金應該要重新挪回到本 一筆相對低的七巨頭 所以在這樣效果底下 包括Meata宣佈 部分閒置算力對外出租 都被視為大型雲端業者 調整資本支出節奏的訊號 說也許明年就不會投那麼多啦 一方面是技術在進步 另外一方面呢 也許接下來在生產力突破的過程當中 就可以緩步的把錢給收回來 事實上我們知道 把費半拿來跟白銀ETF來做對照 市場上的過去的預估 大概都是約落後4個月 那我們知道銀價或者銅價 作為市場的工業金屬原物料 它通常會對於市場有一定的領先效果 那如果按照這樣效果的話 那的確費半有緩步調整的空間 不過這只是一個淺顯對照了 重點的對照 還是來自於週期輪動 你把半導體股再拿來跟雲端巨頭 概念股 兩者的報酬來做比較 而就是很清楚知道了 雙方輪動的空間 如果開始出現的話 那就說明市場還是穩健的 而現在看起來 就有那麼一丁點輪動的感覺 那當然了 也不代表說現在費半的企業都不好 人家有些本益比還是很低 但是我們講的事情是投資 就是如此 市場上每天都用現在right now的評價 現在的新聞 現在的財報來評價一家公司 但是股價反映的往往不是今天 它是半年一年甚至更久以後 很多人只看到眼前的財報 獲利或者消息 然後就急著要判斷股價的高低 但卻忽略了 市場其實是在提前交易對未來的預期 所以如果你只用當下的數據來看 未來就有可能失真 所以最後我覺得 你對於這些股票有沒有信心呢 已經跌的 比如怪力很高的 那你要勇敢的抱得住 如果你對於AI有信心 那如果你有現金 你等著要加碼的 那也許 尋找一些低基期 有護城河 對賭這些巨頭有一天能夠把錢收回來 往下做下一步的生產力突破 也是一種方式 但最終 要了解說 你不能用現在當下的趨勢 你還沒有看到AI的產出 就斷定AI不能夠成 這是市場上哦 不要去忽略提前交易 對於未來的預期這件事情是很重要的 講兩個男的 兩個兄弟一起在討論男女之事 互相揶揄對方嘛 一個男的就說 哎呀你這副樣子 這麼多年沒見了 一看就知道還是沒經驗的處男 另外一個男的說 哪有我上禮拜之後就不是了 不信你去問你妹妹 哎你別吹牛了 我沒有妹妹 那你十個月之後再去問她 如果你只用當下的數據來看未來 你就很有可能忽略了 真實獲利爆發的成長 你以為抓到了對方的漏洞 卻忽略了 對方談的是另外一個時間的維度哦 成熟的投資哦 不是跟你說分析眼前當下發生了什麼 我們看的都是思考未來可能發生什麼 因為這才是真正影響股價的 並不是現在 是未來好不好 給投資朋友做一些思考 當我們回過頭看 美國股市其實回檔到現在哦 哎乖離就有到那種修正的幅度了好 所以情緒會稍微緩步下來 那量呢也會開始收縮 其實週期投資者最喜歡這種盤了 我們最喜歡的盤 不是暴漲暴跌 盤整盤整大家就會失去耐心 那本益比乖離也會慢慢的修正 道瓊指數下跌130點 0.25%在52,925點 標普五百指數下跌33點 0.45%  收在7,503點 其實也跌得還好 納指下跌三百零二點 1.16% 收在25,818點 納指其實從今年5月份以來 就一直在修正區間了 所以機會一直很多 那現在機會 哦哦 費半好像慢慢出現了 打回到季線了 費半下跌5百九十九點 4.65%收在12,300點 那台積電ADR昨天是下跌4.25% 不過前一天也已經做一些反應了 看一下今天的效果 Spacex哦 因為禮拜二 已經正式被納入到納指100指數當中哦 那距離這家公司在6月12號IPO 也才過15天吧 哦所以 它是史上最快被納入到指數的公司 哦那當然 接下來 就要引發數十億美元的被動買盤 陸續的刺激哦 但是我們講說 今天市場的敘事或者概況 其實就是過去幾周 一直重新上演的情況 好就是AI基礎建設 半導體股記憶體股經歷大漲之後 資金開始輪動 那市場對於這些公司的期待 短期內已經難以超越 你太好的樂觀了 那你看現在告訴我你考100分 100分算什麼 我要的是120 好所以就變成這樣的一個效果 好那第三件事情呢 是市場上已經認知到 現在錢 要花在刀口上 花在刀口是很重要的 因為整個中方 陸方陸續推出的AI模型呢 其實已經足以證明著 AI差不多 要準備進行大規模的企業採用 來推升內部生產力的效果 事實上 我們看到中國企業在最近一段時間呢 持續加速採用國產晶片 所以輝達的試戰呢 在中國市場是節節敗退哦 當然了 他這敗退也不是因為競爭上的敗退 主要就是在國產化政策的影響底下 對於輝達的需求產品呢 持續的收縮 那反而對於超微的需求開始拉升了 我們看受訪來自於60位軟體 金融和製造和零售的高階主管表示 未來12個月 會有46%的AI加速器採購預算投入中國 國產產品呢 已經明顯高於現在的3十% 好這也說明的 中國企業正在以非常驚人的速度 降低對於美國晶片的依賴 社會廠商有華為 有海光寒武紀騰訊 哎其實部分超維的AI制服器 其實也被採用了 那中國也在大舉的擴張AI基礎建設 官方預估未來會投入兩兆人民幣 國際美元是3,000億左右 新建全國資料中心 而且要求80%的核心技術 採用本土供應鏈 那在持續性的堆疊效果底下 美中之間的資料中心競賽 它有兩個好處 第一個好處就是哎 應該講說一個好處 一個壞處 第一個好處就是 這次的AI 它不是民間自行的研發 或者資料中心的建制 然後最後迎來泡沫破滅的考驗哦 這一次的AI 它有非常深度國家隊的參與影子哦 除非中國政府不撒錢了 除非美國政府對於AI的需求拉抬 不存在了 要不然呢 他背後有一隻有形的手 以前是無形的手嘛 市場交易嘛 現在是一隻有形的手 正在推動著AI的進程 那第二件事情呢 那就是 那就說明著AI的成本 以及他創造的效用 接下來就很重要了 不能夠無條件的撒錢呢 而且我們也過去提到嗎 投500億在中國市場做資料中心 跟投500億在美國市場做資料中心 概出來是一樣的嗎 假設沒有什麼技術的壁壘 基本上我們很清楚知道 500塊在中國能夠吃到的晚餐 跟在美國能夠吃到的晚餐 那完全是不同階級嘛 好所以這件事情也說明著這個錢 的體量和它的效率都很重要 我們仔細觀察 像最近我們觀察到 美國在燃煤燃氣的發電投資哦 在今年居然已經正式超過中國 這很難想像 因為中國人口這麼多 能源需求是很龐大的 但是美國企業在今年的投資總額 比中國大概高出了30億美元 來到500億美元的規模 那當然 剛才提到500億美元規模的建設量 是不代表未來的發電量會超越中國 至少在本輪投資看起來也不會 500億美元在美國能夠做的事情 跟在中國做的事情差很多 可是你至少可以觀察到整個24年到25年 美國的電網和電力升級幅度有多大 那第二件事情 中方的另外一層優勢 在於我們清楚知道 政策連貫性的效率性 他會犧牲民眾的權益 來換來國家政策的推進 而現在我們看 黑石 才剛剛退出維吉尼亞州的最大型 超大的資料中心開發案呢 這個開發案本來是接近2,100英畝 大概是5850公頃 預估要新建37座資料中心 結果黑石居然撤資了 撤資的原因並不是不看好AI 是因為維吉尼亞州 現在在過去兩年 屢遭居民的抗議 法律訴訟 土地爭議 哦那我們要知道 如果維吉尼亞州 接下來潿洲 可能採取更進一步的州監管政策 導致資料中心新建速度放慢 那你要知道 全美國現在的商用能源設施 剔除維吉尼亞州以後 幾乎就跟疫情以前差不多了 所以維琪尼亞州未來的表態 就非常非常重要 了好畢竟 好像美中雙方還在國內上有所競爭哦 那當然 這也說明著未來的競爭要求哦 大家可能不會只在本土上來做新建 可能會往外 像美國的部分 到目前為止 幾乎還鎖定在美國本土 這是川普的要求 但是在南美洲的部分 我們看這一次 抖音位元組跳動已經斥資390億美元 直接在巴西 打造中國最大的海外資料中心 預估投資400億美元 這做廠區會有20座的資料中心廠房 為什麼呢 因為巴西有90%的 應該來說 90%來自於再生能源 有水力發電 有風力發電 太陽能發電 然後能源又過剩了 所以阿裡巴巴呢 就租用巴西的大型AI資料中心呢 來吸引中美科技巨頭來做進駐哦 那這些效果 基本都是彰顯著 未來雙方的治療中心 在國家隊的一個幫助 可是往往另外一個方向走 之所以大家會對於巨頭 還是抱持著比較戒慎恐懼 敢買但是又不敢買太多 一個根本原因就來自於 目前AI TOKEN的支出指數 和雲端巨頭的股價 在過去幾個月是高度的同步 這也反映出市場對於AI算力的需求 和科技估值之間存在的緊密關係 那現在兩者同步回落 就說明著 企業在購買TOKEN 訓練模型以及推理的需求增速 似乎稍微有點放緩 是增速放緩哦 不代表衰退哦 而是稍微緩了一點點呢 因為大家已經開始去聚焦哎 有沒有更便宜的TOKEN 更便宜的AI模型 可以來讓我做使 用呢我們把瑞銀的報告拿出來看 現在中國的AI模型在訓練看推論 推論上的成本優勢 在訓練端層面 大概僅僅只有美國的1/10左右 那同時透過較小模型的規模 較低的GPU使用成本和開源生態 它可以帶來共用成果 所降低的訓練支出 在這樣效果底下 等同於除非 你是要做最先進的前沿模型的使用 但是如果是基本傳統客服 真的不一定要完全考慮用切的GBT 或者GMN相關的導入鍵 你像彭博 我記得是跟open AI做合作嘛 很多美系企業都是選美國本土的哦 可是你像Airnb或者部分的一些電商 或者一些旅遊平臺 基本上可能都是採用DeepSeek 或者採用阿里千問模型 事實上 我們看中美雙方的AI模型能力哦 還是有一定的落差 在城市編碼當中 Anthropic和open AI基本上還是前半端哦 但中國模型也算是擠進了第一梯隊了 好像阿裡的千問 DeepSeek v four Kimi的2.6 還有智普V2.5 Pro GLN的5.1 所以看得出來 雙方 雖然還是有比較明顯的差距哦 可是接下來就是性價比的選擇 那這些CP值的選擇 未來可能就會形成市場上 下一輪在估值層面的投射 就是市場來的更加精明了 我們對於廢飯 我們不能夠無條件看好了 我們要用合理的本意 比合理的增長預期 來判斷三星海力士的評價該有多少 這第一件事情 那第二件事情呢 我們對於科技股的評價 尤其是巨頭的評價 也來的更為損失 更為謹慎了 一方面我要知道你投的這麼多錢 你投一樣的錢 跟投在中國市場一樣的錢 誰能夠更進一步生產效率的回饋呢 除非你能夠給我更多的生產力的提升 可能是自駕車 可能是機器人的運用 可能是 我們需要某種更爆發性的算力需求 第三件事情 這也說明著 市場上不管針對硬體股還是軟體股 都有一個更公允的評價 那我們只要確保資本支出還在增長 但是呢上升幅度沒這麼快了 他始終是一個估值回檔 而並不是泡沫破滅的開始 所以行情走到這個地步 難免還是要睡公園的 可是公園睡了一陣子以後 終究還是要回飯店的 我們已經撐了這麼多年了 好記住 要看對趨勢 但是不要死在波動 不要死在波動的方式很簡單 我就是每一次睡公園都有防蚊液 都有帶語句不要受傷 不要睡了一次公園就永遠待在公園 要好好保養自己的身體 有一天我們要重返飯店好不好 給投資朋友做一些思考 台股上漲290點 收在45,769點 如果喜歡我們節目 就幫我們訂閱按讚加分享 我們就明天早上8點半早晨 財經速解讀再相見 祝各位投資朋友看盤順利 操盤愉快"
+}

@@ -76,6 +76,23 @@ GitHub Actions 會自動提交：
 - `youtube_inbox.html`：最新待看清單頁面
 - `youtube_data.js`：待看清單資料
 - `youtube_reports/`：每日 Markdown 筆記
+- `youtube_transcripts/`：可取得字幕時保留逐字稿快取
+
+### 自動逐字稿與重點摘要
+
+YouTube 排程會優先嘗試抓影片字幕/自動字幕：
+
+1. 有字幕且 GitHub Secret 設定 `OPENAI_API_KEY`：使用 OpenAI 產生逐字稿摘要、時間軸、主題與查證重點
+2. 有字幕但沒有 `OPENAI_API_KEY`：使用逐字稿做規則式重點整理
+3. 沒有字幕：退回標題、描述與發布時間整理
+
+到 GitHub repo 的 **Settings → Secrets and variables → Actions → New repository secret** 新增：
+
+```text
+OPENAI_API_KEY
+```
+
+可選：在 **Variables** 新增 `OPENAI_MODEL`，預設為 `gpt-4.1-mini`。
 
 ## 計算方式
 
