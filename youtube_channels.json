@@ -1,0 +1,23 @@
+{
+  "schedule_time": "06:00",
+  "open_new_videos": false,
+  "max_videos_per_channel": 15,
+  "baseline_existing_on_first_run": false,
+  "channels": [
+    {
+      "name": "股癌 Gooaye",
+      "url": "https://www.youtube.com/@Gooaye",
+      "enabled": true
+    },
+    {
+      "name": "老王愛說笑",
+      "url": "https://www.youtube.com/@oldwangstock",
+      "enabled": true
+    },
+    {
+      "name": "雨果的投資理財生活觀",
+      "url": "https://www.youtube.com/@yutinghaofinance",
+      "enabled": true
+    }
+  ]
+}
