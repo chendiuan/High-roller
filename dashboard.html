@@ -97,6 +97,31 @@ border-radius:14px;padding:3px 9px;font-size:12px;margin:4px 0 8px}
 .yt-watch{display:inline-block;margin-top:10px;background:var(--accent);color:var(--accent-ink);
 font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 
+/* ===== Agent 分頁（股票分析） ===== */
+.agent-list{display:grid;gap:12px}
+.agent-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.agent-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.agent-head .name{font-size:16.5px}
+.badge{font-size:11.5px;font-weight:700;border-radius:10px;padding:2px 9px;white-space:nowrap}
+.badge.up{background:#2a2210;color:var(--accent);border:1px solid #4a3a12}
+.badge.dn{background:#123527;color:#4fe3a3;border:1px solid #1f5c41}
+.agent-narrative{font-size:13.5px;line-height:1.7;color:#dfe4ee;margin:6px 0 10px}
+.agent-metrics{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--sub);margin-bottom:8px}
+.agent-metrics b{color:var(--ink);font-size:13.5px}
+.peer-table{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0}
+.peer-table th,.peer-table td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--line)}
+.peer-table th{color:var(--sub);font-weight:600}
+.peer-table th:first-child,.peer-table td:first-child{text-align:left}
+.peer-table tr.focus{background:#1a2136}
+.peer-table tr.focus td:first-child{color:var(--accent);font-weight:700}
+.mini-video{border-top:1px dashed var(--line);padding:8px 0;font-size:12.5px}
+.mini-video a{font-size:13px;font-weight:600}
+.mini-video .ch{color:var(--sub);font-size:11.5px;margin-left:6px}
+.checklist{padding-left:18px;color:#cbd2df;font-size:13px;line-height:1.7;margin:6px 0}
+.agent-links{margin-top:8px;display:flex;gap:14px;flex-wrap:wrap}
+.alignment{font-size:12.5px;color:var(--sub);margin:4px 0}
+.alignment b{color:var(--ink)}
+
 /* ===== 窄螢幕：卡片式 ===== */
 @media (max-width:920px){
   body{padding:14px}
@@ -118,6 +143,9 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 <div class="tabs">
   <button class="tab-btn on" id="stockTab">大戶篩選</button>
   <button class="tab-btn" id="youtubeTab">YouTube 分析</button>
+  <button class="tab-btn" id="mrTab">🔎 市場研究員</button>
+  <button class="tab-btn" id="mbTab">📐 建模助手</button>
+  <button class="tab-btn" id="erTab">📄 財報審閱</button>
 </div>
 
 <section class="tab-page on" id="stockPage">
@@ -163,21 +191,44 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
   <button class="more" id="ytMore" style="display:none">顯示更多</button>
 </section>
 
+<section class="tab-page" id="mrPage">
+  <div class="meta" id="mrMeta">載入市場研究員分析中…</div>
+  <div id="mrNotice"></div>
+  <div class="agent-list" id="mrList"></div>
+</section>
+
+<section class="tab-page" id="mbPage">
+  <div class="meta" id="mbMeta">載入建模助手分析中…</div>
+  <div id="mbNotice"></div>
+  <div class="agent-list" id="mbList"></div>
+</section>
+
+<section class="tab-page" id="erPage">
+  <div class="meta" id="erMeta">載入財報審閱分析中…</div>
+  <div id="erNotice"></div>
+  <div class="agent-list" id="erList"></div>
+</section>
+
 <script src="data.js"></script>
 <script src="youtube_data.js"></script>
+<script src="agent_data.js"></script>
 <script>
 (function(){
-const stockTab=document.getElementById('stockTab'),youtubeTab=document.getElementById('youtubeTab');
-const stockPage=document.getElementById('stockPage'),youtubePage=document.getElementById('youtubePage');
-function show(page){
-  const yt=page==='youtube';
-  stockTab.className='tab-btn'+(yt?'':' on');
-  youtubeTab.className='tab-btn'+(yt?' on':'');
-  stockPage.className='tab-page'+(yt?'':' on');
-  youtubePage.className='tab-page'+(yt?' on':'');
+const tabs=[
+  {btn:'stockTab',page:'stockPage'},
+  {btn:'youtubeTab',page:'youtubePage'},
+  {btn:'mrTab',page:'mrPage'},
+  {btn:'mbTab',page:'mbPage'},
+  {btn:'erTab',page:'erPage'},
+].map(t=>({btn:document.getElementById(t.btn),page:document.getElementById(t.page)}));
+function show(active){
+  tabs.forEach(t=>{
+    const on=t.btn===active;
+    t.btn.className='tab-btn'+(on?' on':'');
+    t.page.className='tab-page'+(on?' on':'');
+  });
 }
-stockTab.onclick=()=>show('stock');
-youtubeTab.onclick=()=>show('youtube');
+tabs.forEach(t=>{t.btn.onclick=()=>show(t.btn);});
 })();
 
 (function(){
@@ -384,6 +435,100 @@ $('ytChannel').onchange=e=>{state.channel=e.target.value;state.shown=20;renderYt
 $('ytSearch').oninput=e=>{state.q=e.target.value.trim();state.shown=20;renderYt();};
 $('ytMore').onclick=()=>{state.shown+=20;renderYt();};
 renderYt();
+})();
+
+(function(){
+const $=id=>document.getElementById(id);
+const A=window.AGENT_DATA;
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function localTime(s){
+  if(!s)return '';
+  const d=new Date(s);
+  return isNaN(d)?s:d.toLocaleString('zh-TW',{hour12:false,month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+}
+function metaLine(count){
+  return '更新於 '+(A.generated||'')+' · 比較區間 '+(A.window_desc||'')+' · 共 '+count+' 檔關注股（大戶'+(A.threshold||'')+'張以上門檻加碼/減碼前 10 名）';
+}
+function noticeHtml(){
+  return A.disclaimer?'<div class="note">'+esc(A.disclaimer)+'</div>':'';
+}
+if(!A){
+  ['mr','mb','er'].forEach(p=>{
+    $(p+'Meta').textContent='';
+    $(p+'Notice').innerHTML='<div class="note">找不到 <b>agent_data.js</b>。請先執行 <b>python generate_agent_analysis.py</b> 產生資料，再重新整理本頁。</div>';
+  });
+}else{
+  $('mrMeta').textContent=metaLine(A.market_researcher.length);
+  $('mrNotice').innerHTML=noticeHtml();
+  $('mrList').innerHTML=A.market_researcher.map(s=>{
+    const ht=s.holder_trend||{};
+    const videos=(s.related_videos||[]).map(v=>
+      '<div class="mini-video"><a href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+esc(v.title)+'</a>'
+      +'<span class="ch">'+esc(v.channel)+' · '+esc(localTime(v.published))+'</span>'
+      +(v.gist?'<div style="margin-top:3px;color:#cbd2df">'+esc(v.gist)+'</div>':'')+'</div>'
+    ).join('')||'<div class="mini-video" style="color:var(--sub)">目前追蹤的 YouTube 頻道未提及此股</div>';
+    const links=(s.source_links||[]).map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noreferrer">'+esc(l.label)+' ↗</a>').join('');
+    return '<article class="agent-card">'
+      +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
+      +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')+(s.industry?'<span class="tag">'+esc(s.industry)+'</span>':'')
+      +'<span class="badge '+(s.direction==='加碼'?'up':'dn')+'">'+esc(s.direction)+'</span></div>'
+      +'<div class="agent-metrics">'
+      +'<span>大戶持股比 <b>'+ht.from_pct.toFixed(2)+'% → '+ht.to_pct.toFixed(2)+'%</b></span>'
+      +'<span>增減 <b>'+(ht.pp_change>0?'+':'')+ht.pp_change.toFixed(2)+'pp</b></span>'
+      +'<span>張數變化 <b>'+(ht.unit_change>0?'+':'')+ht.unit_change.toLocaleString()+' 張</b></span>'
+      +'<span>人數變化 <b>'+(ht.people_change>0?'+':'')+ht.people_change+'</b></span>'
+      +'</div>'
+      +'<div class="agent-narrative">'+esc(s.narrative)+'</div>'
+      +videos
+      +'<div class="agent-links">'+links+'</div>'
+      +'</article>';
+  }).join('')||'<div class="empty">沒有關注股資料</div>';
+
+  $('mbMeta').textContent=metaLine(A.model_builder.length);
+  $('mbNotice').innerHTML=noticeHtml();
+  $('mbList').innerHTML=A.model_builder.map(s=>{
+    const pr=s.peer_rank||{};
+    const peerRows=(s.peers||[]).map(p=>
+      '<tr class="'+(p.is_focus?'focus':'')+'"><td>'+esc(p.code)+' '+esc(p.name)+'</td>'
+      +'<td>'+p.pct.toFixed(2)+'%</td><td>'+(p.dp>0?'+':'')+p.dp.toFixed(2)+'pp</td></tr>'
+    ).join('');
+    const links=(s.source_links||[]).map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noreferrer">'+esc(l.label)+' ↗</a>').join('');
+    return '<article class="agent-card">'
+      +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
+      +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')+(s.industry?'<span class="tag">'+esc(s.industry)+'</span>':'')
+      +'</div>'
+      +'<div class="agent-metrics">'
+      +'<span>同業排名 <b>'+(pr.rank||'—')+' / '+(pr.of||'—')+'</b>（'+esc(pr.threshold)+'張以上大戶持股比）</span>'
+      +'<span>區間股價變化 <b>'+(s.price_change_pct!=null?(s.price_change_pct>0?'+':'')+s.price_change_pct.toFixed(2)+'%':'資料不足')+'</b></span>'
+      +'</div>'
+      +'<table class="peer-table"><tr><th>股票</th><th>大戶持股比</th><th>區間增減</th></tr>'+peerRows+'</table>'
+      +'<div class="alignment">籌碼與股價：<b>'+esc(s.alignment)+'</b></div>'
+      +'<div class="agent-narrative" style="color:var(--sub)">'+esc(s.note)+'</div>'
+      +'<div class="agent-links">'+links+'</div>'
+      +'</article>';
+  }).join('')||'<div class="empty">沒有關注股資料</div>';
+
+  $('erMeta').textContent=metaLine(A.earnings_reviewer.length);
+  $('erNotice').innerHTML=noticeHtml();
+  $('erList').innerHTML=A.earnings_reviewer.map(s=>{
+    const videos=(s.earnings_related_videos||[]).map(v=>
+      '<div class="mini-video"><a href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+esc(v.title)+'</a>'
+      +'<span class="ch">'+esc(v.channel)+' · '+esc(localTime(v.published))+'</span>'
+      +(v.key_points&&v.key_points.length?'<ul style="padding-left:16px;margin-top:4px">'+v.key_points.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>':'')
+      +'</div>'
+    ).join('');
+    const checklist='<ul class="checklist">'+(s.checklist||[]).map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul>';
+    const links=(s.source_links||[]).map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noreferrer">'+esc(l.label)+' ↗</a>').join('');
+    return '<article class="agent-card">'
+      +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
+      +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')
+      +'<span class="badge '+(s.has_local_signal?'up':'dn')+'">'+(s.has_local_signal?'有相關討論':'需人工查證')+'</span></div>'
+      +(videos||'<div class="mini-video" style="color:var(--sub)">目前追蹤的 YouTube 頻道未討論此股的財報／法說內容</div>')
+      +'<div class="agent-narrative" style="margin-top:8px">查核清單：</div>'+checklist
+      +'<div class="agent-links">'+links+'</div>'
+      +'</article>';
+  }).join('')||'<div class="empty">沒有關注股資料</div>';
+}
 })();
 </script>
 </body>
