@@ -8,10 +8,11 @@
 :root{--bg:#0b0f1a;--card:#141a2a;--card2:#1a2136;--ink:#e8ecf5;--sub:#8b93a7;
 --line:#232b42;--accent:#f5a623;--accent-ink:#2a1d00;--up:#ff5d55;--dn:#35c584;
 --blue:#5b8def}
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{font-family:"Segoe UI","Microsoft JhengHei","PingFang TC",sans-serif;
 background:var(--bg);color:var(--ink);padding:20px 24px;max-width:1240px;margin:0 auto;
-font-variant-numeric:tabular-nums}
+font-variant-numeric:tabular-nums;overflow-x:hidden}
 h1{font-size:22px;display:flex;align-items:center;gap:8px}
 .meta{color:var(--sub);font-size:13px;margin:6px 0 16px}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;
@@ -72,9 +73,11 @@ padding:12px 0 14px;cursor:default}
 background:var(--card2);color:var(--ink);border-radius:20px;padding:9px 26px;
 font-size:13.5px;cursor:pointer}
 .empty{text-align:center;color:var(--sub);padding:36px 0;font-size:14px}
-.tabs{display:flex;gap:8px;margin:14px 0 16px}
+.tabs{display:flex;gap:8px;margin:14px 0 16px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+scrollbar-width:none;padding-bottom:2px}
+.tabs::-webkit-scrollbar{display:none}
 .tab-btn{border:1px solid var(--line);background:var(--card2);color:var(--ink);border-radius:20px;
-padding:8px 16px;font-size:13.5px;cursor:pointer}
+padding:8px 16px;font-size:13.5px;cursor:pointer;flex:none;white-space:nowrap}
 .tab-btn.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
 .tab-page{display:none}.tab-page.on{display:block}
 .yt-toolbar{justify-content:space-between}
@@ -108,7 +111,8 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 .agent-narrative{font-size:13.5px;line-height:1.7;color:#dfe4ee;margin:6px 0 10px}
 .agent-metrics{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--sub);margin-bottom:8px}
 .agent-metrics b{color:var(--ink);font-size:13.5px}
-.peer-table{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0}
+.peer-table{width:100%;min-width:340px;border-collapse:collapse;font-size:12.5px;margin:0}
 .peer-table th,.peer-table td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--line)}
 .peer-table th{color:var(--sub);font-weight:600}
 .peer-table th:first-child,.peer-table td:first-child{text-align:left}
@@ -122,9 +126,11 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 .alignment{font-size:12.5px;color:var(--sub);margin:4px 0}
 .alignment b{color:var(--ink)}
 
-/* ===== 窄螢幕：卡片式 ===== */
+/* ===== 平板／窄螢幕：卡片式 ===== */
 @media (max-width:920px){
   body{padding:14px}
+  h1{font-size:19px}
+  .panel{padding:12px 14px;gap:8px 16px}
   .hrow{display:none}
   .grid{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
   .pos,.units,.ppl,.chg,.range{text-align:left;font-size:12.5px}
@@ -134,7 +140,24 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
   .range::before{content:"區間 ";color:var(--sub);font-size:12px}
   .chg{margin-left:auto;order:10}
   input[type=search]{width:100%}
+  select{flex:1;min-width:0}
   .yt-card{grid-template-columns:1fr}
+  .agent-card{padding:12px 14px}
+  .agent-metrics{gap:10px 16px}
+}
+
+/* ===== 手機（較窄）===== */
+@media (max-width:480px){
+  body{padding:10px}
+  h1{font-size:17px}
+  .tabs{gap:6px}
+  .tab-btn{padding:7px 12px;font-size:12.5px}
+  .meta{font-size:12px}
+  .agent-head .name{font-size:15px}
+  .agent-narrative{font-size:13px}
+  .yt-title,.yt-title a{font-size:15.5px}
+  .item{padding:10px 12px}
+  .name{font-size:14.5px}
 }
 </style>
 </head>
@@ -367,7 +390,7 @@ function detail(el,r){
   const range=(r.lo!=null&&r.hi!=null)?'<div style="font-size:12.5px;color:var(--sub);margin-top:8px">'
     +'期間股價區間（盤中低~高） <b style="color:var(--ink)">'+r.lo+' ~ '+r.hi+'</b> 元</div>':'';
   el.innerHTML='<div style="font-size:12.5px;color:var(--sub)">'+state.thr
-    +'張以上大戶持股比走勢</div>'+svg+tbl+range;
+    +'張以上大戶持股比走勢</div>'+svg+'<div class="table-wrap">'+tbl+'</div>'+range;
   el.onclick=e=>e.stopPropagation();
 }
 $('dirUp').onclick=()=>{state.dir=1;state.shown=50;render();};
@@ -525,7 +548,7 @@ function renderMb(){
       +'<span>同業排名 <b>'+(pr.rank||'—')+' / '+(pr.of||'—')+'</b>（'+esc(pr.threshold)+'張以上大戶持股比）</span>'
       +'<span>區間股價變化 <b>'+(s.price_change_pct!=null?(s.price_change_pct>0?'+':'')+s.price_change_pct.toFixed(2)+'%':'資料不足')+'</b></span>'
       +'</div>'
-      +'<table class="peer-table"><tr><th>股票</th><th>大戶持股比</th><th>區間增減</th></tr>'+peerRows+'</table>'
+      +'<div class="table-wrap"><table class="peer-table"><tr><th>股票</th><th>大戶持股比</th><th>區間增減</th></tr>'+peerRows+'</table></div>'
       +'<div class="alignment">籌碼與股價：<b>'+esc(s.alignment)+'</b></div>'
       +'<div class="agent-narrative" style="color:var(--sub)">'+esc(s.note)+'</div>'
       +'<div class="agent-links">'+links+'</div>'
