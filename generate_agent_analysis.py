@@ -26,7 +26,7 @@ import datetime
 
 BASE = pathlib.Path(__file__).parent
 THRESHOLD = "400"      # 對應 dashboard 預設的「大戶門檻」
-TOP_N = 10              # 加碼 / 減碼 各取前幾檔作為關注股
+DEFAULT_SHOWN = 20      # 分頁預設（未搜尋時）顯示筆數，其餘可透過搜尋找到
 MAX_VIDEOS_PER_STOCK = 3
 EARNINGS_KEYWORDS = ["財報", "法說", "營收", "EPS", "毛利", "展望", "財測",
                       "季報", "年報", "法人說明會", "營運展望", "財報季"]
@@ -83,9 +83,9 @@ def main():
         dc = t["c"][li] - t["c"][ai]
         rows.append({"code": code, "st": st, "pa": pa, "pb": pb, "dp": dp, "du": du, "dc": dc})
 
-    rows_up = sorted(rows, key=lambda r: r["dp"], reverse=True)[:TOP_N]
-    rows_dn = sorted(rows, key=lambda r: r["dp"])[:TOP_N]
-    focus_rows = rows_up + [r for r in rows_dn if r["code"] not in {x["code"] for x in rows_up}]
+    # 產生「所有」有效資料的個股（供手動搜尋任一檔），預設依變化幅度排序，
+    # 讓加碼/減碼最明顯的排在前面，其餘可透過分頁的搜尋框自行查詢。
+    focus_rows = sorted(rows, key=lambda r: abs(r["dp"]), reverse=True)
 
     # ---------- 2. 準備 YouTube 影片可搜尋文字 ----------
     def video_text(v):
@@ -217,6 +217,7 @@ def main():
         "window_desc": win_desc,
         "threshold": THRESHOLD,
         "focus_stock_count": len(focus_rows),
+        "default_shown": DEFAULT_SHOWN,
         "disclaimer": "本頁三個分頁由本機既有資料（TDCC 大戶籌碼、股價、YouTube 影片摘要）規則式整理產生，"
                        "未即時連網查證，僅供研究參考，非投資建議。",
         "market_researcher": market_researcher,
@@ -226,7 +227,7 @@ def main():
 
     out_path = BASE / "agent_data.js"
     out_path.write_text("window.AGENT_DATA=" + json.dumps(out, ensure_ascii=False) + ";", encoding="utf-8")
-    print(f"已產生 {out_path.name}：{len(focus_rows)} 檔關注股，比較區間 {win_desc}")
+    print(f"已產生 {out_path.name}：涵蓋 {len(focus_rows)} 檔個股（可於分頁內搜尋任一檔），比較區間 {win_desc}")
 
 
 if __name__ == "__main__":

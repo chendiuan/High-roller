@@ -194,19 +194,25 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 <section class="tab-page" id="mrPage">
   <div class="meta" id="mrMeta">載入市場研究員分析中…</div>
   <div id="mrNotice"></div>
+  <div class="panel"><span class="grp"><input type="search" id="mrSearch" placeholder="搜尋代號或個股名稱…"></span></div>
   <div class="agent-list" id="mrList"></div>
+  <button class="more" id="mrMore" style="display:none">顯示更多</button>
 </section>
 
 <section class="tab-page" id="mbPage">
   <div class="meta" id="mbMeta">載入建模助手分析中…</div>
   <div id="mbNotice"></div>
+  <div class="panel"><span class="grp"><input type="search" id="mbSearch" placeholder="搜尋代號或個股名稱…"></span></div>
   <div class="agent-list" id="mbList"></div>
+  <button class="more" id="mbMore" style="display:none">顯示更多</button>
 </section>
 
 <section class="tab-page" id="erPage">
   <div class="meta" id="erMeta">載入財報審閱分析中…</div>
   <div id="erNotice"></div>
+  <div class="panel"><span class="grp"><input type="search" id="erSearch" placeholder="搜尋代號或個股名稱…"></span></div>
   <div class="agent-list" id="erList"></div>
+  <button class="more" id="erMore" style="display:none">顯示更多</button>
 </section>
 
 <script src="data.js"></script>
@@ -446,21 +452,34 @@ function localTime(s){
   const d=new Date(s);
   return isNaN(d)?s:d.toLocaleString('zh-TW',{hour12:false,month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 }
-function metaLine(count){
-  return '更新於 '+(A.generated||'')+' · 比較區間 '+(A.window_desc||'')+' · 共 '+count+' 檔關注股（大戶'+(A.threshold||'')+'張以上門檻加碼/減碼前 10 名）';
+function metaLine(total,shown,q){
+  let s='更新於 '+(A.generated||'')+' · 比較區間 '+(A.window_desc||'')+' · 共 '+total+' 檔個股（大戶'+(A.threshold||'')+'張以上門檻，可搜尋任一檔）';
+  if(q)s+=' · 符合「'+q+'」 '+shown+' 檔';
+  return s;
 }
 function noticeHtml(){
   return A.disclaimer?'<div class="note">'+esc(A.disclaimer)+'</div>':'';
 }
+function matches(s,q){
+  if(!q)return true;
+  const t=q.toLowerCase();
+  return (s.code||'').toLowerCase().includes(t)||(s.name||'').toLowerCase().includes(t);
+}
+const DEFAULT_SHOWN=(A&&A.default_shown)||20;
+const agentState={mr:{q:'',shown:DEFAULT_SHOWN},mb:{q:'',shown:DEFAULT_SHOWN},er:{q:'',shown:DEFAULT_SHOWN}};
 if(!A){
   ['mr','mb','er'].forEach(p=>{
     $(p+'Meta').textContent='';
     $(p+'Notice').innerHTML='<div class="note">找不到 <b>agent_data.js</b>。請先執行 <b>python generate_agent_analysis.py</b> 產生資料，再重新整理本頁。</div>';
   });
 }else{
-  $('mrMeta').textContent=metaLine(A.market_researcher.length);
+
+function renderMr(){
+  const st=agentState.mr;
+  const all=A.market_researcher, rows=all.filter(s=>matches(s,st.q));
+  $('mrMeta').textContent=metaLine(all.length,rows.length,st.q);
   $('mrNotice').innerHTML=noticeHtml();
-  $('mrList').innerHTML=A.market_researcher.map(s=>{
+  $('mrList').innerHTML=rows.slice(0,st.shown).map(s=>{
     const ht=s.holder_trend||{};
     const videos=(s.related_videos||[]).map(v=>
       '<div class="mini-video"><a href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+esc(v.title)+'</a>'
@@ -482,11 +501,16 @@ if(!A){
       +videos
       +'<div class="agent-links">'+links+'</div>'
       +'</article>';
-  }).join('')||'<div class="empty">沒有關注股資料</div>';
+  }).join('')||'<div class="empty">沒有符合條件的股票</div>';
+  $('mrMore').style.display=rows.length>st.shown?'block':'none';
+}
 
-  $('mbMeta').textContent=metaLine(A.model_builder.length);
+function renderMb(){
+  const st=agentState.mb;
+  const all=A.model_builder, rows=all.filter(s=>matches(s,st.q));
+  $('mbMeta').textContent=metaLine(all.length,rows.length,st.q);
   $('mbNotice').innerHTML=noticeHtml();
-  $('mbList').innerHTML=A.model_builder.map(s=>{
+  $('mbList').innerHTML=rows.slice(0,st.shown).map(s=>{
     const pr=s.peer_rank||{};
     const peerRows=(s.peers||[]).map(p=>
       '<tr class="'+(p.is_focus?'focus':'')+'"><td>'+esc(p.code)+' '+esc(p.name)+'</td>'
@@ -506,11 +530,16 @@ if(!A){
       +'<div class="agent-narrative" style="color:var(--sub)">'+esc(s.note)+'</div>'
       +'<div class="agent-links">'+links+'</div>'
       +'</article>';
-  }).join('')||'<div class="empty">沒有關注股資料</div>';
+  }).join('')||'<div class="empty">沒有符合條件的股票</div>';
+  $('mbMore').style.display=rows.length>st.shown?'block':'none';
+}
 
-  $('erMeta').textContent=metaLine(A.earnings_reviewer.length);
+function renderEr(){
+  const st=agentState.er;
+  const all=A.earnings_reviewer, rows=all.filter(s=>matches(s,st.q));
+  $('erMeta').textContent=metaLine(all.length,rows.length,st.q);
   $('erNotice').innerHTML=noticeHtml();
-  $('erList').innerHTML=A.earnings_reviewer.map(s=>{
+  $('erList').innerHTML=rows.slice(0,st.shown).map(s=>{
     const videos=(s.earnings_related_videos||[]).map(v=>
       '<div class="mini-video"><a href="'+esc(v.url)+'" target="_blank" rel="noreferrer">'+esc(v.title)+'</a>'
       +'<span class="ch">'+esc(v.channel)+' · '+esc(localTime(v.published))+'</span>'
@@ -527,7 +556,18 @@ if(!A){
       +'<div class="agent-narrative" style="margin-top:8px">查核清單：</div>'+checklist
       +'<div class="agent-links">'+links+'</div>'
       +'</article>';
-  }).join('')||'<div class="empty">沒有關注股資料</div>';
+  }).join('')||'<div class="empty">沒有符合條件的股票</div>';
+  $('erMore').style.display=rows.length>st.shown?'block':'none';
+}
+
+$('mrSearch').oninput=e=>{agentState.mr.q=e.target.value.trim();agentState.mr.shown=DEFAULT_SHOWN;renderMr();};
+$('mrMore').onclick=()=>{agentState.mr.shown+=DEFAULT_SHOWN;renderMr();};
+$('mbSearch').oninput=e=>{agentState.mb.q=e.target.value.trim();agentState.mb.shown=DEFAULT_SHOWN;renderMb();};
+$('mbMore').onclick=()=>{agentState.mb.shown+=DEFAULT_SHOWN;renderMb();};
+$('erSearch').oninput=e=>{agentState.er.q=e.target.value.trim();agentState.er.shown=DEFAULT_SHOWN;renderEr();};
+$('erMore').onclick=()=>{agentState.er.shown+=DEFAULT_SHOWN;renderEr();};
+
+renderMr();renderMb();renderEr();
 }
 })();
 </script>
