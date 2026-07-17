@@ -545,6 +545,7 @@ function renderMb(){
     return '<article class="agent-card">'
       +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
       +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')+(s.industry?'<span class="tag">'+esc(s.industry)+'</span>':'')
+      +(s.note_source==='ai'?'<span class="tag" title="此段評述由本機AI推論伺服器生成，非規則式模板">✨ AI生成</span>':'')
       +'</div>'
       +'<div class="agent-metrics">'
       +'<span>同業排名 <b>'+(pr.rank||'—')+' / '+(pr.of||'—')+'</b>（'+esc(pr.threshold)+'張以上大戶持股比）</span>'
@@ -573,10 +574,16 @@ function renderEr(){
     ).join('');
     const checklist='<ul class="checklist">'+(s.checklist||[]).map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul>';
     const links=(s.source_links||[]).map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noreferrer">'+esc(l.label)+' ↗</a>').join('');
+    const commentary=s.commentary
+      ?'<div class="agent-narrative">'+esc(s.commentary)+'</div>'
+      :'';
     return '<article class="agent-card">'
       +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
       +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')
-      +'<span class="badge '+(s.has_local_signal?'up':'dn')+'">'+(s.has_local_signal?'有相關討論':'需人工查證')+'</span></div>'
+      +'<span class="badge '+(s.has_local_signal?'up':'dn')+'">'+(s.has_local_signal?'有相關討論':'需人工查證')+'</span>'
+      +(s.commentary_source==='ai'?'<span class="tag" title="此段統整由本機AI推論伺服器生成，非規則式模板">✨ AI生成</span>':'')
+      +'</div>'
+      +commentary
       +(videos||'<div class="mini-video" style="color:var(--sub)">目前追蹤的 YouTube 頻道未討論此股的財報／法說內容</div>')
       +'<div class="agent-narrative" style="margin-top:8px">查核清單：</div>'+checklist
       +'<div class="agent-links">'+links+'</div>'
