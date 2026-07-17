@@ -513,7 +513,9 @@ function renderMr(){
     return '<article class="agent-card">'
       +'<div class="agent-head"><span class="code">'+esc(s.code)+'</span><span class="name">'+esc(s.name)+'</span>'
       +(s.market?'<span class="tag">'+esc(s.market)+'</span>':'')+(s.industry?'<span class="tag">'+esc(s.industry)+'</span>':'')
-      +'<span class="badge '+(s.direction==='加碼'?'up':'dn')+'">'+esc(s.direction)+'</span></div>'
+      +'<span class="badge '+(s.direction==='加碼'?'up':'dn')+'">'+esc(s.direction)+'</span>'
+      +(s.narrative_source==='ai'?'<span class="tag" title="此段敘述由本機AI推論伺服器生成，非規則式模板">✨ AI生成</span>':'')
+      +'</div>'
       +'<div class="agent-metrics">'
       +'<span>大戶持股比 <b>'+ht.from_pct.toFixed(2)+'% → '+ht.to_pct.toFixed(2)+'%</b></span>'
       +'<span>增減 <b>'+(ht.pp_change>0?'+':'')+ht.pp_change.toFixed(2)+'pp</b></span>'
