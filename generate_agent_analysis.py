@@ -25,8 +25,9 @@ generate_agent_analysis.py
       （vLLM，OpenAI 相容 API）生成三個分頁的敘述文字，取代規則式模板：
         - 市場研究員：籌碼動向敘述
         - 建模助手：同業比較評述
-        - 財報審閱：僅在該股有本地 YouTube 財報／法說討論時，才用 AI 統整重點；
-          沒有本地資料的股票沒有東西可統整，維持原本的人工查證清單。
+        - 財報審閱：有本地 YouTube 財報／法說討論的股票，AI 統整影片重點；
+          沒有本地影片資料的股票，AI 改用已知的籌碼資料生成量身查證提醒
+          （prompt 明確禁止捏造財報數字／營收／EPS，不會產生沒有根據的財務內容）。
       這是選用功能，需要：
         1. 本機（或內網可達）已架好 vLLM 推論伺服器（見 AI_SERVER_SETUP.md）
         2. 設定環境變數 LOCAL_AI_API_KEY（伺服器的 --api-key）
@@ -153,7 +154,7 @@ def build_ai_prompt_mb(name, code, industry, peers, rank, of_count, price_change
 
 
 def build_ai_prompt_er(name, code, earnings_videos):
-    """財報審閱：統整已有的財報／法說相關YouTube討論重點（只在有本地資料時呼叫）"""
+    """財報審閱：統整已有的財報／法說相關YouTube討論重點（該股有本地影片資料時用）"""
     lines = [
         "你是台股財報審閱員，請用繁體中文（正體字，禁止出現任何簡體字）寫一段約80~150字，統整以下YouTube財經影片對這檔股票財報／法說會的討論重點，"
         "語氣專業、精簡，不要條列、不要標題，只要一段完整敘述。",
@@ -165,6 +166,22 @@ def build_ai_prompt_er(name, code, earnings_videos):
         points = "；".join(v.get("key_points") or [])
         lines.append(f"- {v.get('title','')}（{v.get('channel','')}）：{gist} {points}".strip())
     lines.append("請統整這些影片的共同論點或分歧之處，並提醒這是根據YouTube影片內容整理、非官方財報數據，仍需自行查證公開資訊觀測站(MOPS)資料，非投資建議。")
+    return "\n".join(lines)
+
+
+def build_ai_prompt_er_no_signal(name, code, industry, direction, r):
+    """財報審閱：該股沒有本地YouTube財報討論時，改用已知的籌碼資料生成量身查證提醒
+    （不得杜撰任何財報數字或財測，只能根據下面提供的籌碼資料延伸）"""
+    lines = [
+        "你是台股財報審閱員，請用繁體中文（正體字，禁止出現任何簡體字）寫一段約80~120字的財報查證提醒，"
+        "語氣專業、精簡，不要條列、不要標題，只要一段完整敘述。",
+        f"個股：{name}（{code}），產業：{industry or '未分類'}。",
+        f"目前沒有追蹤到本地YouTube頻道對這檔股票的財報／法說會討論。",
+        f"已知資訊：近期{THRESHOLD}張以上大戶持股比{direction}，變動{'+' if r['dp']>=0 else ''}{r['dp']:.2f}個百分點。",
+        "請只根據上述籌碼資訊，提醒投資人應主動至公開資訊觀測站(MOPS)查詢最新財報與重大訊息、留意近期是否有法說會，"
+        "並可將籌碼變化方向與財報公布時間點交叉比對。"
+        "禁止捏造任何財報數字、營收、EPS或財測，沒有的資訊就不要提。",
+    ]
     return "\n".join(lines)
 
 
@@ -350,18 +367,22 @@ def main():
         earnings_videos = earnings_videos[:MAX_VIDEOS_PER_STOCK]
 
         er_commentary, er_commentary_source = None, None
-        if args.ai and idx < AI_TOP_N and earnings_videos:
-            # 只有在確實有本地YouTube財報／法說討論時才呼叫AI統整，
-            # 沒有資料的股票沒有東西可統整，維持原本的人工查證清單。
+        if args.ai and idx < AI_TOP_N:
             try:
-                ai_text = call_local_ai(build_ai_prompt_er(name, code, earnings_videos))
+                if earnings_videos:
+                    # 有本地YouTube財報／法說討論：AI統整影片重點
+                    ai_text = call_local_ai(build_ai_prompt_er(name, code, earnings_videos))
+                else:
+                    # 沒有本地影片資料：AI只根據已知籌碼資料生成量身查證提醒，
+                    # prompt明確禁止捏造財報數字，不會產生沒有根據的財務內容。
+                    ai_text = call_local_ai(build_ai_prompt_er_no_signal(name, code, industry, direction, r))
                 if ai_text:
                     er_commentary = ai_text
                     er_commentary_source = "ai"
                     ai_stats["er"][0] += 1
             except Exception as e:
                 ai_stats["er"][1] += 1
-                print(f"  [警告] {name}（{code}）財報審閱AI統整失敗，維持原始影片清單：{e}")
+                print(f"  [警告] {name}（{code}）財報審閱AI生成失敗，維持原始清單：{e}")
 
         earnings_reviewer.append({
             "code": code, "name": name, "market": market,
@@ -384,9 +405,9 @@ def main():
                   "未即時連網查證，僅供研究參考，非投資建議。")
     if args.ai:
         disclaimer += (f"其中三個分頁前 {AI_TOP_N} 檔（依籌碼變化幅度排序）的敘述／評述文字"
-                        "由本機自架 AI 推論伺服器生成（財報審閱僅在該股有本地YouTube財報討論時才由AI統整，"
-                        "否則維持人工查證清單），其餘個股維持規則式整理，"
-                        "AI 生成內容同樣僅供研究參考，非投資建議，請自行查證。")
+                        "由本機自架 AI 推論伺服器生成（財報審閱在有本地YouTube財報討論時由AI統整影片重點，"
+                        "沒有本地影片資料則由AI根據已知籌碼資料生成查證提醒，不會捏造財報數字），"
+                        "其餘個股維持規則式整理，AI 生成內容同樣僅供研究參考，非投資建議，請自行查證。")
 
     out = {
         "generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -410,7 +431,7 @@ def main():
         er_ok, er_fail = ai_stats["er"]
         print(f"AI生成統計：市場研究員 成功{mr_ok}/失敗{mr_fail}，"
               f"建模助手 成功{mb_ok}/失敗{mb_fail}，"
-              f"財報審閱 成功{er_ok}/失敗{er_fail}（有本地財報討論才會呼叫；失敗已自動退回規則式內容）")
+              f"財報審閱 成功{er_ok}/失敗{er_fail}（無本地影片資料時改為AI查證提醒；失敗已自動退回規則式內容）")
 
 
 if __name__ == "__main__":
