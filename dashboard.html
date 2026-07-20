@@ -130,15 +130,37 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
 @media (max-width:920px){
   body{padding:14px}
   h1{font-size:19px}
-  .panel{padding:12px 14px;gap:8px 16px}
+  .panel{padding:12px 14px;gap:14px;flex-direction:column;align-items:stretch}
+  .grp{width:100%}
+  .lbl{flex-basis:100%;margin-bottom:2px}
   .hrow{display:none}
-  .grid{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
-  .pos,.units,.ppl,.chg,.range{text-align:left;font-size:12.5px}
+  .item.grid{
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    grid-template-areas:
+      "rank stock link"
+      "tags tags tags"
+      "pos pos chg"
+      "units units ppl"
+      "range range range";
+    row-gap:6px;column-gap:10px;align-items:center;
+  }
+  .rank{grid-area:rank;border-left:none;padding-left:0;font-size:14px}
+  .stock{grid-area:stock;min-width:0}
+  .tags{grid-area:tags}
+  .tags:empty{display:none}
+  .lk{grid-area:link}
+  .pos{grid-area:pos;text-align:left}
+  .chg{grid-area:chg;margin-left:0}
+  .units{grid-area:units;text-align:left}
+  .ppl{grid-area:ppl}
+  .range{grid-area:range;text-align:left}
+  .range:empty{display:none}
+  .pos,.units,.ppl,.range{font-size:12.5px}
   .pos::before{content:"持股比 ";color:var(--sub);font-size:12px}
   .units::before{content:"張數 ";color:var(--sub);font-size:12px}
   .ppl::before{content:"人數 ";color:var(--sub);font-size:12px}
   .range::before{content:"區間 ";color:var(--sub);font-size:12px}
-  .chg{margin-left:auto;order:10}
   input[type=search]{width:100%}
   select{flex:1;min-width:0}
   .yt-card{grid-template-columns:1fr}
@@ -158,6 +180,10 @@ font-weight:800;border-radius:18px;padding:7px 14px;font-size:13px}
   .yt-title,.yt-title a{font-size:15.5px}
   .item{padding:10px 12px}
   .name{font-size:14.5px}
+  .item.grid{row-gap:5px;column-gap:8px}
+  .code{margin-right:3px;font-size:12px}
+  .px{margin-left:6px;font-size:12.5px}
+  .tag{font-size:10.5px;padding:1px 6px;margin-right:3px}
 }
 </style>
 </head>
@@ -346,9 +372,9 @@ function render(){
     const yurl='https://tw.stock.yahoo.com/quote/'+r.code+(r.st.m==='上櫃'?'.TWO':'.TW');
     wrap.innerHTML='<div class="item grid">'
       +'<span class="rank">'+(i+1)+'</span>'
-      +'<span><span class="code">'+r.code+'</span><span class="name">'+(r.st.n||'')+'</span>'
+      +'<span class="stock"><span class="code">'+r.code+'</span><span class="name">'+(r.st.n||'')+'</span>'
       +(r.st.pr?'<span class="px">'+r.st.pr+'</span>':'')+'</span>'
-      +'<span>'+(r.st.m?'<span class="tag">'+r.st.m+'</span>':'')
+      +'<span class="tags">'+(r.st.m?'<span class="tag">'+r.st.m+'</span>':'')
       +(r.st.i?'<span class="tag">'+r.st.i+'</span>':'')+'</span>'
       +'<span class="pos">'+r.pa.toFixed(2)+'% → <b>'+r.pb.toFixed(2)+'%</b></span>'
       +'<span class="chg '+cls+'">'+(r.dp>0?'+':'')+r.dp.toFixed(2)+'pp</span>'
